@@ -6,5 +6,5 @@
 
 <ol>
   <li>
-<a href="https://http://www.wmpjrufg.github.io/FEA0064-ECA2/001.html target="_blank">Projeto ponto de ônibus 2023.1</a></li>
+<a href="https://www.wmpjrufg.github.io/FEA0064-ECA2/001.html target="_blank">Projeto ponto de ônibus 2023.1</a></li>
 </ol>
