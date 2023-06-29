@@ -1,4 +1,12 @@
-# Repositório Educacional para disciplina de Concreto Armado 2  
+<h1><b>REPOSITÓRIO CONCRETO ARMADO 2</b></h1>
 
-Este repositório é voltado a popularização de conhecimentos de concreto armado especificamente da disciplina de ECA 2. Neste repositório vamos mostrar o desenvolvimento do projeto de vigas e pilares do projeto do ponto de ônibus. A imagem do [modelo](https://br.pinterest.com/pin/678073287641435121/) pode ser baixado na plataforma Pinterest.
+<p align = "justify">
+  Neste repositório você poderá encontrar material para confecção das listas e trabalhos da disciplina de concreto armado bem como modelos de exemplos.
+</p>
+
+<ol>
+  <li><a href="https://wmpjrufg.github.io/FEA0064-ECA2/001.html target="_blank">Projeto ponto de ônibus 2023.1</a>.</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
 
