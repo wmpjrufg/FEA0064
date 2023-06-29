@@ -5,7 +5,7 @@
 </p>
 
 <ol>
-  <li><a href="https://wmpjrufg.github.io/FEA0064-ECA2/001.html target="_blank">Projeto ponto de ônibus 2023.1</a>.</li>
+  <li><a href="https://github.com/wmpjrufg/FEA0064-ECA2/blob/gh-pages/001.md target="_blank">Projeto ponto de ônibus 2023.1</a>.</li>
   <li>Tea</li>
   <li>Milk</li>
 </ol>
