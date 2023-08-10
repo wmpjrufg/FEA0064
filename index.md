@@ -1,3 +1,9 @@
+---
+title: Home
+layout: home
+nav_order: 1
+---
+
 <h1>Repositório de Concreto Armado 2</h1>
 
 <p align = "justify">
