@@ -36,6 +36,3 @@ back_to_top: true
 back_to_top_text: "Voltar ao início"
 
 footer_content: "Copyright &copy; 2023. Construído por Wanderlei Malaquias Pereira Junior e seu grupo de pesquisa.</a>"
-
-plugins:
-  - jekyll-default-layout
