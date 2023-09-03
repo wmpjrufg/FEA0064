@@ -1,3 +1,4 @@
+<!--
 ---
 title: DEBORA - Dimensionamento momento fletor viga V2
 layout: home
@@ -10,7 +11,7 @@ parent: Projeto 01 - ponto de ônibus
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<!--
+
 
     <h1>Dimensionamento do Momento Fletor da Viga 2</h1>
 
