@@ -17,20 +17,20 @@ parent: Projeto 01 - ponto de ônibus
     <h2>Passo 1: Definição do Problema</h2>
     <p>Tendo pilares com dimensões de 14 x 14 cm, um comprimento da viga 2 de 150 cm, biapoiada, alcança-se um comprimento efetivo (lef) de 136 cm.</p>
     <h2>Passo 2: Determinação das Reações de Apoio e do Momento</h2>
-  <p>Sabendo que a viga 2 é biapoiada, segundo a literatura a partir da Tabela REAÇÕES DE APOIO EM LAJES COM CARGA UNIFORME tem-se um ν=5, alcançando-se um valor de V a partir da equação 1.
-<h3>V = v.\frac{{q}.l_{x}}{10} (1)</h3>
+    <p>Sabendo que a viga 2 é biapoiada, segundo a literatura a partir da Tabela REAÇÕES DE APOIO EM LAJES COM CARGA UNIFORME tem-se um ν=5, alcançando-se um valor de V a partir da equação 1.
+    <h3>V = v.\frac{{q}.l_{x}}{10} (1)</h3>
     onde:
     <ul>
         <li><math><mi>q</mi></math> é a carga total da laje, que é 4,65 kN/m²;</li>
         <li><math><mi>l<sub>x</sub></mi></math> é o comprimento efetivo de menor vão da laje, igual a 1,43 m.</li>
     </ul>
-  </p>
+    </p>
     <p>Após encontrar esse dado, calcula-se as reações de apoio nos pontos de apoio da viga, usando as equações de equilíbrio. Isso envolve a aplicação da soma das forças verticais e a soma dos momentos em relação a um ponto específico (Equações 2 e 3).
     <h4>V = \frac{q.l_{ef}}{2} = 3,009 kN (2)</h4>
     <h5>M = \frac{q.l_{ef}^{2}}{8} = 1,023 kNm (3)</h5>
     </p>
     <h2>Passo 3: Majoração dos resultados</h2>
     <p> Com um coeficiente de majoração igual a 1,4, multiplica-se esse valor com os resultados alcançados na etapa anterior. Alcançando assim um valor de V = 4,212 kN e M = 1,432 kNm.
-</p>
+    </p>
     <p>Lembrando que a análise de momento fletor em vigas pode ser mais complexa em situações reais, com variações nas cargas, formas das seções transversais e condições de apoio. Portanto, é importante utilizar software de análise estrutural ou métodos avançados quando necessário.</p>
 -->
