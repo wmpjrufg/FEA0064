@@ -14,5 +14,5 @@ Neste repositório você poderá encontrará material da disciplina de Estrutura
 <h1>Modelos empregados</h1>
 
 <ul>
-  <li><a target="_blank" rel="noopener" href="[link-goes-here](https://drive.google.com/file/d/1B3FV0wFDdid-CkFaQL9q-eaFsZpu4JZt/view?usp=sharing)https://drive.google.com/file/d/1B3FV0wFDdid-CkFaQL9q-eaFsZpu4JZt/view?usp=sharing">Prancha padrão</a></li>
+  <li><a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1B3FV0wFDdid-CkFaQL9q-eaFsZpu4JZt/view?usp=sharing">Prancha padrão</a></li>
 </ul>
