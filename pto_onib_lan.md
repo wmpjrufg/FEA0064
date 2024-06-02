@@ -51,6 +51,8 @@ A etapa de pré-dimensionamento pode ser realizada por qualquer grupo de element
 
 <p align = "justify">
 Realizaremos o pré-dimensionamento das vigas do térreo VT1 a VT4 e VS1 a VS3. A largura das vigas será especificada em 14 cm para o fechamento da alvenaria sem nenhum tipo de requadro. A excessão será a viga VS1 que terá esforços de torção então será estabelecida com largura de 20 cm.<br><br>
+Apenas para critério de verificação será aplicado a relação \(l_0/50\) para verificar a largura mínima (\(b_{w,min}\)) conforme o item 15.10 da ABNT NBR 6118. No caso \(b_{w,min}=4,50/50=0,09\;m=9\;cm\)
+<br><br>
 Considerando que todas as peças serão biapoiadas a altura das vigas é dada conforme Tabela <a href="#tab1">(1)</a>.
 </p>
 
@@ -66,32 +68,36 @@ Considerando que todas as peças serão biapoiadas a altura das vigas é dada co
     <tr>
         <td>VT1=VT2</td>
         <td>4,50</td>
-        <td>\(h = \frac{4,50}{10} = 0,45\)</td>
+        <td>\(h = 4,50/10 = 0,45\)</td>
         <td>0,45</td>
     </tr>
     <tr>
         <td>VT3=VT4</td>
         <td>1,50</td>
-        <td>\(h = \frac{1,50}{10} = 0,15\)</td>
+        <td>\(h = 1,50/10 = 0,15\)</td>
         <td>0,45</td>
     </tr>
     <tr>
         <td>VS1</td>
         <td>4,50</td>
-        <td>\(h = \frac{4,50}{10} = 0,45\)</td>
+        <td>\(h = \frac4,50/10 = 0,45\)</td>
         <td>0,45</td>
     </tr>
     <tr>
         <td>VS2</td>
         <td>1,50</td>
-        <td>\(h = \frac{1,50}{10} = 0,30\)</td>
+        <td>\(h = \frac1,50/10 = 0,30\)</td>
         <td>0,45</td>
     </tr>
 </table>
 
 <p align = "justify">
-As vigas VT3, VT4 e VS2 poderiam ter altura de 0,30 m (ou 30 cm) porém para manter o padrão das vigas vamos empregar a altura total de 0,45 m (ou 45 cm) para todas as vigas. 
+As vigas VT3, VT4 e VS2 poderiam ter altura de 0,30 m (ou 30 cm) porém para manter o padrão das vigas vamos empregar a altura total de 0,45 m (ou 45 cm) para todas as vigas.<br><br>
+O item 15.10 da ABNT NBR 6118 recomenda também a seguinte relação \(b_{w,min}=\beta_{fl} \cdot h\). No caso \(\beta_{fl}=0,40\) para as vigas deste projeto. Logo para ente projeto a condião de verificação de largura será: 
 </p>
+
+\[ b_{w,max}=\min \Bigg(0,40 \cdot 0,45=0,18\;m,4,50/50=0,09\;m \Bigg)
+  \]
 
 <h3>Pré-dimensionamento da laje</h3>  
 
