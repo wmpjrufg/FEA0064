@@ -7,14 +7,20 @@ has_toc: True
 
 <h1>Estruturas de Concreto Armado 02</h1>
 
-<p align = "justify">
-Neste repositório você encontrará material da disciplina de Estruturas de Concreto Armado 02.
-</p>
+<table>
+  <tr>
+    <td style="width:70%;">
+      <p align="justify">
+        Neste repositório você encontrará material da disciplina de Estruturas de Concreto Armado 02 minsitrada pelo professor <a target="_blank" rel="noopener" href="http://lattes.cnpq.br/2268506213083114">Wanderlei Malaquias Pereira Junior</a>. Aqui o foco é o projeto completo de vigas e pilares de concreto armado.
+      </p>
+    </td>
+    <td style="width:30%;"><img src="assets/images/logo.png"/></td>  
+  </tr>
+</table>  
 
-<!-- <h1>Aulas</h1> -->
-
-<h3>Modelos empregados</h3>
+<h3>Acesso rápido</h3>
 
 <ul>
+  <li><a target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/0B7fde98nbW1JfjhwMndpN1pqSFVnWkVKLTVGeTh0X3huZVRETGtIQk95N2lxS1JHUjE0M1U?resourcekey=0-80u4x0QEcpM_rnPTI6GT0g&usp=sharing">Plano de ensino</a></li>
   <li><a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1UUOfmCH4539GA46mEw_687d9u7eGKAH4/view?usp=sharing">Prancha padrão</a></li>
 </ul>
