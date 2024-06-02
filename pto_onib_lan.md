@@ -96,8 +96,12 @@ As vigas VT3, VT4 e VS2 poderiam ter altura de 0,30 m (ou 30 cm) porém para man
 O item 15.10 da ABNT NBR 6118 recomenda também a seguinte relação \(b_{w,min}=\beta_{fl} \cdot h\). No caso \(\beta_{fl}=0,40\) para as vigas deste projeto. Logo para ente projeto a condião de verificação de largura será: 
 </p>
 
-\[ b_{w,max}=\min \Bigg(0,40 \cdot 0,45=0,18\;m,4,50/50=0,09\;m \Bigg)
-  \]
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ b_{w,max}=\min \Bigg(0,40 \cdot 0,45=0,18\;m,4,50/50=0,09\;m \Bigg)\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
+    </tr>
+</table>
 
 <h3>Pré-dimensionamento da laje</h3>  
 
