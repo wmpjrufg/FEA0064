@@ -86,7 +86,7 @@ Considerando que todas as peças serão biapoiadas a altura das vigas é dada co
     <tr>
         <td>VS2</td>
         <td>1,50</td>
-        <td>\(h = 1,50/10 = 0,30\)</td>
+        <td>\(h = 1,50/5 = 0,30\)</td>
         <td>0,45</td>
     </tr>
 </table>
@@ -119,7 +119,7 @@ A laje em balanço apresentará a seguinte altura \(h = 0,04 \cdot 1,50 = 0,06\;
 <p aligin = "justify">
 Para iniciar o pré-dimensionamento de pilares deve-se atentar primeiramente em seguir as dimensões mínimas definidas pela ABNT NBR 6118, que estabelece no item 13.2.3, onde a seção transversal de pilares não deve ter dimensões menores que 19 cm, a menos que sejam casos especiais, preservando um valor mínimo de 14 cm para a menor dimensão da seção. Outra importante medida é a área mínima da seção transversal de um pilar que deve ser superior a 360 cm².
 <br><br>
-Além disso é necessário classificar os pilares deste projeto que neste caso são os pilares de canto P1, P2 e P3 (\(\alpha=2,50 para pré-dimensionamento\)).
+Além disso é necessário classificar os pilares deste projeto que neste caso são os pilares de canto P1, P2 e P3 (\( \alpha=2,50 \) para pré-dimensionamento).
 </p>
 
 <h4><i>Área de influência e verificação da área necessária</i></h4>  
@@ -138,7 +138,7 @@ A Figura <a href="#fig4">(4)</a> apresenta a divisão do carregamento do painel 
 </table>
 
 <p aligin = "justify">
-O carregamento estimado para essa cobertura será de 6 \(kN/m²\). Com isso, é possível encontrar a a força normal de cálculo para pré-dimensionamento (\(N_sd^{*}=\alpha \cdot A_i \cdot q\)). A Tabela <a href="#tab2">(2)</a>.
+O carregamento estimado para essa cobertura será de \( q=6 kN/m² \). Com isso, é possível encontrar a força normal de cálculo para pré-dimensionamento (\(N_{sd}^{*} = \alpha \cdot A_i \cdot q\)). A Tabela <a href="#tab2">(2)</a> apresenta a força \( N_{sd}^{*} \).
   
 <p align = "justify" id = "tab2"><b>Tabela 2.</b> Pré-dimensionamento de pilares.</p>
 
@@ -147,7 +147,7 @@ O carregamento estimado para essa cobertura será de 6 \(kN/m²\). Com isso, é 
     <tr>
       <th>Pilar</th>
       <th>Área de influência (m²)</th>
-      <th>N_sd^{*} (kN/m²)</th>
+      <th>\(N_{sd}^{*}\) (kN/m²)</th>
     </tr>
   </thead>
   <tbody>
@@ -170,7 +170,7 @@ Após a determinação da área de influência e carregamento estimado no pavime
 
 <table>
   <tr>  
-    <td align = "left">\[A_{c}=\frac{N_{sd}^{*}}{0,85 \cdot f{cd} + \rho _s}\]</td>
+    <td align = "left">\[A_{c}=\frac{N_{sd}^{*}}{0,85 \cdot f_{cd} + \rho _s}\]</td>
     <td><p align = "rigth" id = "eq1">(1)</p></td>
   </tr>
 </table>
