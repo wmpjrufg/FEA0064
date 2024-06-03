@@ -60,6 +60,6 @@ A Figura <a href="#fig2">(2)</a> e <a href="#fig3">(3)</a> apresentam imagens do
   </tr>
 </table>
 
-<p align = "justify">
+<!-- <p align = "justify">
   O projeto arquitetônico completo pode ser baixado através do <a href="https://drive.google.com/drive/folders/0B7fde98nbW1JfjhwMndpN1pqSFVnWkVKLTVGeTh0X3huZVRETGtIQk95N2lxS1JHUjE0M1U?resourcekey=0-80u4x0QEcpM_rnPTI6GT0g&usp=sharing" target="_blank"><i>link</i></a>.
-</p>
+</p> -->

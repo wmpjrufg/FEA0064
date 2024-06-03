@@ -50,7 +50,7 @@ A etapa de pré-dimensionamento pode ser realizada por qualquer grupo de element
 <h3>Pré-dimensionamento das vigas</h3>  
 
 <p align = "justify">
-Realizaremos o pré-dimensionamento das vigas do térreo VT1 a VT4 e VS1 a VS3. A largura das vigas será especificada em 14 cm para o fechamento da alvenaria sem nenhum tipo de requadro. A excessão será a viga VS1 que terá esforços de torção então será estabelecida com largura de 20 cm.<br><br>
+Realizaremos o pré-dimensionamento das vigas do térreo VT1 a VT4 e VS1 a VS3. A largura das vigas será especificada em 14 cm para que seja possível fazer o fechamento da alvenaria sem nenhum tipo de requadro. A excessão será a viga VS1 que terá esforços de torção então será estabelecida com largura de 20 cm.<br><br>
 Apenas para critério de verificação será aplicado a relação \(l_0/50\) para verificar a largura mínima (\(b_{w,min}\)) conforme o item 15.10 da ABNT NBR 6118. No caso \(b_{w,min}=4,50/50=0,09\;m=9\;cm\)
 <br><br>
 Considerando que todas as peças serão biapoiadas a altura das vigas é dada conforme Tabela <a href="#tab1">(1)</a>.
@@ -80,28 +80,20 @@ Considerando que todas as peças serão biapoiadas a altura das vigas é dada co
     <tr>
         <td>VS1</td>
         <td>4,50</td>
-        <td>\(h = \frac4,50/10 = 0,45\)</td>
+        <td>\(h = 4,50/10 = 0,45\)</td>
         <td>0,45</td>
     </tr>
     <tr>
         <td>VS2</td>
         <td>1,50</td>
-        <td>\(h = \frac1,50/10 = 0,30\)</td>
+        <td>\(h = 1,50/10 = 0,30\)</td>
         <td>0,45</td>
     </tr>
 </table>
 
 <p align = "justify">
-As vigas VT3, VT4 e VS2 poderiam ter altura de 0,30 m (ou 30 cm) porém para manter o padrão das vigas vamos empregar a altura total de 0,45 m (ou 45 cm) para todas as vigas.<br><br>
-O item 15.10 da ABNT NBR 6118 recomenda também a seguinte relação \(b_{w,min}=\beta_{fl} \cdot h\). No caso \(\beta_{fl}=0,40\) para as vigas deste projeto. Logo para ente projeto a condião de verificação de largura será: 
+As vigas VT3, VT4 e VS2 poderiam ter altura de 0,30 m (ou 30 cm) porém para manter o padrão das vigas vamos empregar a altura total de 0,45 m (ou 45 cm) para todas as vigas.
 </p>
-
-<table border = "0" style = "width:100%">
-    <tr>
-        <td style="width: 90%;">\[ b_{w,max}=\min \Bigg(0,40 \cdot 0,45=0,18\;m,4,50/50=0,09\;m \Bigg)\]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
-    </tr>
-</table>
 
 <h3>Pré-dimensionamento da laje</h3>  
 
@@ -124,128 +116,106 @@ A laje em balanço apresentará a seguinte altura \(h = 0,04 \cdot 1,50 = 0,06\;
 
 <h3>Pré-dimensionamento dos pilares</h3>  
 
-
 <p aligin = "justify">
-Para iniciar o pré-dimensionamento de pilares deve-se atentar primeiramente em seguir as dimensões mínimas definidas pela NBR 6118, que estabelece no item 13.2.3, onde a seção transversal de pilares não deve ter dimensões menores que 19 \(cm\), a menos que sejam casos especiais, preservando até um valor mínimo de 14 \(cm\) para menor dimensão. Outra importância é a área mínima da seção transversal de um pilar deve ser superior a 360 \(cm^2\).
+Para iniciar o pré-dimensionamento de pilares deve-se atentar primeiramente em seguir as dimensões mínimas definidas pela ABNT NBR 6118, que estabelece no item 13.2.3, onde a seção transversal de pilares não deve ter dimensões menores que 19 cm, a menos que sejam casos especiais, preservando um valor mínimo de 14 cm para a menor dimensão da seção. Outra importante medida é a área mínima da seção transversal de um pilar que deve ser superior a 360 cm².
 <br><br>
-Além disso é necessário classificar os pilares deste projeto que neste caso P1, P2 e P3 são pilares de canto.
+Além disso é necessário classificar os pilares deste projeto que neste caso são os pilares de canto P1, P2 e P3 (\(\alpha=2,50 para pré-dimensionamento\)).
 </p>
 
-<h2>Área de influência e verificação da área necessária</h2>  
+<h4><i>Área de influência e verificação da área necessária</i></h4>  
 
-AQUI VC TEM QUE ARRUMAR A ÁREA DE INFLUÊNCIA CONFORME TE MANDEI INBOOX.
+<p align = "justify">
+A Figura <a href="#fig4">(4)</a> apresenta a divisão do carregamento do painel de laje em função dos pilares. Para isso usou-se a distribuição de carga em função do tipo de pilar.
+</p>
 
-<p aligin = "justify">
-A área de influência de cada pilar foi encontrada com o auxílio do <i>software</i> AutoCad, onde foi utilizado o conceito de área de influência para os pilares de canto. 
-Para os Pilares P1 e P3, no qual sua maior direção está no sentido da viga VS2, nessa direção a sua proporção será de 0,50*l e para a direção perpendicular adota-se o valor proporcional de 0,45*l. A área restante será influenciada pelo Pilar P2
-<ul>
-    <li>P1 = 1,52 \(m^2\);</li>
-    <li>P2 = 3,71 \(m^2\);</li>
-    <li>P3 = 1,52 \(m^2\).</li>
-</ul>
-
-<p aligin = "justify">
-O carregamento estimado para essa cobertura será de 6 \(\frac{kN}{m^2}\). Com isso, é possível encontrar a a força normal de cálculo para pré-dimensionamento (\(N_d\)), através da equação <a href="#eq1">(1)</a>:
-  
-  <table border = "0" style = "width:100%">
+<table border = "0" style = "width:100%">
   <tr>
-    <td align = "left">\[ N_{d} = \alpha \cdot N_{k} \]</td>
-    <td><p align = "right" id = "eq1">(1)</p></td>
+    <td><center><img src = "assets/images/figura3.jpeg" width = "150%"></center></td>
   </tr>
   <tr>
-    <td align = "left">\[ N_{k} = 6 \cdot A_{i} \]</td>
-    <td><p align = "right" id = "eq2">(2)</p></td>
-  </tr>
-  <tr>
-    <td align = "left">\[\alpha = 2,50\]</td>
-    <td><p align = "right" id = "eq3">(3)</p></td>
+    <td><center><p align = "justify" id = "fig3"><b>Figura 4.</b> Distribuição do carregamento do painel nos pilares.</p></center></td>
   </tr>
 </table>
-</p>
-<p aligin = "justify">
-  
-Logo, encontramos os valores para os carregamentos:
 
-ARRUMAR AS CONTAS CONFORME EU ARRUMEI PARA VC AS EQUAÇÕES ACIMA. COLOQUE TUDO EM M² E KN
+<p aligin = "justify">
+O carregamento estimado para essa cobertura será de 6 \(kN/m²\). Com isso, é possível encontrar a a força normal de cálculo para pré-dimensionamento (\(N_sd^{*}=\alpha \cdot A_i \cdot q\)). A Tabela <a href="#tab2">(2)</a>.
   
+<p align = "justify" id = "tab2"><b>Tabela 2.</b> Pré-dimensionamento de pilares.</p>
+
 <table style = "width:100%">
-<thead>
-  <tr>
-    <th>Pilar</th>
-    <th>Área de influência (m²)</th>
-    <th>Carga no Pilar (kN/m²)</th>
-    <th>N_k (kN/m²)</th>
-    <th>Alpha</th>
-    <th>N_d (kN/m²)</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>P1</td>
-    <td>1,52</td>
-    <td>25,00</td>
-    <td>9,12</td>
-    <td>2,50</td>
-    <td>22,80</td>
-  </tr>
-  <tr>
-    <td>P2</td>
-    <td>3,71</td>
-    <td>25,00</td>
-    <td>22,26</td>
-    <td>2,5</td>
-    <td>55,65</td>
-  </tr>
-  <tr>
-    <td>P3</td>
-    <td>1,52</td>
-    <td>25,00</td>
-    <td>9,12</td>
-    <td>2,50</td>
-    <td>22,80</td>
-  </tr>
-</tbody>
+  <thead>
+    <tr>
+      <th>Pilar</th>
+      <th>Área de influência (m²)</th>
+      <th>N_sd^{*} (kN/m²)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P1</td>
+      <td>1,671</td>
+      <td>2,50 \cdot 1,671 \cdot 6 = </td>
+    </tr>
+    <tr>
+      <td>P1</td>
+      <td>1,671</td>
+      <td>2,50 \cdot 1,671 \cdot 6 = </td>
+    </tr>
+  </tbody>
 </table>
 
 <p aligin = "justify">
-Após a determinação da área de influência e carregamento estimado no pavimento deve-se obter a área estimada de um pilar de concreto conforme a equação <a href="#eq4">(4)</a>:
+Após a determinação da área de influência e carregamento estimado no pavimento deve-se obter a área estimada de um pilar de concreto conforme a equação <a href="#eq1">(1)</a>:
 </p>
 
 <table>
   <tr>  
-    <td align = "left">\[A_{c}=\frac{N{d}}{0,85\cdot f{cd}+\rho}</td>
-    <td><p align = "rigth" id = "eq4">(2)</p></td>
+    <td align = "left">\[A_{c}=\frac{N_{sd}^{*}}{0,85 \cdot f{cd} + \rho _s}\]</td>
+    <td><p align = "rigth" id = "eq1">(1)</p></td>
   </tr>
 </table>
-
 
 <p aligin = "justify">
 Com isso obtemos os resultados de área de concreto necessário para cada pilar:
 </p>
 
-ARRUMAR ESSAS ÁREAS CONFORME AS CORREÇÕES COLOQUE TUDO EM M²
-
 <table>
-<thead>
-  <tr>
-    <th>Pilar</th>
-    <th>Área de concreto (\(m^2\))</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>P1</td>
-    <td>9,67 \cdot 10^{-4} </td>
-  </tr>
-  <tr>
-    <td>P2</td>
-    <td>2,36 \cdot 10^{-3}</td>
-  </tr>
-  <tr>
-    <td>P3</td>
-    <td>9,67 \cdot 10^{-4}</td>
-  </tr>
-</tbody>
+  <thead>
+    <tr>
+      <th>Pilar</th>
+      <th>Área de concreto (m²)</th>
+      <th>Menor dimensão-\(b\) (m)</th>
+      <th>Maior dimensão-\(h\) (m)</th>
+      <th>\(h_{adot}\) (m)</th>
+      <th>Área total (m²)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P1</td>
+      <td>9,67 \cdot 10^{-4} </td>
+      <td>P1</td>
+      <td>9,67 \cdot 10^{-4} </td>
+      <td>P1</td>
+      <td>P1</td>
+    </tr>
+    <tr>
+      <td>P1</td>
+      <td>9,67 \cdot 10^{-4} </td>
+      <td>P1</td>
+      <td>9,67 \cdot 10^{-4} </td>
+      <td>P1</td>
+      <td>P1</td>
+    </tr>
+    <tr>
+      <td>P1</td>
+      <td>9,67 \cdot 10^{-4} </td>
+      <td>P1</td>
+      <td>9,67 \cdot 10^{-4} </td>
+      <td>P1</td>
+      <td>P1</td>
+    </tr>
+  </tbody>
 </table>
 
 <h2>Definição das dimensões dos pilares</h2>
