@@ -53,7 +53,7 @@ A etapa de pré-dimensionamento pode ser realizada por qualquer grupo de element
 Realizaremos o pré-dimensionamento das vigas do térreo VT1 a VT4 e VC1 a VC3. A largura das vigas será especificada em 14 cm para que seja possível fazer o fechamento da alvenaria sem nenhum tipo de requadro. A excessão será a viga VC1 que terá esforços de torção então será estabelecida com largura de 20 cm.<br><br>
 Apenas para critério de verificação será aplicado a relação \(l_0/50\) para verificar a largura mínima (\(b_{w,min}\)) conforme o item 15.10 da ABNT NBR 6118. No caso \(b_{w,min}=4,50/50=0,09\;m=9\;cm\)
 <br><br>
-Considerando que todas as peças serão biapoiadas a altura das vigas é dada conforme Tabela <a href="#tab1">(1)</a>.
+Considerando que todas as peças serão biapoiadas a altura das vigas é dada conforme Tabela <a href="#tab1">1</a>.
 </p>
 
 <p align = "justify" id = "tab1"><b>Tabela 1.</b> Pré-dimensionamento das vigas.</p>
@@ -139,7 +139,7 @@ A Figura <a href="#fig4">4</a> apresenta a divisão do carregamento do painel de
 </table>
 
 <p aligin = "justify">
-O carregamento estimado para essa cobertura será de \( q=6 kN/m² \). Com isso, é possível encontrar a força normal de cálculo para pré-dimensionamento. A Tabela <a href="#tab2">(2)</a> apresenta a força \( N_{sd}^{*} \).
+O carregamento estimado para essa cobertura será de \( q=6\;kN/m² \). Com isso, é possível encontrar a força normal de cálculo para pré-dimensionamento. A Tabela <a href="#tab2">2</a> apresenta a força \( N_{sd}^{*} \).
   
 <p align = "justify" id = "tab2"><b>Tabela 2.</b> Estimativa do carregamento nos pilares.</p>
 
@@ -171,7 +171,11 @@ O carregamento estimado para essa cobertura será de \( q=6 kN/m² \). Com isso,
 </table>
 
 <p aligin = "justify">
-Após a determinação da área de influência e carregamento estimado no pavimento deve-se obter a área estimada de um pilar de concreto conforme a Tabela <a href="#tab3">(3)</a>:
+Para este projeto será considerado um \(f_{ck}\) de 25 MPa (25.000 kPa) para as peças de concreto. Isso leva a um valor de \(f_{cd} = 25000/1,40=17857,14 kPa\).
+<br><br>
+Além disso vamos considerar que a tensão no aço para pré-dimensionamento será para um encurtamento de 0,2% nas armaduras sendo este valor igual a 420 MPa. Para a quantidade de armadura será adotado o valor de taxa mecânica igual a 2%.
+<br><br>
+Após a determinação da área de influência e a estimativa de carregamento no pavimento deve-se obter a área estimada de um pilar de concreto conforme a Tabela <a href="#tab3">3</a>.
 </p>
 
 <p align = "justify" id = "tab3"><b>Tabela 3.</b> Área de concreto necessária e dimensões finais.</p>
@@ -190,15 +194,15 @@ Após a determinação da área de influência e carregamento estimado no pavime
   <tbody>
     <tr>
       <td>P1</td>
-      <td>\[A_{c}=\frac{N_{sd}^{*}}{0,85 \cdot f_{cd} + \rho _s}\] </td>
-      <td>P1</td>
+      <td>\[A_{c}=\frac{22,80}{0,85 \cdot 17857,14 + 0,02 \cdot 420000}\]</td>
+      <td>0,14</td>
       <td>9,67 \cdot 10^{-4} </td>
       <td>P1</td>
       <td>P1</td>
     </tr>
     <tr>
       <td>P1</td>
-      <td>9,67 \cdot 10^{-4} </td>
+      <td>\[A_{c}=\frac{22,80}{0,85 \cdot 17857,14 + 0,02 \cdot 420000}\]</td>
       <td>P1</td>
       <td>9,67 \cdot 10^{-4} </td>
       <td>P1</td>
