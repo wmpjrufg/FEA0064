@@ -140,7 +140,7 @@ A Figura <a href="#fig4">(4)</a> apresenta a divisão do carregamento do painel 
 <p aligin = "justify">
 O carregamento estimado para essa cobertura será de \( q=6 kN/m² \). Com isso, é possível encontrar a força normal de cálculo para pré-dimensionamento (\(N_{sd}^{*} = \alpha \cdot A_i \cdot q\)). A Tabela <a href="#tab2">(2)</a> apresenta a força \( N_{sd}^{*} \).
   
-<p align = "justify" id = "tab2"><b>Tabela 2.</b> Pré-dimensionamento de pilares.</p>
+<p align = "justify" id = "tab2"><b>Tabela 2.</b> Estimativa do carregamento nos pilares.</p>
 
 <table style = "width:100%">
   <thead>
@@ -170,19 +170,10 @@ O carregamento estimado para essa cobertura será de \( q=6 kN/m² \). Com isso,
 </table>
 
 <p aligin = "justify">
-Após a determinação da área de influência e carregamento estimado no pavimento deve-se obter a área estimada de um pilar de concreto conforme a equação <a href="#eq1">(1)</a>:
+Após a determinação da área de influência e carregamento estimado no pavimento deve-se obter a área estimada de um pilar de concreto conforme a Tabela <a href="#tab3">(3)</a>:
 </p>
 
-<table>
-  <tr>  
-    <td align = "left">\[A_{c}=\frac{N_{sd}^{*}}{0,85 \cdot f_{cd} + \rho _s}\]</td>
-    <td><p align = "rigth" id = "eq1">(1)</p></td>
-  </tr>
-</table>
-
-<p aligin = "justify">
-Com isso obtemos os resultados de área de concreto necessário para cada pilar:
-</p>
+<p align = "justify" id = "tab3"><b>Tabela 3.</b> Área de concreto necessária.</p>
 
 <table>
   <thead>
@@ -198,7 +189,7 @@ Com isso obtemos os resultados de área de concreto necessário para cada pilar:
   <tbody>
     <tr>
       <td>P1</td>
-      <td>9,67 \cdot 10^{-4} </td>
+      <td>\[A_{c}=\frac{N_{sd}^{*}}{0,85 \cdot f_{cd} + \rho _s}\] </td>
       <td>P1</td>
       <td>9,67 \cdot 10^{-4} </td>
       <td>P1</td>
