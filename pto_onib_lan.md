@@ -103,7 +103,7 @@ A determinação da espessura da laje é influenciada por suas dimensões em pla
 
 <p align = "justify">
 A espessura mínima segundo a ABNT NBR 6118 será de 0,10 m para a laje LS1 que é uma laje com um dos lados em balanço.<br><br>
-A laje em balanço apresentará a seguinte altura \(h = 0,04 \cdot 1,50 = 0,06\;m\). No entanto a altura mínima exigida é de 10 cm. Portanto será adotada a altura de 0,10 m para a laje em questão.
+A laje em balanço apresentará a seguinte altura \(h = 0,04 \cdot 1,50 = 0,06\;m\). No entanto a altura mínima exigida é de 0,10 m. Portanto será adotada a altura de 0,10 m para a laje em questão.
 </p>
 <!-- 
 <ul>
@@ -116,7 +116,7 @@ A laje em balanço apresentará a seguinte altura \(h = 0,04 \cdot 1,50 = 0,06\;
 
 <h3>Pré-dimensionamento dos pilares</h3>  
 
-<p aligin = "justify">
+<p align = "justify">
 Para iniciar o pré-dimensionamento de pilares deve-se atentar primeiramente em seguir as dimensões mínimas definidas pela ABNT NBR 6118, que estabelece no item 13.2.3, onde a seção transversal de pilares não deve ter dimensões menores que 19 cm, a menos que sejam casos especiais, preservando um valor mínimo de 14 cm para a menor dimensão da seção. Outra importante medida é a área mínima da seção transversal de um pilar que deve ser superior a 360 cm².
 <br><br>
 Além disso é necessário classificar os pilares deste projeto que neste caso são os pilares de canto P1, P2 e P3 (\( \alpha=2,50 \) para pré-dimensionamento).
@@ -154,12 +154,17 @@ O carregamento estimado para essa cobertura será de \( q=6 kN/m² \). Com isso,
     <tr>
       <td>P1</td>
       <td>1,671</td>
-      <td>2,50 \cdot 1,671 \cdot 6 = </td>
+      <td>\(2,50 \cdot 1,671 \cdot 6 = \)</td>
     </tr>
     <tr>
       <td>P1</td>
       <td>1,671</td>
-      <td>2,50 \cdot 1,671 \cdot 6 = </td>
+      <td>\(2,50 \cdot 1,671 \cdot 6 = \)</td>
+    </tr>
+    <tr>
+      <td>P1</td>
+      <td>1,671</td>
+      <td>\(2,50 \cdot 1,671 \cdot 6 = \)</td>
     </tr>
   </tbody>
 </table>
