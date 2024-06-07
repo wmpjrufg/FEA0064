@@ -26,7 +26,7 @@ has_toc: true
 </ol>
 
 <p align = "justify">
-O <i>layout</i> do empreendimento é apresentado na Figura <a href="#fig1">(1)</a>:
+O <i>layout</i> do empreendimento é apresentado na Figura <a href="#fig1">1</a>:
 </p> 
 
 <table border = "0" style = "width:100%">
@@ -41,7 +41,7 @@ O <i>layout</i> do empreendimento é apresentado na Figura <a href="#fig1">(1)</
 <h3>Projeto executivo arquitetônico</h3>
 
 <p align = "justify"> 
-A Figura <a href="#fig2">(2)</a> e <a href="#fig3">(3)</a> apresentam imagens do projeto arquitetônico do ponto de ônibus.
+A Figura <a href="#fig2">2</a> e <a href="#fig3">3</a> apresentam imagens do projeto arquitetônico do ponto de ônibus.
 </p> 
 
 

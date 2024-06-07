@@ -17,7 +17,7 @@ has_toc: false
 
 <p align = "justify">
 O lançamento estrutural seguirá as diretrizes para peças de concreto armado em geral. A seguir serão apresentados os passos para determinação da geometria inicial de cada um dos elementos.<br><br>
-A Figura <a href="#fig1">(1)</a> apresenta a planta de interferência estrutural dos pilares na arquitetura do edifício. Já as Figuras <a href="#fig2">(2)</a> e <a href="#fig3">(3)</a> apresentam as interferências do restantes dos elementos estruturas que compõem o edfício.
+A Figura <a href="#fig1">1</a> apresenta a planta de interferência estrutural dos pilares na arquitetura do edifício. Já as Figuras <a href="#fig2">2</a> e <a href="#fig3">3</a> apresentam as interferências do restantes dos elementos estruturas que compõem o edfício.
 </p>
 
 <table border = "0" style = "width:100%">
@@ -50,7 +50,7 @@ A etapa de pré-dimensionamento pode ser realizada por qualquer grupo de element
 <h3>Pré-dimensionamento das vigas</h3>  
 
 <p align = "justify">
-Realizaremos o pré-dimensionamento das vigas do térreo VT1 a VT4 e VS1 a VS3. A largura das vigas será especificada em 14 cm para que seja possível fazer o fechamento da alvenaria sem nenhum tipo de requadro. A excessão será a viga VS1 que terá esforços de torção então será estabelecida com largura de 20 cm.<br><br>
+Realizaremos o pré-dimensionamento das vigas do térreo VT1 a VT4 e VC1 a VC3. A largura das vigas será especificada em 14 cm para que seja possível fazer o fechamento da alvenaria sem nenhum tipo de requadro. A excessão será a viga VC1 que terá esforços de torção então será estabelecida com largura de 20 cm.<br><br>
 Apenas para critério de verificação será aplicado a relação \(l_0/50\) para verificar a largura mínima (\(b_{w,min}\)) conforme o item 15.10 da ABNT NBR 6118. No caso \(b_{w,min}=4,50/50=0,09\;m=9\;cm\)
 <br><br>
 Considerando que todas as peças serão biapoiadas a altura das vigas é dada conforme Tabela <a href="#tab1">(1)</a>.
@@ -72,19 +72,19 @@ Considerando que todas as peças serão biapoiadas a altura das vigas é dada co
         <td>0,45</td>
     </tr>
     <tr>
-        <td>VT3=VT4</td>
+        <td>VT3=VT4=VC2</td>
         <td>1,50</td>
         <td>\(h = 1,50/10 = 0,15\)</td>
         <td>0,45</td>
     </tr>
     <tr>
-        <td>VS1</td>
+        <td>VC1</td>
         <td>4,50</td>
         <td>\(h = 4,50/10 = 0,45\)</td>
         <td>0,45</td>
     </tr>
     <tr>
-        <td>VS2</td>
+        <td>VC3</td>
         <td>1,50</td>
         <td>\(h = 1,50/5 = 0,30\)</td>
         <td>0,45</td>
@@ -92,7 +92,7 @@ Considerando que todas as peças serão biapoiadas a altura das vigas é dada co
 </table>
 
 <p align = "justify">
-As vigas VT3, VT4 e VS2 poderiam ter altura de 0,30 m (ou 30 cm) porém para manter o padrão das vigas vamos empregar a altura total de 0,45 m (ou 45 cm) para todas as vigas.
+As vigas VT3, VT4 e VC3 poderiam ter altura de 0,30 m (ou 30 cm) porém para manter o padrão das vigas vamos empregar a altura total de 0,45 m (ou 45 cm) para todas as vigas.
 </p>
 
 <h3>Pré-dimensionamento da laje</h3>  
@@ -105,6 +105,7 @@ A determinação da espessura da laje é influenciada por suas dimensões em pla
 A espessura mínima segundo a ABNT NBR 6118 será de 0,10 m para a laje LS1 que é uma laje com um dos lados em balanço.<br><br>
 A laje em balanço apresentará a seguinte altura \(h = 0,04 \cdot 1,50 = 0,06\;m\). No entanto a altura mínima exigida é de 0,10 m. Portanto será adotada a altura de 0,10 m para a laje em questão.
 </p>
+
 <!-- 
 <ul>
   <li><p align = "justify">7 cm para lajes de cobertura que não possuam balanço.</p></li>
@@ -125,20 +126,20 @@ Além disso é necessário classificar os pilares deste projeto que neste caso s
 <h4><i>Área de influência e verificação da área necessária</i></h4>  
 
 <p align = "justify">
-A Figura <a href="#fig4">(4)</a> apresenta a divisão do carregamento do painel de laje em função dos pilares. Para isso usou-se a distribuição de carga em função do tipo de pilar.
+A Figura <a href="#fig4">4</a> apresenta a divisão do carregamento do painel de laje em função dos pilares (áreas de influência). Para isso usou-se a distribuição de carga em função do tipo de pilar.
 </p>
 
 <table border = "0" style = "width:100%">
   <tr>
-    <td><center><img src = "assets/images/figura3.jpeg" width = "150%"></center></td>
+    <td><center><img src = "assets/images/area_influencia.png" width = "150%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig3"><b>Figura 4.</b> Distribuição do carregamento do painel nos pilares.</p></center></td>
+    <td><center><p align = "justify" id = "fig3"><b>Figura 4.</b> Distribuição do carregamento do painel nos pilares (áreas de influência).</p></center></td>
   </tr>
 </table>
 
 <p aligin = "justify">
-O carregamento estimado para essa cobertura será de \( q=6 kN/m² \). Com isso, é possível encontrar a força normal de cálculo para pré-dimensionamento (\(N_{sd}^{*} = \alpha \cdot A_i \cdot q\)). A Tabela <a href="#tab2">(2)</a> apresenta a força \( N_{sd}^{*} \).
+O carregamento estimado para essa cobertura será de \( q=6 kN/m² \). Com isso, é possível encontrar a força normal de cálculo para pré-dimensionamento. A Tabela <a href="#tab2">(2)</a> apresenta a força \( N_{sd}^{*} \).
   
 <p align = "justify" id = "tab2"><b>Tabela 2.</b> Estimativa do carregamento nos pilares.</p>
 
@@ -147,24 +148,24 @@ O carregamento estimado para essa cobertura será de \( q=6 kN/m² \). Com isso,
     <tr>
       <th>Pilar</th>
       <th>Área de influência (m²)</th>
-      <th>\(N_{sd}^{*}\) (kN/m²)</th>
+      <th>\(N_{sd}^{*}\) (kN)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>P1</td>
-      <td>1,671</td>
-      <td>\(2,50 \cdot 1,671 \cdot 6 = \)</td>
+      <td>1,52</td>
+      <td>\(2,50 \cdot 1,52 \cdot 6 = 22,80\)</td>
     </tr>
     <tr>
-      <td>P1</td>
-      <td>1,671</td>
-      <td>\(2,50 \cdot 1,671 \cdot 6 = \)</td>
+      <td>P2</td>
+      <td>3,37</td>
+      <td>\(2,50 \cdot 3,37 \cdot 6 = 50,55\)</td>
     </tr>
     <tr>
-      <td>P1</td>
-      <td>1,671</td>
-      <td>\(2,50 \cdot 1,671 \cdot 6 = \)</td>
+      <td>P3</td>
+      <td>1,86</td>
+      <td>\(2,50 \cdot 1,86 \cdot 6 = 27,90\)</td>
     </tr>
   </tbody>
 </table>
@@ -173,7 +174,7 @@ O carregamento estimado para essa cobertura será de \( q=6 kN/m² \). Com isso,
 Após a determinação da área de influência e carregamento estimado no pavimento deve-se obter a área estimada de um pilar de concreto conforme a Tabela <a href="#tab3">(3)</a>:
 </p>
 
-<p align = "justify" id = "tab3"><b>Tabela 3.</b> Área de concreto necessária.</p>
+<p align = "justify" id = "tab3"><b>Tabela 3.</b> Área de concreto necessária e dimensões finais.</p>
 
 <table>
   <thead>
