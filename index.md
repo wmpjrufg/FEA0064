@@ -23,4 +23,5 @@ has_toc: True
 <ul>
   <li><a target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/0B7fde98nbW1JfjhwMndpN1pqSFVnWkVKLTVGeTh0X3huZVRETGtIQk95N2lxS1JHUjE0M1U?resourcekey=0-80u4x0QEcpM_rnPTI6GT0g&usp=sharing">Plano de ensino</a></li>
   <li><a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1UUOfmCH4539GA46mEw_687d9u7eGKAH4/view?usp=sharing">Prancha padrão</a></li>
+  <li><a target="_blank" rel="noopener" href="https://smath.com/en-US/view/SMathStudio/download">SMath Studio</a></li>
 </ul>
