@@ -194,68 +194,27 @@ Após a determinação da área de influência e a estimativa de carregamento no
   <tbody>
     <tr>
       <td>P1</td>
-      <td>\[A_{c}=\frac{22,80}{0,85 \cdot 17857,14 + 0,02 \cdot 420000}\]</td>
+      <td>\[A_{c}=\frac{22,80}{0,85 \cdot 17857,14 + 0,02 \cdot 420000}=0,000967\]</td>
       <td>0,14</td>
-      <td>9,67 \cdot 10^{-4} </td>
-      <td>P1</td>
-      <td>P1</td>
+      <td>\[A_c=0,000967/0,14=0,0069\]</td>
+      <td>0,30</td>
+      <td>\[0,042\;m²>0,036\;m²\]</td>
     </tr>
     <tr>
-      <td>P1</td>
-      <td>\[A_{c}=\frac{22,80}{0,85 \cdot 17857,14 + 0,02 \cdot 420000}\]</td>
-      <td>P1</td>
-      <td>9,67 \cdot 10^{-4} </td>
-      <td>P1</td>
-      <td>P1</td>
+      <td>P2</td>
+      <td>\[A_{c}=\frac{50,55}{0,85 \cdot 17857,14 + 0,02 \cdot 420000}=0,002144\]</td>
+      <td>0,14</td>
+      <td>\[A_c=0,002144/0,14=0,0153\]</td>
+      <td>0,30</td>
+      <td>\[0,042\;m²>0,036\;m²\]</td>
     </tr>
     <tr>
-      <td>P1</td>
-      <td>9,67 \cdot 10^{-4} </td>
-      <td>P1</td>
-      <td>9,67 \cdot 10^{-4} </td>
-      <td>P1</td>
-      <td>P1</td>
+      <td>P3</td>
+      <td>\[A_{c}=\frac{27,90}{0,85 \cdot 17857,14 + 0,02 \cdot 420000}=0,001183\]</td>
+      <td>0,14</td>
+      <td>\[A_c=0,001183/0,14=0,0085\]</td>
+      <td>0,30</td>
+      <td>\[0,042\;m²>0,036\;m²\]</td>
     </tr>
   </tbody>
 </table>
-
-<h2>Definição das dimensões dos pilares</h2>
-
-<p aligin = "justify">
-Como é necessário admitir uma seção mínima de 360 cm² e tentando utilizar a menor dimensão nos pilares, vai ser adotado a dimensão mínima para o menor lado de 14 \(cm\) (dimensão \(b\)) e com isso é possível achar a outra dimensão do pilar (\(h\)). Para isso, deve ser feito:
-</p>
-
-COLOCA JÁ O RESULTADO FINAL EM FORMATO DE TABELA MESMO VOU FAZER UM EXEMPLO PARA VC...
-
-<table>
-<thead>
-  <tr>
-    <th>Pilar</th>
-    <th>Área de concreto (\(m^2\))</th>
-    <th>Dimensão \(b\) (\(m\))</th>
-    <th>Dimensão \(h\) (\(m\))</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>P1</td>
-    <td>9,67 \cdot 10^{-4}</td>
-    <th>0,14 (\(m\))</th>
-    <th>\( area = 0,14 \cdot b \therefore h =  0,30 \)</th>
-  </tr>
-    <tr>
-    <td>P2</td>
-    <td>2,36 \cdot 10^{-3}</td>
-    <th>0,14 (\(m\))</th>
-    <th>\( area = 0,14 \cdot b \therefore h =  0,30 \)</th>
-  </tr>
-    <tr>
-    <td>P3</td>
-    <td>9,67 \cdot 10^{-4}</td>
-    <th>0,14 (\(m\))</th>
-    <th>\( area = 0,14 \cdot b \therefore h =  0,30 \)</th>
-  </tr>
-</tbody>
-</table>
-
-
