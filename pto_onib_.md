@@ -18,7 +18,7 @@ has_toc: true
     <p align = "justify"><b>Estrutura:</b> A estrutura do ponto de ônibus será construída em concreto armado. Essa escolha garantirá a estabilidade e a longevidade da estrutura, suportando as condições climáticas e o uso constante pelos passageiros. No caso a cobertura, pilares, vigas e fundações serão em concreto armado.</p> 
   </li>
   <li>
-    <p align = "justify"><b>Cobertura:</b> O abrigo contará com uma cobertura que protegerá os passageiros da chuva e do sol. Essa cobertura será inclinada em 5% para evitar o acúmulo de água da chuva e permitir o escoamento adequado. A cobertura deverá ser impermeabilizada com manta e deverá suportar cargas para paíneis fotovoltaicos</p>
+    <p align = "justify"><b>Cobertura:</b> O abrigo contará com uma cobertura que protegerá os passageiros da chuva e do sol. Essa cobertura será inclinada em 5% para evitar o acúmulo de água da chuva e permitir o escoamento adequado. A cobertura deverá ser impermeabilizada com manta.</p>
   </li>
   <li> 
     <p align = "justify"><b><i>Design</i>:</b> O fechamento lateral será em alvenaria de vedação com blocos de tijolo vazado de 9 cm com reboco de 2,5 cm em cada face (fachada esquerda) e o outro fechamento será em vidro temperado de 10 mm (fachada direita). A estrutura não será rebocada sendo o único elemento rebocado a alvenaria indicada.</p>

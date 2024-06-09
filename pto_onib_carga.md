@@ -1,23 +1,32 @@
 ---
-title: Fôrma estrutural
+title: Carregamento
 layout: default
 parent: Exemplo I
-nav_order: 1
+nav_order: 2
 has_children: false
 has_toc: false
 ---
-
 
 <!--Don't delete this script-->
 <script src = "https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<h1>Lançamento de lajes, vigas e pilares</h1> 
+<p align = "justify">
+O carregamento será determinado conforme prescrição da ABNT NBR 6120. O memorial descreve que a cobertura será impermeabilizada. Portanto as cargas atuantes nessa estrutura podem ser descritas da seguinte forma:
+</p>
+
+<ul>
+<li>Carga permanente: Peso próprio da estrutura, fechamento em vidro, fechamento em alvenaria, impermeabilização da cobertura;</li>
+<li>Carga variável da cobertura</li>
+</ul>
+
+<h1>Carga na laje</h1> 
 
 <p align = "justify">
-O lançamento estrutural seguirá as diretrizes para peças de concreto armado em geral. A seguir serão apresentados os passos para determinação da geometria inicial de cada um dos elementos.<br><br>
-A Figura <a href="#fig1">1</a> apresenta a planta de interferência estrutural dos pilares na arquitetura do edifício. Já as Figuras <a href="#fig2">2</a> e <a href="#fig3">3</a> apresentam as interferências do restantes dos elementos estruturas que compõem o edfício.
+A carga que atua na laje LC1 será divida entre carregamento permanente e variável. O peso próprio da laje é obtido através da multiplicação do peso específico do concreto e a altura da laje, a qual tem o valor de 10 cm. Logo o valor deste carregamento é \(g_{pp}=0,10 \cdot 25 = 2,50 kN/m²\).
+<br><br>
+Consultando a tabela 4 da ABNT NBR 6120 adotou-se como carga permanente o valor de carga para a manta de 10 cm com carga de 1,80 kN/m² \(\left(g_{ext}\right)\).
 </p>
 
 <table border = "0" style = "width:100%">
@@ -98,11 +107,11 @@ As vigas VT3, VT4 e VC3 poderiam ter altura de 0,30 m (ou 30 cm) porém para man
 <h3>Pré-dimensionamento da laje</h3>  
 
 <p align = "justify">
-A determinação da espessura da laje é influenciada por suas dimensões em planta e seu carregamento. Para laje LC1 será considerada inicialmente o vão \(l_y=4,50\;m\) e \(l_x=1,50\;m\). No caso desta laje a relação entre vão é de 3,00 (\(\lambda=l_y/l_x\)).
+A determinação da espessura da laje é influenciada por suas dimensões em planta e seu carregamento. Para laje LS1 será considerada inicialmente o vão \(l_y=4,50\;m\) e \(l_x=1,50\;m\). No caso desta laje a relação entre vão é de 3,00 (\(\lambda=l_y/l_x\)).
 </p>
 
 <p align = "justify">
-A espessura mínima segundo a ABNT NBR 6118 será de 0,10 m para a laje LC1 que é uma laje com um dos lados em balanço.<br><br>
+A espessura mínima segundo a ABNT NBR 6118 será de 0,10 m para a laje LS1 que é uma laje com um dos lados em balanço.<br><br>
 A laje em balanço apresentará a seguinte altura \(h = 0,04 \cdot 1,50 = 0,06\;m\). No entanto a altura mínima exigida é de 0,10 m. Portanto será adotada a altura de 0,10 m para a laje em questão.
 </p>
 
@@ -218,6 +227,3 @@ Após a determinação da área de influência e a estimativa de carregamento no
     </tr>
   </tbody>
 </table>
-
-<h1>Projeto executivo de fôrma</h1> 
-
