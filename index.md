@@ -11,12 +11,13 @@ has_toc: True
   <tr>
     <td style="width:70%;">
       <p align="justify">
-        Neste repositório você encontrará material da disciplina de Estruturas de Concreto Armado 02 minsitrada pelo professor <a target="_blank" rel="noopener" href="http://lattes.cnpq.br/2268506213083114">Wanderlei Malaquias Pereira Junior</a>. Aqui o foco é o projeto completo de vigas e pilares de concreto armado.
+        Olá seja bem vindo a disciplina FEA0064. Neste repositório você encontrará material da disciplina de Estruturas de Concreto Armado 02 minsitrada pelo professor <a target="_blank" rel="noopener" href="http://lattes.cnpq.br/2268506213083114">Wanderlei Malaquias Pereira Junior</a>. A ementa da disciplina é: Tensões tangenciais – força cortante. aderência e ancoragem – critérios de projeto. projeto de vigas – simples e contínuas. estados limites de serviço. análise estrutural. estabilidade global. flexão normal composta. flexão oblíqua. pilares de concreto armado. tensões tangenciais – torção.
       </p>
     </td>
     <td style="width:30%;"><img src="assets/images/logo.png"/></td>  
   </tr>
-</table>  
+</table>
+
 
 <h3>Acesso rápido</h3>
 
