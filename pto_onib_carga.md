@@ -26,7 +26,8 @@ O carregamento será determinado conforme prescrição da ABNT NBR 6120. O memor
 <p align = "justify">
 A carga que atua na laje LC1 será divida entre carregamento permanente e variável. O peso próprio da laje é obtido através da multiplicação do peso específico do concreto e a altura da laje, a qual tem o valor de 10 cm. Logo o valor deste carregamento é \( g_{pp}=0,10 \cdot 25 = 2,50 kN/m² \).
 <br><br>
-Consultando a tabela 4 da ABNT NBR 6120 adotou-se como carga permanente o valor de carga para a manta de 10 cm com carga de 1,80 kN/m² \(\left(g_{ext}\right)\).<br<br>
+Consultando a tabela 4 da ABNT NBR 6120 adotou-se como carga permanente o valor de carga para a manta de 10 cm com carga de 1,80 kN/m² \(\left(g_{ext}\right)\).
+<br><br>
 Logo a carga total é dada por:
 </p>
 
@@ -77,7 +78,7 @@ No caso deste projeto o valor da A1 é de 4,83 m² e o valor de A2 é de 0,56 m�
       <th>Área de influência (m²)</th>
       <th>Carga (kN/m²)</th>
       <th>Vão (m)</th>
-      <th>Carga distribuída (kN/m)</th>
+      <th>Carga distribuída laje (kN/m)</th>
       <th>Carga distribuída p.p. (kN/m)</th>
     </tr>
   </thead>
@@ -120,7 +121,7 @@ No caso deste projeto o valor da A1 é de 4,83 m² e o valor de A2 é de 0,56 m�
 <h3>Carregamento nas vigas do térreo</h3>
 
 <p align = "justify">
-Considerando que a parede tem 15 cm de espessura foi selecionado neste projeto a alvenaria de vedação 11,5 cm de espessura e reboco e 2,00 cm em cada face totalizando 1,70 kN/m² (considerando 1,75 m de fechamento totaliza \(g_{alv}=2,97\;kN/m\)) conforme tabela 2 da ABNT NBR 6120. Além disso uma das faces da arquitetura exige um fechamento em vidro com espessura de 10 mm (peso específico aparente de 22 kN/m³) e altura de 1,75 m que totaliza \(g_{vidro}=22 \cdot 0,01 \cdot 1,75=0,38\;kN/m \). A Tabela <a href="#tab2">2</a> resume o carregamento nas vigas do térreo.
+Considerando que a parede tem 15 cm de espessura foi selecionado neste projeto a alvenaria de vedação 11,5 cm de espessura e reboco em cada face de 2,00 cm totalizando 1,70 kN/m² (considerando 1,75 m de fechamento totaliza \(g_{alv}=2,97\;kN/m\)) conforme tabela 2 da ABNT NBR 6120. Além disso uma das faces da arquitetura exige um fechamento em vidro com espessura de 10 mm (peso específico aparente de 22 kN/m³) e altura de 1,75 m que totaliza \(g_{vidro}=22 \cdot 0,01 \cdot 1,75=0,38\;kN/m \). A Tabela <a href="#tab2">2</a> resume o carregamento nas vigas do térreo.
 </p>
 
 <p align = "justify" id = "tab2"><b>Tabela 2.</b> Carga nas vigas do térreo.</p>
@@ -129,7 +130,7 @@ Considerando que a parede tem 15 cm de espessura foi selecionado neste projeto a
   <thead>
     <tr>
       <th>Viga</th>
-      <th>Carga distribuída (kN/m)</th>
+      <th>Carga distribuída vedações (kN/m)</th>
       <th>Carga distribuída p.p. (kN/m)</th>
     </tr>
   </thead>
