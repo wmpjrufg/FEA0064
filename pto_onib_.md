@@ -7,7 +7,7 @@ has_toc: true
 ---
 
 <p align = "justify">
-  O objetivo desta atividade é projetar um ponto de ônibus em concreto armado que abriga um banco metálico. Em planta baixa o abrigo para pessoas tem 1,50 x 4,50 m. As diretrizes do projeto são as seguintes:
+  O objetivo desta atividade é projetar um ponto de ônibus em concreto armado que abriga um banco metálico. Em planta baixa o abrigo para pessoas tem 1,51 x 4,51 m. As diretrizes do projeto são as seguintes:
 </p> 
 
 <ol>
@@ -21,7 +21,7 @@ has_toc: true
     <p align = "justify"><b>Cobertura:</b> O abrigo contará com uma cobertura que protegerá os passageiros da chuva e do sol. Essa cobertura será inclinada em 5% para evitar o acúmulo de água da chuva e permitir o escoamento adequado. A cobertura deverá ser impermeabilizada com manta.</p>
   </li>
   <li> 
-    <p align = "justify"><b><i>Design</i>:</b> O fechamento lateral será em alvenaria de vedação com blocos de tijolo vazado de 9 cm com reboco de 2,5 cm em cada face (fachada esquerda) e o outro fechamento será em vidro temperado de 10 mm (fachada direita). A estrutura não será rebocada sendo o único elemento rebocado a alvenaria indicada.</p>
+    <p align = "justify"><b><i>Design</i>:</b> O fechamento lateral será em alvenaria de vedação com blocos de tijolo cerâmico vazado totalizando uma espessura final de 15 cm (fachada esquerda) e o outro fechamento será em vidro temperado de 10 mm (fachada direita). A estrutura não será rebocada sendo o único elemento rebocado a alvenaria indicada.</p>
   </li>
 </ol>
 

@@ -215,3 +215,97 @@ Após a determinação da área de influência e a estimativa de carregamento no
 
 <h1>Projeto executivo de fôrma</h1> 
 
+<p align = "justify">
+Definida a forma estrutural é necessário determinar os vãos efetivos de cada um dos elementos. No caso será aplicada a proposição das seções 14.6.2.4 e 15.6 da ABNT NBR 6118. 
+</p>
+
+<h3>Elemento isolado: laje</h3> 
+
+<p align = "justify">
+A definição do elemento isolado de laje será realizada conforme o equacionamento da seção 14.6.2.4 da ABNT NBR 6118. A proposição deste item é para sistema de vigas porém o mesmo pode ser aplicado para sistemas de laje.
+<br><br>
+Dado que todas as vigas tem largura de 14 cm ou 0,14 m a condição \(t/2\) será de 7 cm para todos os bordos. Para a condição \(0,30 \cdot h\) será empregada a altura da laje que é de 10 cm totalizando 3 cm. Logo o valor de vão efetivo é apresentado na Figura <a href="#fig5">5</a>.
+</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td><center><img src = "assets/images/vao_ef_laje.png" width = "150%"></center></td>
+  </tr>
+  <tr>
+    <td><center><p align = "justify" id = "fig3"><b>Figura 5.</b> Vão efetivo da laje</p></center></td>
+  </tr>
+</table>
+
+<h3>Elemento isolado: vigas</h3> 
+
+<p align = "justify">
+Para aplicar a metodologia descrita acima devemos considerar os pilares como elementos que servem de apoio para as vigas. Logo a condição \(t/2\) dependerá da direção do pilar. Como essa direção poderá variar em função da viga o valor de vão efetivo deverá ser acrescido das parcelas \(a_1\) e \(a_2\). A Tabela <a href="#tab3">3</a> apresenta estes detalhes:
+</p>
+
+<p align = "justify" id = "tab3"><b>Tabela 3.</b> Vão efetivo das vigas da cobertura.</p>
+
+<table style = "width:100%">
+  <thead>
+    <tr>
+      <th>Viga</th>
+      <th>\(L_{0} (m)\)</th>
+      <th>\(a_{1} (m)\)</th>
+      <th>\(a_{2} (m)\)</th>
+      <th>\(L_{ef} (m)\)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VC1</td>
+      <td>3,90</td>
+      <td>\[min \left(0,30/2,\;0,30 \cdot 0,45 \right) = 0,13\]</td>
+      <td>\[min \left(0,30/2,\;0,30 \cdot 0,45 \right) = 0,13\]</td>
+      <td>\[3,90+0,13\cdot2=4,16\]</td>
+    </tr>
+    <tr>
+      <td>VC2</td>
+      <td>3,90</td>
+      <td>\[min \left(0,30/2,\;0,30 \cdot 0,45 \right) = 0,13\]</td>
+      <td>\[min \left(0,14/2,\;0,30 \cdot 0,45 \right) = 0,07\]</td>
+      <td>\[3,90+0,13\cdot2=4,16\]</td>
+    </tr>
+    <tr>
+      <td>VC3</td>
+      <td>3,90</td>
+      <td>não se aplica pois não tem apoio</td>
+      <td>\[min \left(0,14/2,\;0,30 \cdot 0,45 \right) = 0,07\]</td>
+      <td>\[3,90+0,0.07=3,97¹\]</td>
+    </tr>
+  </tbody>
+</table>
+
+<p align = "justify">
+Como usaremos o sistema de pórtico plano para determinação dos esforços finais e então dimensionamento dos elementos faremos duas adequações para evitar imperfeições geométricas no modelo estrutural. A primeira é de que utilizaremos os vãos efetivos do pavimento superior para refletir o modelo estrutural do térreo. ¹Além disso o vão efetivo das vigas VC2 e VC3 serão igualados por critério de facilidade de determinação das dimensões do pórtico final.  
+</p>
+
+<h3>Elemento isolado: pilares</h3> 
+
+<p align = "justify">
+Para os pilares será aplicada a condição da seção 15.6 da ABNT NBR 6118. Os resultados são apresentados na Tabela <a href="#tab4">4</a>. Vale salientar aqui que devido o pilar possuir duas "alturas" a determinação do vão efetivo deveria ser feito para as duas direções (h e b). Para este exemplo didático será determinada a altura efetiva relativa a viga VC1 e ela será a base para as outras direções. Tal condições não prejudica o cálculo estrutural neste exemplo em específico. Outra questão importante é de que apesar da altura ser determinada com essa condição de aproximação das dimensões, o comprimento de flambagem será diferente no dimensionamento dos pilares. Tal situação será abordada no detalhamento dos pilares.
+<br><br>
+Considerando que o pé esquerdo do projeto é de 2,20 m e que na posição da viga de cobertura a altura é de 0,45 m o vão livre \( \left( l_0 \right) \) é de 1,75 m.
+</p>
+
+<p align = "justify" id = "tab4"><b>Tabela 4.</b> Vão efetivo pilares.</p>
+
+<table style = "width:100%">
+  <thead>
+    <tr>
+      <th>\(l_{0} + h (m)\)</th>
+      <th>\(l (m)\)</th>
+      <th>\(l_{ef} (m)\)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\[1,75 + 0,30 = 2,05\]</td>
+      <td>\[1,75 + \frac{0,45}{2} \cdot 2 = 2,20\]</td>
+      <td>\[2,05\]</td>
+    </tr>
+  </tbody>
+</table>
