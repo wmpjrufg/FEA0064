@@ -17,27 +17,21 @@ has_toc: false
 
 <p align = "justify">
 O lançamento estrutural seguirá as diretrizes para peças de concreto armado em geral. A seguir serão apresentados os passos para determinação da geometria inicial de cada um dos elementos.<br><br>
-A Figura <a href="#fig1">1</a> apresenta a planta de interferência estrutural dos pilares na arquitetura do edifício. Já as Figuras <a href="#fig2">2</a> e <a href="#fig3">3</a> apresentam as interferências do restantes dos elementos estruturas que compõem o edfício.
+As Figuras <a href="#fig1">1</a> e <a href="#fig1">2</a> apresentam a plantas de interferência estrutural dos pilares e vigas na arquitetura do edifício.
 </p>
 
 <table border = "0" style = "width:100%">
   <tr>
-    <td><center><img src = "assets/images/figura1.jpeg" width = "100%"></center></td>
+    <td><center><img src = "assets/images/interferencia_terreo.png" width = "100%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig1"><b>Figura 1.</b> Interferência de pilares.</p></center></td>
+    <td><center><p align = "justify" id = "fig1"><b>Figura 1.</b> Interferência de pilares e vigas no térreo.</p></center></td>
   </tr>
   <tr>
-    <td><center><img src = "assets/images/figura2.jpeg" width = "150%"></center></td>
+    <td><center><img src = "assets/images/interferencia_cobertura.png" width = "100%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig2"><b>Figura 2.</b> Pavimento térreo.</p></center></td>
-  </tr>
-  <tr>
-    <td><center><img src = "assets/images/figura3.jpeg" width = "150%"></center></td>
-  </tr>
-  <tr>
-    <td><center><p align = "justify" id = "fig3"><b>Figura 3.</b> Pavimento superior.</p></center></td>
+    <td><center><p align = "justify" id = "fig2"><b>Figura 2.</b> Interferência de pilares e vigas na cobertura.</p></center></td>
   </tr>
 </table>
 

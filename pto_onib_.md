@@ -12,7 +12,7 @@ has_toc: true
 
 <ol>
   <li>
-    <p align = "justify"><b>Dimensões:</b> O abrigo terá dimensões de 1,50 metros de largura por 4,50 metros de comprimento. Essas dimensões foram cuidadosamente escolhidas para acomodar um número razoável de passageiros com conforto e manter um tamanho adequado para a instalação em locais urbanos.</p>
+    <p align = "justify"><b>Dimensões:</b> O abrigo terá dimensões de 1,51 metros de largura por 4,51 metros de comprimento. Essas dimensões foram cuidadosamente escolhidas para acomodar um número razoável de passageiros com conforto e manter um tamanho adequado para a instalação em locais urbanos.</p>
   </li>
   <li>
     <p align = "justify"><b>Estrutura:</b> A estrutura do ponto de ônibus será construída em concreto armado. Essa escolha garantirá a estabilidade e a longevidade da estrutura, suportando as condições climáticas e o uso constante pelos passageiros. No caso a cobertura, pilares, vigas e fundações serão em concreto armado.</p> 
