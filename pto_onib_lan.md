@@ -264,23 +264,23 @@ Para aplicar a metodologia descrita acima devemos considerar os pilares como ele
     </tr>
     <tr>
       <td>VC2</td>
-      <td>3,90</td>
+      <td>1,06</td>
       <td>\[min \left(0,30/2,\;0,30 \cdot 0,45 \right) = 0,13\]</td>
       <td>\[min \left(0,14/2,\;0,30 \cdot 0,45 \right) = 0,07\]</td>
-      <td>\[3,90+0,13\cdot2=4,16\]</td>
+      <td>\[1,06+0,13+0,07=1,26\]</td>
     </tr>
     <tr>
       <td>VC3</td>
-      <td>3,90</td>
+      <td>1,36</td>
       <td>não se aplica pois não tem apoio</td>
       <td>\[min \left(0,14/2,\;0,30 \cdot 0,45 \right) = 0,07\]</td>
-      <td>\[3,90+0,0.07=3,97¹\]</td>
+      <td>\[1,36+0,07=1,43¹\]</td>
     </tr>
   </tbody>
 </table>
 
 <p align = "justify">
-Como usaremos o sistema de pórtico plano para determinação dos esforços finais e então dimensionamento dos elementos faremos duas adequações para evitar imperfeições geométricas no modelo estrutural. A primeira é de que utilizaremos os vãos efetivos do pavimento superior para refletir o modelo estrutural do térreo. ¹Além disso o vão efetivo das vigas VC2 e VC3 serão igualados por critério de facilidade de determinação das dimensões do pórtico final.  
+Como usaremos o sistema de pórtico plano para determinação dos esforços finais e então dimensionamento dos elementos faremos duas adequações para evitar imperfeições geométricas no modelo estrutural. A primeira é de que utilizaremos os vãos efetivos do pavimento superior para refletir o modelo estrutural do térreo. ¹Além disso o vão efetivo das vigas VC2 e VC3 serão igualados por critério de facilidade de determinação das dimensões do pórtico final. No caso o vão empregado será oda VC3.
 </p>
 
 <h3>Elemento isolado: pilares</h3> 
@@ -308,4 +308,17 @@ Considerando que o pé esquerdo do projeto é de 2,20 m e que na posição da vi
       <td>\[2,05\]</td>
     </tr>
   </tbody>
+</table>
+
+<p align = "justify">
+Logo podemos construir o diagrama de barras unifilares do projeto do ponto de ônibus e então fazer a determinação dos esforços e dimensionamento dos elementos estruturais. A Fgiura <a href="#fig6">6</a> apresenta o modelo determinado anteriormente.
+</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td><center><img src = "assets/images/3d.png" width = "150%"></center></td>
+  </tr>
+  <tr>
+    <td><center><p align = "justify" id = "fig6"><b>Figura 6.</b> Diagramas de barras unifilares que formam o pórtico 3D do projeto estrutural.</p></center></td>
+  </tr>
 </table>

@@ -57,12 +57,54 @@ No caso deste projeto a laje LC1 fica engastada na viga VC1 visto que está é c
 
 <table border = "0" style = "width:100%">
   <tr>
-    <td><center><img src = "assets/images/figura1.jpeg" width = "100%"></center></td>
+    <td><center><img src = "assets/images/charneiras.png" width = "100%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig1"><b>Figura 1.</b> Proposta de arquitetura.</p></center></td>
+    <td><center><p align = "justify" id = "fig1"><b>Figura 1.</b> Charneiras LC1.</p></center></td>
   </tr>
 </table>
+
+<p align = "justify">
+No caso deste projeto o valor da A1 é de 4,83 m² e o valor de A2 é de 0,56 m². 
+</p>
+
+<p align = "justify" id = "tab3"><b>Tabela 3.</b> Vão efetivo das vigas da cobertura.</p>
+
+<table style = "width:100%">
+  <thead>
+    <tr>
+      <th>Viga</th>
+      <th>\(L_{0} (m)\)</th>
+      <th>\(a_{1} (m)\)</th>
+      <th>\(a_{2} (m)\)</th>
+      <th>\(L_{ef} (m)\)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VC1</td>
+      <td>3,90</td>
+      <td>\[min \left(0,30/2,\;0,30 \cdot 0,45 \right) = 0,13\]</td>
+      <td>\[min \left(0,30/2,\;0,30 \cdot 0,45 \right) = 0,13\]</td>
+      <td>\[3,90+0,13\cdot2=4,16\]</td>
+    </tr>
+    <tr>
+      <td>VC2</td>
+      <td>1,06</td>
+      <td>\[min \left(0,30/2,\;0,30 \cdot 0,45 \right) = 0,13\]</td>
+      <td>\[min \left(0,14/2,\;0,30 \cdot 0,45 \right) = 0,07\]</td>
+      <td>\[1,06+0,13+0,07=1,26\]</td>
+    </tr>
+    <tr>
+      <td>VC3</td>
+      <td>1,36</td>
+      <td>não se aplica pois não tem apoio</td>
+      <td>\[min \left(0,14/2,\;0,30 \cdot 0,45 \right) = 0,07\]</td>
+      <td>\[1,36+0,07=1,43¹\]</td>
+    </tr>
+  </tbody>
+</table>
+
 
 <!-- <h3>Carregamento nas vigas do térreo</h3>
 que nestede 11,5 cm de espessura e reboco e 0,50 cm em cada face totalizando 1,70 kN/m² conforme tabela 2 da ABNT NBR 6120. Além disso uma das faces da arquitetura exige um fechamento em vidro com espessura de 10 mm (Peso específico aparente de 22 kN/m³). -->
