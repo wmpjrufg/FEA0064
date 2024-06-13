@@ -167,7 +167,7 @@ O carregamento estimado para essa cobertura será de \( q=6\;kN/m² \). Com isso
 <p align = "justify">
 Para este projeto será considerado um \(f_{ck}\) de 25 MPa (25.000 kPa) para as peças de concreto. Isso leva a um valor de \(f_{cd} = 25000/1,40=17857,14 kPa\).
 <br><br>
-Além disso vamos considerar que a tensão no aço para pré-dimensionamento será para um encurtamento de 0,2% nas armaduras sendo este valor igual a 420 MPa. Para a quantidade de armadura será adotado o valor de taxa mecânica igual a 2%.
+Além disso vamos considerar que a tensão no aço para pré-dimensionamento será para um encurtamento de 0,2% nas armaduras sendo este valor igual a 420 MPa. Para a quantidade de armadura será adotado o valor de taxa mecânica de armadura igual a 2%.
 <br><br>
 Após a determinação da área de influência e a estimativa de carregamento no pavimento deve-se obter a área estimada de um pilar de concreto conforme a Tabela <a href="#tab3">3</a>.
 </p>
@@ -232,7 +232,7 @@ Dado que todas as vigas tem largura de 14 cm ou 0,14 m a condição \(t/2\) ser�
     <td><center><img src = "assets/images/vao_ef_laje.png" width = "150%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig3"><b>Figura 5.</b> Vão efetivo da laje</p></center></td>
+    <td><center><p align = "justify" id = "fig3"><b>Figura 5.</b> Vão efetivo da laje.</p></center></td>
   </tr>
 </table>
 
@@ -248,10 +248,10 @@ Para aplicar a metodologia descrita acima devemos considerar os pilares como ele
   <thead>
     <tr>
       <th>Viga</th>
-      <th>\(L_{0} (m)\)</th>
-      <th>\(a_{1} (m)\)</th>
-      <th>\(a_{2} (m)\)</th>
-      <th>\(L_{ef} (m)\)</th>
+      <th>\(L_{0} \; (m)\)</th>
+      <th>\(a_{1} \; (m)\)</th>
+      <th>\(a_{2} \; (m)\)</th>
+      <th>\(L_{ef} \; (m)\)</th>
     </tr>
   </thead>
   <tbody>
@@ -280,7 +280,7 @@ Para aplicar a metodologia descrita acima devemos considerar os pilares como ele
 </table>
 
 <p align = "justify">
-Como usaremos o sistema de pórtico plano para determinação dos esforços finais e então dimensionamento dos elementos faremos duas adequações para evitar imperfeições geométricas no modelo estrutural. A primeira é de que utilizaremos os vãos efetivos do pavimento superior para refletir o modelo estrutural do térreo. ¹Além disso o vão efetivo das vigas VC2 e VC3 serão igualados por critério de facilidade de determinação das dimensões do pórtico final. No caso o vão empregado será oda VC3.
+Como usaremos o sistema de pórtico plano para determinação dos esforços finais e então dimensionamento dos elementos faremos duas adequações para evitar imperfeições geométricas no modelo estrutural. A primeira é de que utilizaremos os vãos efetivos do pavimento superior para refletir o modelo estrutural do térreo. ¹Além disso o vão efetivo das vigas VC2 e VC3 serão igualados por critério de facilidade de determinação das dimensões do pórtico final. No caso o vão empregado será o da viga VC3.
 </p>
 
 <h3>Elemento isolado: pilares</h3> 
@@ -296,9 +296,9 @@ Considerando que o pé esquerdo do projeto é de 2,20 m e que na posição da vi
 <table style = "width:100%">
   <thead>
     <tr>
-      <th>\(l_{0} + h (m)\)</th>
-      <th>\(l (m)\)</th>
-      <th>\(l_{ef} (m)\)</th>
+      <th>\(l_{0} + h \; (m)\)</th>
+      <th>\(l \; (m)\)</th>
+      <th>\(l_{ef} \; (m)\)</th>
     </tr>
   </thead>
   <tbody>

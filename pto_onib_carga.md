@@ -18,13 +18,13 @@ O carregamento será determinado conforme prescrição da ABNT NBR 6120. O memor
 
 <ul>
 <li>Carga permanente: Peso próprio da estrutura, fechamento em vidro, fechamento em alvenaria, impermeabilização da cobertura;</li>
-<li>Carga variável da cobertura</li>
+<li>Carga variável da cobertura.</li>
 </ul>
 
 <h1>Carga na laje</h1> 
 
 <p align = "justify">
-A carga que atua na laje LC1 será divida entre carregamento permanente e variável. O peso próprio da laje é obtido através da multiplicação do peso específico do concreto e a altura da laje, a qual tem o valor de 10 cm. Logo o valor deste carregamento é \(g_{pp}=0,10 \cdot 25 = 2,50 kN/m²\).
+A carga que atua na laje LC1 será divida entre carregamento permanente e variável. O peso próprio da laje é obtido através da multiplicação do peso específico do concreto e a altura da laje, a qual tem o valor de 10 cm. Logo o valor deste carregamento é \( g_{pp}=0,10 \cdot 25 = 2,50 kN/m² \).
 <br><br>
 Consultando a tabela 4 da ABNT NBR 6120 adotou-se como carga permanente o valor de carga para a manta de 10 cm com carga de 1,80 kN/m² \(\left(g_{ext}\right)\).<br<br>
 Logo a carga total é dada por:
@@ -32,7 +32,7 @@ Logo a carga total é dada por:
 
 <table border = "0" style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[ g = g_{pp} + g_{ext} = 2,50+1,80=4,30\right| \]</td>
+        <td style="width: 90%;">\[ g = g_{pp} + g_{ext} = 2,50+1,80=4,30 \]</td>
         <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
     </tr>
 </table>
@@ -65,7 +65,7 @@ No caso deste projeto a laje LC1 fica engastada na viga VC1 visto que está é c
 </table>
 
 <p align = "justify">
-No caso deste projeto o valor da A1 é de 4,83 m² e o valor de A2 é de 0,56 m². Logo é possível determinar a carga devido a reação da laje LC1 em todas as vigas da cobertura conforme Tabela <a href="#tab1">1</a>
+No caso deste projeto o valor da A1 é de 4,83 m² e o valor de A2 é de 0,56 m². Logo é possível determinar a carga devido a reação da laje LC1 em todas as vigas da cobertura conforme Tabela <a href="#tab1">1.</a>
 </p>
 
 <p align = "justify" id = "tab1"><b>Tabela 1.</b> Carga nas vigas da cobertura.</p>
@@ -85,7 +85,7 @@ No caso deste projeto o valor da A1 é de 4,83 m² e o valor de A2 é de 0,56 m�
     <tr>
       <td>VC1</td>
       <td>4,83</td>
-      <td>\[g\]= 4,30</td>
+      <td>\(g\)= 4,30</td>
       <td>4,16</td>
       <td>\[\frac{4,30 \cdot 4,83}{4,16} = 4,99\]</td>
       <td>\[\ 0,14 \cdot 0,45 \cdot 25 = 1,57\]</td>
@@ -93,7 +93,7 @@ No caso deste projeto o valor da A1 é de 4,83 m² e o valor de A2 é de 0,56 m�
     <tr>
       <td>VC1</td>
       <td>4,83</td>
-      <td>\[q\]= 1,50</td>
+      <td>\(q\)= 1,50</td>
       <td>4,16</td>
       <td>\[\frac{1,50 \cdot 4,83}{4,16} = 1,74\]</td>
       <td><center>-</center></td>
@@ -101,17 +101,17 @@ No caso deste projeto o valor da A1 é de 4,83 m² e o valor de A2 é de 0,56 m�
     <tr>
       <td>VC2=VC3</td>
       <td>0,56</td>
-      <td>\[g\]= 4,30</td>
+      <td>\(g\)= 4,30</td>
       <td>1,43</td>
-      <td>\[\frac{4,30 \cdot 0,56}{1,43} = 1,74\]</td>
+      <td>\[\frac{4,30 \cdot 0,56}{1,43} = 1,68\]</td>
       <td>\[\ 0,14 \cdot 0,45 \cdot 25 = 1,57\]</td>
     </tr>
     <tr>
       <td>VC2=VC3</td>
       <td>0,56</td>
-      <td>\[q\]= 1,50</td>
+      <td>\(q\)= 1,50</td>
       <td>1,43</td>
-      <td>\[\frac{1,50 \cdot 0,56}{1,43} = 1,74\]</td>
+      <td>\[\frac{1,50 \cdot 0,56}{1,43} = 0,59\]</td>
       <td><center>-</center></td>
     </tr>
   </tbody>
@@ -120,7 +120,7 @@ No caso deste projeto o valor da A1 é de 4,83 m² e o valor de A2 é de 0,56 m�
 <h3>Carregamento nas vigas do térreo</h3>
 
 <p align = "justify">
-Considerando que a parede tem 15 cm de espessura foi selecionado neste projeto a alvenaria de vedação 11,5 cm de espessura e reboco e 2,00 cm em cada face totalizando 1,70 kN/m² (considerando 1,75 m de fechamento totaliza \(g_{alv}=2,97\;kN/m\)) conforme tabela 2 da ABNT NBR 6120. Além disso uma das faces da arquitetura exige um fechamento em vidro com espessura de 10 mm (peso específico aparente de 22 kN/m³) e altura de 1,75 m que totaliza \(g_{vidro}=22 \cdot 0,01 \cdot 1,75=0,38\;kN/m \). A Tabela <a href="#tab2">2</a> resume o carregamento nas vigas do térreo
+Considerando que a parede tem 15 cm de espessura foi selecionado neste projeto a alvenaria de vedação 11,5 cm de espessura e reboco e 2,00 cm em cada face totalizando 1,70 kN/m² (considerando 1,75 m de fechamento totaliza \(g_{alv}=2,97\;kN/m\)) conforme tabela 2 da ABNT NBR 6120. Além disso uma das faces da arquitetura exige um fechamento em vidro com espessura de 10 mm (peso específico aparente de 22 kN/m³) e altura de 1,75 m que totaliza \(g_{vidro}=22 \cdot 0,01 \cdot 1,75=0,38\;kN/m \). A Tabela <a href="#tab2">2</a> resume o carregamento nas vigas do térreo.
 </p>
 
 <p align = "justify" id = "tab2"><b>Tabela 2.</b> Carga nas vigas do térreo.</p>
