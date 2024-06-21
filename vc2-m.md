@@ -177,7 +177,7 @@ Para o caso apresentado, tem-se que:
 </p>
 
 <p>
-  \[M_{rd, lim} = 0,14 \cdot 0,255^{2} \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \cdot [ 1 - ( 0,5 \cdot 0,80 \cdot 0,45 ) ] = 40,79 \, \text{kN.m}\]
+ \[M_{rd, lim} = 0,14 \cdot 0,264^{2} \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \cdot [ 1 - ( 0,5 \cdot 0,80 \cdot 0,45 ) ] = 54,65 \, \text{kN.m}\]
 </p>
 
 <p aligin = "justify">
