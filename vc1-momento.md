@@ -46,7 +46,7 @@ A seguir são apresentados os dados da viga V1.
   </tr>
   <tr>
     <td align = "left">Altura (\(h\))</td>
-    <td>0,30</td>
+    <td>0,45</td>
     <td>\(m\)</td>
   </tr>
   <tr>
