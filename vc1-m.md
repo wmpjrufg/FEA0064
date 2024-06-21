@@ -136,7 +136,7 @@ O segundo passo, é a verificação do Momento Resistente de Cálculo (Mrd) para
 
 <table>
   <tr>
-    <td align = "left">\[M_{rd, lim} = bw \cdot d^{2}\cdot \lambda  \cdot \beta \cdot \alpha_{c} \cdot f_{cd} \cdot [ 1 - ( 0,5 \cdot \lambda \cdot \beta ) ]\]</td>
+    <td align = "left">\[M_{rd, lim} = bw \cdot d^{2}\cdot \lambda \cdot \beta \cdot \alpha_{c} \cdot f_{cd} \cdot [ 1 - ( 0,5 \cdot \lambda \cdot \beta ) ]\]</td>
     <td><p align = "right" id = "eq2">(2)</p></td>
   </tr>
 </table>
@@ -177,7 +177,7 @@ Para o caso apresentado, tem-se que:
 </p>
 
 <p>
-  \[M_{rd, lim} = 0,14 \cdot 0,396^{2} \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \cdot [ 1 - ( 0,5 \cdot 0,80 \cdot 0,80 ) ] = 181,28 \, \text{kN.m}\]
+  \[M_{rd, lim} = 0,14 \cdot 0,396^{2} \cdot 0,8 \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \cdot [ 1 - ( 0,5 \cdot 0,80 \cdot 0,45) ] = 98,37 \, \text{kN.m}\]
 </p>
 
 <p aligin = "justify">
@@ -210,9 +210,9 @@ O terceiro passo, é a determinação da altura linha neutra (\(X_{III}\)).
 </p>
 
 <p>
-  \[\epsilon = \frac{8,163}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,00384\]
+  \[\epsilon = \frac{15,96}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,007511\]
 
-  \[X_{III} = \frac{0,255 - \sqrt{( 0,255^{2} - ( 2 \cdot 0,00384 ) )}}{0,80} = 0,02 \, \text{m}\]
+  \[X_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,007511 ) )}}{0,80} = 0,024 \, \text{m}\]
 </p>
 
 <p aligin = "justify">
@@ -220,7 +220,7 @@ Com isso, é possível calcular a distância do ponto de aplicação da resultan
 </p>
 
 <p>
-\[z = 0,255 - (0,5 \cdot 0,80 \cdot 0,02) = 0,25 \, \text{m}\]
+\[z = 0,396 - (0,5 \cdot 0,80 \cdot 0,024) = 0,38 \, \text{m}\]
 </p>
 
 <h2>4. Armadura Final</h2>
@@ -242,5 +242,5 @@ Dessa forma, com os valores do braço de alvanca \(z\) <a href="#eq5">(5)</a>: e
 </p>
 
 <p>
-\[As = {\frac{8,163}{0,25*\frac{500000}{1,15}}} = 7,59*10^-5 \, \text{m²}\]
+\[As = {\frac{15,96}{0,38*\frac{500000}{1,15}}} = 9,50*10^-5 \, \text{m²}\]
 </p>
