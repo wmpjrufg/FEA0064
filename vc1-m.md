@@ -136,7 +136,7 @@ O segundo passo, é a verificação do Momento Resistente de Cálculo (Mrd) para
 
 <table>
   <tr>
-    <td align = "left">\[M_{rd, lim} = bw \cdot d^{2} \cdot \beta \cdot \alpha_{c} \cdot f_{cd} \cdot [ 1 - ( 0,5 \cdot \lambda \cdot \beta ) ]\]</td>
+    <td align = "left">\[M_{rd, lim} = bw \cdot d^{2}\cdot \lambda  \cdot \beta \cdot \alpha_{c} \cdot f_{cd} \cdot [ 1 - ( 0,5 \cdot \lambda \cdot \beta ) ]\]</td>
     <td><p align = "right" id = "eq2">(2)</p></td>
   </tr>
 </table>
