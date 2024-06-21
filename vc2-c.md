@@ -125,10 +125,10 @@ Portanto, tem-se que:
 </p>
 
 <p>
-\[V_{sd} = 1,791 \cdot 1,4 + 0,485 \cdot 1,4 = 3,186 \text{kN.m}\]
+\[V_{sd} = 1,791 \cdot 1,4 + 0,485 \cdot 1,4 = 3,186 \text{kN}\]
 </p>
 
-<h2>2. Determinação do cortate resistente máximo</h2>
+<h2>2. Determinação do cortante resistente máximo</h2>
 
 <p aligin = "justify">
 
@@ -136,48 +136,18 @@ Portanto, tem-se que:
 
 <table>
   <tr>
-    <td align = "left">\[V_{Rd2} = 0,27 \cdot  \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot [ 1 +  cot(\alpha)  ]\]</td>
+    <td align = "left">\[V_{Rd2} = 0,27 \cdot  \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot [ 1 +  cot(\alpha)  ]≥V_{Sd}\]</td>
     <td><p align = "right" id = "eq2">(2)</p></td>
   </tr>
 </table>
-
-<p aligin = "justify">
-Para o caso apresentado, tem-se que:
-</p>
-
-<table>
-  <thead align="center">
-    <tr>
-      <th>Variável</th>
-      <th>Valor</th>
-      <th>Observação</th>
-    </tr>
-  </thead>
-  <tbody align="center">
-    <tr>
-      <td>\(\beta\)</td>
-      <td>0,45</td>
-      <td>\(f_{ck} \leq f_{yk}\)</td>
-    </tr>
-    <tr>
-      <td>\(\lambda\)</td>
-      <td>0,80</td>
-      <td>\(f_{ck} \leq 50 \, \text{MPa}\)</td>
-    </tr>
-    <tr>
-      <td>\(\alpha_{c}\)</td>
-      <td>0,85</td>
-      <td>Para concretos até C50</td>
-    </tr>
-  </tbody>
-  </table>
 
 <p aligin = "justify">
   Logo, aplicando-se a equação <a href="#eq2">(2)</a>, tem-se que:
 </p>
 
 <p>
-  \[M_{rd, lim} = 0,14 \cdot 0,255^{2} \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \cdot [ 1 - ( 0,5 \cdot 0,80 \cdot 0,45 ) ] = 40,79 \, \text{kN.m}\]
+      <td align = "left">\[V_{Rd2} = 0,27 \cdot  0,9 \cdot \frac{250000}{1,4} \cdot 0,14 \cdot 0,264 \cdot [ 1 +  cot(90)  ]=799,97 \text{kN}\]</td></p>
+
 </p>
 
 <p aligin = "justify">
