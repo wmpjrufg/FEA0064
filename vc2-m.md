@@ -51,7 +51,7 @@ A seguir são apresentados os dados da viga V1.
   </tr>
   <tr>
     <td align = "left">Altura Útil (\(d\))</td>
-    <td>0,250</td>
+    <td>0,264</td>
     <td>\(m\)</td>
   </tr>
   <tr>
