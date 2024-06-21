@@ -51,17 +51,17 @@ A seguir são apresentados os dados da viga V1.
   </tr>
   <tr>
     <td align = "left">Altura Útil (\(d\))</td>
-    <td>0,255</td>
+    <td>0,396</td>
     <td>\(m\)</td>
   </tr>
   <tr>
     <td align = "left">Momento característico devido cargas permanentes (\(M_{gk}\))</td>
-    <td>4,295</td>
+    <td>1,1</td>
     <td>\(kN.m\)</td>
   </tr>
   <tr>
     <td align = "left">Momento característico devido cargas variáveis (\(M_{qk}\))</td>
-    <td>1,536</td>
+    <td>0</td>
     <td>\(kN.m\)</td>
   </tr>
   <tr>
@@ -125,7 +125,7 @@ Portanto, tem-se que:
 </p>
 
 <p>
-\[M_{sd} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \, \text{kN.m}\]
+\[M_{sd} = 1,1 \cdot 1,4 + 0 \cdot 1,4 = 1,54 \, \text{kN.m}\]
 </p>
 
 <h2>2. Determinação do momento Resistente de Cálculo</h2>
