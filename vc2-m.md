@@ -125,7 +125,7 @@ Portanto, tem-se que:
 </p>
 
 <p>
-\[ M_{sd} = 0,414	 \cdot 1,4 + 0,112 \cdot 1,4 \]
+\[ M_{sd} = 0,414	 \cdot 1,4 + 0,112 \cdot 1,4 = 0,736\, \text{kN.m}\]\
 </p>
 
 <h2>2. Determinação do momento Resistente de Cálculo</h2>
