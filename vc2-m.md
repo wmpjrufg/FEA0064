@@ -46,22 +46,22 @@ A seguir são apresentados os dados da viga V1.
   </tr>
   <tr>
     <td align = "left">Altura (\(h\))</td>
-    <td>0,45</td>
+    <td>0,3</td>
     <td>\(m\)</td>
   </tr>
   <tr>
     <td align = "left">Altura Útil (\(d\))</td>
-    <td>0,255</td>
+    <td>0,250</td>
     <td>\(m\)</td>
   </tr>
   <tr>
     <td align = "left">Momento característico devido cargas permanentes (\(M_{gk}\))</td>
-    <td>4,295</td>
+    <td>0,414</td>
     <td>\(kN.m\)</td>
   </tr>
   <tr>
     <td align = "left">Momento característico devido cargas variáveis (\(M_{qk}\))</td>
-    <td>1,536</td>
+    <td>0,112</td>
     <td>\(kN.m\)</td>
   </tr>
   <tr>
