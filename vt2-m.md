@@ -100,7 +100,7 @@ A seguir são apresentados os dados da viga V1.
 <p aligin = "justify">
 Diagrama de momento devido cargas permanentes (FTOOL):
 <br>
-<img src="https://imgur.com/YJNVeYR.jpg" alt="Diagrama de momento devido cargas permanentes">
+<img src="https://imgur.com/Scge7Mr.jpg" alt="Diagrama de momento devido cargas permanentes">
 <br>
 
 <h2>1. Determinação dos esforços da viga (cargas permanentes e variáveis)</h2>  
