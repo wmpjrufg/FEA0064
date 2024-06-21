@@ -27,7 +27,7 @@ A seguir, estão os passos gerais envolvidos no projeto de flexão pura para uma
 
 <h2>Dados da viga de referência</h2>  
 <p aligin = "justify">
-A seguir são apresentados os dados da viga VT1. 
+A seguir são apresentados os dados da viga VT 3. 
 </p>
 
 <table>
@@ -104,7 +104,7 @@ Diagrama de momento devido cargas permanentes (FTOOL):
 <br>
 Diagrama de momento devido cargas variáveis (FTOOL):
 <br>
-<img src="https://i.imgur.com/gA3RSqf.png" alt="Diagrama de momento devido cargas variáveis (FTOOL)">
+<img src="IMAGEM" alt="Diagrama de momento devido cargas variáveis (FTOOL)">
 </p>
 
 <h2>1. Determinação dos esforços da viga (cargas permanentes e variáveis)</h2>  
