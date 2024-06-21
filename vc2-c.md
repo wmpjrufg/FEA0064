@@ -125,18 +125,18 @@ Portanto, tem-se que:
 </p>
 
 <p>
-\[V_{sd} = 1,791 \cdot 1,4 + 0,485 \cdot 1,4 = 3,186 \, \text{kN.m}\]
+\[V_{sd} = 1,791 \cdot 1,4 + 0,485 \cdot 1,4 = 3,186 \text{kN.m}\]
 </p>
 
-<h2>2. Determinação do momento Resistente de Cálculo</h2>
+<h2>2. Determinação do cortate resistente máximo</h2>
 
 <p aligin = "justify">
-O segundo passo, é a verificação do Momento Resistente de Cálculo (Mrd) para determinação do tipo de armadura a ser utilizado. Tal valor pode ser encontrado por meio da equação <a href="#eq2">(2)</a>.
+
 </p>
 
 <table>
   <tr>
-    <td align = "left">\[M_{rd, lim} = bw \cdot d^{2} \cdot \beta \cdot \alpha_{c} \cdot f_{cd} \cdot [ 1 - ( 0,5 \cdot \lambda \cdot \beta ) ]\]</td>
+    <td align = "left">\[V_{Rd2} = 0,27 \cdot  \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot [ 1 +  cot(\alpha)  ]\]</td>
     <td><p align = "right" id = "eq2">(2)</p></td>
   </tr>
 </table>
