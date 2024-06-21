@@ -56,7 +56,7 @@ A seguir são apresentados os dados da viga VC3.
   </tr>
   <tr>
     <td align = "left">Momento característico devido cargas permanentes (\(M_{gk}\))</td>
-    <td>3,278</td>
+    <td>2,6376</td>
     <td>\(kN.m\)</td>
   </tr>
   <tr>
@@ -125,7 +125,7 @@ Portanto, tem-se que:
 </p>
 
 <p>
-\[M_{sd} = 3,278 \cdot 1,4 + 0,732 \cdot 1,4 = 5,614 \, \text{kN.m}\]
+\[M_{sd} = 2,6376 \cdot 1,4 + 0,732 \cdot 1,4 = 4,7174 \, \text{kN.m}\]
 </p>
 
 <h2>2. Determinação do momento Resistente de Cálculo</h2>
@@ -210,9 +210,9 @@ O terceiro passo, é a determinação da altura linha neutra (\(X_{III}\)).
 </p>
 
 <p>
-  \[\epsilon = \frac{8,163}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,00384\]
+  \[\epsilon = \frac{4,7174}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,00222\]
 
-  \[X_{III} = \frac{0,255 - \sqrt{( 0,255^{2} - ( 2 \cdot 0,00384 ) )}}{0,80} = 0,02 \, \text{m}\]
+  \[X_{III} = \frac{0,255 - \sqrt{( 0,255^{2} - ( 2 \cdot 0,00222 ) )}}{0,80} = 0,011 \, \text{m}\]
 </p>
 
 <p aligin = "justify">
@@ -220,7 +220,7 @@ Com isso, é possível calcular a distância do ponto de aplicação da resultan
 </p>
 
 <p>
-\[z = 0,255 - (0,5 \cdot 0,80 \cdot 0,02) = 0,25 \, \text{m}\]
+\[z = 0,255 - (0,5 \cdot 0,80 \cdot 0,011) = 0,2506 \, \text{m}\]
 </p>
 
 <h2>4. Armadura Final</h2>
