@@ -61,7 +61,7 @@ A seguir são apresentados os dados da viga VT1.
   </tr>
   <tr>
     <td align = "left">Momento característico devido cargas variáveis (\(M_{qk}\))</td>
-    <td>0,8</td>
+    <td>0,78</td>
     <td>\(kN.m\)</td>
   </tr>
   <tr>
