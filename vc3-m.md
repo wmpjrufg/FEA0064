@@ -27,7 +27,7 @@ A seguir, estão os passos gerais envolvidos no projeto de flexão pura para uma
 
 <h2>Dados da viga de referência</h2>  
 <p aligin = "justify">
-A seguir são apresentados os dados da viga V1. 
+A seguir são apresentados os dados da viga VC3. 
 </p>
 
 <table>
@@ -125,7 +125,7 @@ Portanto, tem-se que:
 </p>
 
 <p>
-\[M_{sd} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \, \text{kN.m}\]
+\[M_{sd} = 3,278 \cdot 1,4 + 0,732 \cdot 1,4 = 8,163 \, \text{kN.m}\]
 </p>
 
 <h2>2. Determinação do momento Resistente de Cálculo</h2>
