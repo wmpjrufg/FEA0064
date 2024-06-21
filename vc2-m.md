@@ -212,7 +212,7 @@ O terceiro passo, é a determinação da altura linha neutra (\(X_{III}\)).
 <p>
   \[\epsilon = \frac{0,736}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,000346\]
 
-  \[X_{III} = \frac{0,255 - \sqrt{( 0,255^{2} - ( 2 \cdot 0,00384 ) )}}{0,80} = 0,02 \, \text{m}\]
+  \[X_{III} = \frac{0,264 - \sqrt{( 0,264^{2} - ( 2 \cdot 0,000346 ) )}}{0,80} = 0,001644 \, \text{m}\]
 </p>
 
 <p aligin = "justify">
