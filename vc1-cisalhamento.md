@@ -1,9 +1,10 @@
 ---
-title: Dimensionamento momento fletor viga V1
+title: projeto viga vc1 cisalhamento
 layout: default
-parent: Ponto de ônibus
-grand_parent: Projeto exemplo
-nav_order: 6
+parent: Exemplo I
+nav_order: 5
+has_children: false
+has_toc: false
 ---
 
 <!--Don't delete this script-->
