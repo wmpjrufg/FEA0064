@@ -150,9 +150,6 @@ Portanto, tem-se que:
 
 </p>
 
-<p aligin = "justify">
-Dessa forma constata-se que \(M_{sd} \leq M_{rd,lim}\), logo deve-se realizar uma armadura simples.
-</p>
 
 <h2>3. Determinação da altura da linha neutra</h2>
 
