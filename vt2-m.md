@@ -51,17 +51,17 @@ A seguir são apresentados os dados da viga V1.
   </tr>
   <tr>
     <td align = "left">Altura Útil (\(d\))</td>
-    <td>0,255</td>
+    <td>0,396</td>
     <td>\(m\)</td>
   </tr>
   <tr>
     <td align = "left">Momento característico devido cargas permanentes (\(M_{gk}\))</td>
-    <td>4,295</td>
+    <td>3,4</td>
     <td>\(kN.m\)</td>
   </tr>
   <tr>
     <td align = "left">Momento característico devido cargas variáveis (\(M_{qk}\))</td>
-    <td>1,536</td>
+    <td>0,0</td>
     <td>\(kN.m\)</td>
   </tr>
   <tr>
@@ -100,12 +100,8 @@ A seguir são apresentados os dados da viga V1.
 <p aligin = "justify">
 Diagrama de momento devido cargas permanentes (FTOOL):
 <br>
-<img src="https://i.imgur.com/1nK2O9A.jpg" alt="Diagrama de momento devido cargas permanentes">
+<img src="https://imgur.com/a/Ss1KMsT" alt="Diagrama de momento devido cargas permanentes">
 <br>
-Diagrama de momento devido cargas variáveis (FTOOL):
-<br>
-<img src="https://i.imgur.com/G67w7wo.jpg" alt="Diagrama de momento devido cargas variáveis (FTOOL)">
-</p>
 
 <h2>1. Determinação dos esforços da viga (cargas permanentes e variáveis)</h2>  
 
@@ -125,7 +121,7 @@ Portanto, tem-se que:
 </p>
 
 <p>
-\[M_{sd} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \, \text{kN.m}\]
+\[M_{sd} = 3,4 \cdot 1,4 + 0 \cdot 1,4 = 4,76 \, \text{kN.m}\]
 </p>
 
 <h2>2. Determinação do momento Resistente de Cálculo</h2>
@@ -177,7 +173,7 @@ Para o caso apresentado, tem-se que:
 </p>
 
 <p>
-  \[M_{rd, lim} = 0,14 \cdot 0,255^{2} \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \cdot [ 1 - ( 0,5 \cdot 0,80 \cdot 0,45 ) ] = 40,79 \, \text{kN.m}\]
+  \[M_{rd, lim} = 0,14 \cdot 0,396^{2} \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \cdot [ 1 - ( 0,5 \cdot 0,80 \cdot 0,45 ) ] = 122.963346 \, \text{kN.m}\]
 </p>
 
 <p aligin = "justify">
@@ -210,9 +206,9 @@ O terceiro passo, é a determinação da altura linha neutra (\(X_{III}\)).
 </p>
 
 <p>
-  \[\epsilon = \frac{8,163}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,00384\]
+  \[\epsilon = \frac{4,76}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0.00224\]
 
-  \[X_{III} = \frac{0,255 - \sqrt{( 0,255^{2} - ( 2 \cdot 0,00384 ) )}}{0,80} = 0,02 \, \text{m}\]
+  \[X_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0.00224 ) )}}{0,80} = 0.0071219 \, \text{m}\]
 </p>
 
 <p aligin = "justify">
@@ -220,7 +216,7 @@ Com isso, é possível calcular a distância do ponto de aplicação da resultan
 </p>
 
 <p>
-\[z = 0,255 - (0,5 \cdot 0,80 \cdot 0,02) = 0,25 \, \text{m}\]
+\[z = 0,396 - (0,5 \cdot 0,80 \cdot 0.0071219) = 0.3931512 \, \text{m}\]
 </p>
 
 <h2>4. Armadura Final</h2>
@@ -242,5 +238,5 @@ Dessa forma, com os valores do braço de alvanca \(z\) <a href="#eq5">(5)</a>: e
 </p>
 
 <p>
-\[As = {\frac{8,163}{0,25*\frac{500000}{1,15}}} = 7,59*10^-5 \, \text{m²}\]
+\[As = {\frac{4,76}{0.3931512*\frac{500000}{1,15}}} = 2.7846791*10^-5 \, \text{m²}\]
 </p>
