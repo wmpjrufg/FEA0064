@@ -220,7 +220,7 @@ Com isso, é possível calcular a distância do ponto de aplicação da resultan
 </p>
 
 <p>
-\[z = 0,255 - (0,5 \cdot 0,80 \cdot 0,02) = 0,25 \, \text{m}\]
+\[z = 0,264 - (0,5 \cdot 0,80 \cdot 0,001644) = 0,263 \, \text{m}\]
 </p>
 
 <h2>4. Armadura Final</h2>
