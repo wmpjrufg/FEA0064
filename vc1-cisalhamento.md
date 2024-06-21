@@ -235,7 +235,7 @@ Dessa forma, com os valores do braço de alvanca \(z\) <a href="#eq5">(5)</a>: e
     <td><p align = "right" id = "eq6">(6)</p></td>
   </tr>
   <tr>
-  <table>
+</table>
 
 <p aligin = "justify">
   Logo, aplicando-se a equação <a href="#eq6">(6)</a> tem-se que armadura final para a flexão é:
