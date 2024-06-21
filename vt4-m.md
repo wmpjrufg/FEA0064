@@ -56,12 +56,12 @@ A seguir são apresentados os dados da viga V1.
   </tr>
   <tr>
     <td align = "left">Momento característico devido cargas permanentes (\(M_{gk}\))</td>
-    <td>4,295</td>
+    <td>0,875</td>
     <td>\(kN.m\)</td>
   </tr>
   <tr>
     <td align = "left">Momento característico devido cargas variáveis (\(M_{qk}\))</td>
-    <td>1,536</td>
+    <td>0</td>
     <td>\(kN.m\)</td>
   </tr>
   <tr>
