@@ -226,7 +226,9 @@ O terceiro passo, é a determinação da altura linha neutra (\(X_{III}\)).
 </p>
 
 <p>
-  \[\epsilon = \frac{8,163}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,00384\]
+  \[\epsilon1 = \frac{0,780}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,000114\]
+   \[\epsilon2 = \frac{0,389}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,0000569\]
+    \[\epsilon3 = \frac{0,780}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,000114\]
 
   \[X_{III} = \frac{0,255 - \sqrt{( 0,255^{2} - ( 2 \cdot 0,00384 ) )}}{0,80} = 0,02 \, \text{m}\]
 </p>
