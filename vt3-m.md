@@ -261,5 +261,8 @@ Dessa forma, com os valores do braço de alvanca \(z\) <a href="#eq5">(5)</a>: e
 </p>
 
 <p>
-\[As = {\frac{8,163}{0,25*\frac{500000}{1,15}}} = 7,59*10^-5 \, \text{m²}\]
+\[As1,3 = {\frac{0,780}{0,25*\frac{500000}{1,15}}} = 4,376*10^-6 \, \text{m²}\]
+
+\[As = {\frac{8,163}{0,25*\frac{500000}{1,15}}} = 2,184*10^-6 \, \text{m²}\]
+
 </p>
