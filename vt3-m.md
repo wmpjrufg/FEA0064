@@ -135,14 +135,12 @@ Portanto, tem-se que:
 </p>
 
 <p>
-\[M_{sd1} = 0,557 \cdot 1,4 + 0 \cdot 1,4 = 0,780 \, \text{kN.m}\]
+\[M_{sd1,3} = 0,557 \cdot 1,4 + 0 \cdot 1,4 = 0,780 \, \text{kN.m}\]
 </p>
 <p>
 \[M_{sd2} = 0,278 \cdot 1,4 + 0 \cdot 1,4 = 0,398 \, \text{kN.m}\]
 </p>
 <p>
-\[M_{sd3} = 0,557 \cdot 1,4 + 0 \cdot 1,4 = 0,780 \, \text{kN.m}\]
-</p>
 
 <h2>2. Determinação do momento Resistente de Cálculo</h2>
 
@@ -226,11 +224,11 @@ O terceiro passo, é a determinação da altura linha neutra (\(X_{III}\)).
 </p>
 
 <p>
-  \[\epsilon1 = \frac{0,780}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,000114\]
-   \[\epsilon2 = \frac{0,389}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,0000569\]
-    \[\epsilon3 = \frac{0,780}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,000114\]
-
-  \[X_{III} = \frac{0,255 - \sqrt{( 0,255^{2} - ( 2 \cdot 0,00384 ) )}}{0,80} = 0,02 \, \text{m}\]
+  \[\epsilon1,3 = \frac{0,780}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,000114\]
+  
+  \[\epsilon2 = \frac{0,389}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = 0,0000569\]
+  
+  \[X_{III} = \frac{0,41 - \sqrt{( 0,41^{2} - ( 2 \cdot 0,0,000114 ) )}}{0,80} = 0,02 \, \text{m}\]
 </p>
 
 <p aligin = "justify">
