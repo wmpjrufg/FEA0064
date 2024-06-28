@@ -27,7 +27,7 @@ A seguir, estão os passos gerais envolvidos no projeto de flexão pura para uma
 
 <h2>Dados da viga de referência</h2>  
 <p aligin = "justify">
-A seguir são apresentados os dados da viga V1. 
+A seguir são apresentados os dados da viga VT 3. 
 </p>
 
 <table>
@@ -51,17 +51,27 @@ A seguir são apresentados os dados da viga V1.
   </tr>
   <tr>
     <td align = "left">Altura Útil (\(d\))</td>
-    <td>0,255</td>
+    <td>0,41</td>
     <td>\(m\)</td>
   </tr>
   <tr>
-    <td align = "left">Momento característico devido cargas permanentes (\(M_{gk}\))</td>
-    <td>4,295</td>
+    <td align = "left">Momento 1 característico devido cargas permanentes (\(M_{gk}\))</td>
+    <td>0,557</td>
+    <td>\(kN.m\)</td>
+  </tr>
+  <tr>
+    <td align = "left">Momento 2 característico devido cargas permanentes (\(M_{gk}\))</td>
+    <td>0,278</td>
+    <td>\(kN.m\)</td>
+  </tr>
+  <tr>
+    <td align = "left">Momento 3 característico devido cargas permanentes (\(M_{gk}\))</td>
+    <td>0,557</td>
     <td>\(kN.m\)</td>
   </tr>
   <tr>
     <td align = "left">Momento característico devido cargas variáveis (\(M_{qk}\))</td>
-    <td>1,536</td>
+    <td>0</td>
     <td>\(kN.m\)</td>
   </tr>
   <tr>
@@ -100,11 +110,11 @@ A seguir são apresentados os dados da viga V1.
 <p aligin = "justify">
 Diagrama de momento devido cargas permanentes (FTOOL):
 <br>
-<img src="https://i.imgur.com/1nK2O9A.jpg" alt="Diagrama de momento devido cargas permanentes">
+<img src="https://i.imgur.com/Fp5Ns6d.png" alt="Diagrama de momento devido cargas permanentes">
 <br>
 Diagrama de momento devido cargas variáveis (FTOOL):
 <br>
-<img src="https://i.imgur.com/G67w7wo.jpg" alt="Diagrama de momento devido cargas variáveis (FTOOL)">
+<img src="NADA" alt="NADA (FTOOL)">
 </p>
 
 <h2>1. Determinação dos esforços da viga (cargas permanentes e variáveis)</h2>  
@@ -125,7 +135,13 @@ Portanto, tem-se que:
 </p>
 
 <p>
-\[M_{sd} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \, \text{kN.m}\]
+\[M_{sd1} = 0,557 \cdot 1,4 + 0 \cdot 1,4 = 0,780 \, \text{kN.m}\]
+</p>
+<p>
+\[M_{sd2} = 0,278 \cdot 1,4 + 0 \cdot 1,4 = 0,398 \, \text{kN.m}\]
+</p>
+<p>
+\[M_{sd3} = 0,557 \cdot 1,4 + 0 \cdot 1,4 = 0,780 \, \text{kN.m}\]
 </p>
 
 <h2>2. Determinação do momento Resistente de Cálculo</h2>
