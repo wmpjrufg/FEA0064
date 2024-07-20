@@ -32,10 +32,10 @@ O <i>layout</i> do empreendimento é apresentado na Figura <a href="#fig1">1</a>
 
 <table border = "0" style = "width:100%">
   <tr>
-    <td><center><img src = "assets/images/figura1.jpeg" width = "100%"></center></td>
+    <td><center><img src = "assets/images/planta_3d_maquete.png" width = "100%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig1"><b>Figura 1.</b> Proposta de arquitetura.</p></center></td>
+    <td><center><p align = "justify" id = "fig1"><b>Figura 1.</b> Proposta de arquitetura em formato de maquete eletrônica.</p></center></td>
   </tr>
 </table>
 
@@ -43,31 +43,32 @@ O <i>layout</i> do empreendimento é apresentado na Figura <a href="#fig1">1</a>
 <h3>Projeto executivo arquitetônico</h3>
 
 <p align = "justify"> 
-Os <i>links</i> a seguir apresentam as pranchas de arquitetura e uma visualização 3D do empreendimento:
+Os <i>links</i> a seguir apresentam as pranchas de arquitetura e uma visualização 3D do empreendimento em formato de maquete eletrônica.
 </p> 
 
 <ul>
-  <li><a href="https://github.com/wmpjrufg/FEA0064/blob/gh-pages/ARQ_EXE_R00.dwg" target="_blank">Arquitetura (AutoCad 2000)</a>;</li>
-  <li><a href="https://github.com/wmpjrufg/FEA0064/blob/gh-pages/ARQ_EXE_MAQUETE_R00.skp" target="_blank">Maquete eletrônica (SketchUp)</a>;</li>
+  <li><a href="https://github.com/wmpjrufg/FEA0064/blob/gh-pages/ARQ_EXE_R00.zip" target="_blank">Arquitetura (AutoCad 2000) e maquete eletrônica (SketchUp)</a>;</li>
 </ul>
 
+<p align = "justify"> 
+As Figuras <a href="#fig2">2</a> e <a href="#fig3">3</a> apresentam imagens da planta baixa do térreo e o corte AA da edificação.
+</p>
 
-<!-- 
 <table border = "0" style = "width:100%">
   <tr>
-    <td><center><img src = "assets/images/figura2.jpeg" width = "150%"></center></td>
+    <td><center><img src = "assets/images/planta_baixa_terreo.png" width = "150%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig2"><b>Figura 2.</b> Planta baixa.</p></center></td>
+    <td><center><p align = "justify" id = "fig2"><b>Figura 2.</b> Planta baixa térreo.</p></center></td>
   </tr>
   <tr>
-    <td><center><img src = "assets/images/figura3.jpeg" width = "150%"></center></td>
+    <td><center><img src = "assets/images/corte_aa.png" width = "150%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig3"><b>Figura 3.</b> Vista frontal.</p></center></td>
+    <td><center><p align = "justify" id = "fig3"><b>Figura 3.</b> Corte AA da edificação.</p></center></td>
   </tr>
 </table> 
--->
+
 
 <!-- <p align = "justify">
   O projeto arquitetônico completo pode ser baixado através do <a href="https://drive.google.com/drive/folders/0B7fde98nbW1JfjhwMndpN1pqSFVnWkVKLTVGeTh0X3huZVRETGtIQk95N2lxS1JHUjE0M1U?resourcekey=0-80u4x0QEcpM_rnPTI6GT0g&usp=sharing" target="_blank"><i>link</i></a>.
