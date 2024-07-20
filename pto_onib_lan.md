@@ -17,7 +17,7 @@ has_toc: false
 
 <p align = "justify">
 O lançamento estrutural seguirá as diretrizes para peças de concreto armado em geral. A seguir serão apresentados os passos para determinação da geometria inicial de cada um dos elementos.<br><br>
-As Figuras <a href="#fig1">1</a> e <a href="#fig1">2</a> apresentam a plantas de interferência estrutural dos pilares e vigas na arquitetura do edifício.
+As Figuras <a href="#fig1">1</a> e <a href="#fig1">2</a> apresentam a plantas de interferência estrutural dos pilares e vigas na arquitetura do edifício. Foi considerado um reboco de 0,5 cm em cada uma das faces para que fosse possível inserir as vigas sem nenhum tipo de requadro nos elementos.
 </p>
 
 <table border = "0" style = "width:100%">
@@ -45,7 +45,7 @@ A etapa de pré-dimensionamento pode ser realizada por qualquer grupo de element
 
 <p align = "justify">
 Realizaremos o pré-dimensionamento das vigas do térreo VT1 a VT4 e VC1 a VC3. A largura das vigas será especificada em 14 cm para que seja possível fazer o fechamento da alvenaria sem nenhum tipo de requadro. A excessão será a viga VC1 que terá esforços de torção então será estabelecida com largura de 20 cm.<br><br>
-Apenas para critério de verificação será aplicado a relação \(l_0/50\) para verificar a largura mínima (\(b_{w,min}\)) conforme o item 15.10 da ABNT NBR 6118. No caso \(b_{w,min}=4,50/50=0,09\;m=9\;cm\)
+Apenas para critério de verificação será aplicado a relação l<sub>0</sub> / 50 para verificar a largura mínima (b<sub>w,min</sub>) conforme o item 15.10 da ABNT NBR 6118 [1]. No caso b<sub>w,min</sub> = 4,50 / 50 = 0,09 m = 9 cm.
 <br><br>
 Considerando que todas as peças serão biapoiadas a altura das vigas é dada conforme Tabela <a href="#tab1">1</a>.
 </p>
@@ -92,35 +92,26 @@ As vigas VT3, VT4 e VC3 poderiam ter altura de 0,30 m (ou 30 cm) porém para man
 <h3>Pré-dimensionamento da laje</h3>  
 
 <p align = "justify">
-A determinação da espessura da laje é influenciada por suas dimensões em planta e seu carregamento. Para laje LC1 será considerada inicialmente o vão \(l_y=4,50\;m\) e \(l_x=1,50\;m\). No caso desta laje a relação entre vão é de 3,00 (\(\lambda=l_y/l_x\)).
+A determinação da espessura da laje é influenciada por suas dimensões em planta e seu carregamento. Para laje LC1 será considerada inicialmente o vão l<sub>y</sub> = 4,50 m e l<sub>x</sub> = 1,50 m. No caso desta laje a relação entre vão é de 3,00 (λ = l<sub>y</sub> / l<sub>x</sub>).
 </p>
 
 <p align = "justify">
-A espessura mínima segundo a ABNT NBR 6118 será de 0,10 m para a laje LC1 que é uma laje com um dos lados em balanço.<br><br>
-A laje em balanço apresentará a seguinte altura \(h = 0,04 \cdot 1,50 = 0,06\;m\). No entanto a altura mínima exigida é de 0,10 m. Portanto será adotada a altura de 0,10 m para a laje em questão.
+A espessura mínima segundo a ABNT NBR 6118 [1] será de 0,10 m para a laje LC1 que é uma laje com um dos lados em balanço.<br><br>
+A laje em balanço apresentará a seguinte altura mínima de pré-dimensionamento 0,06 m (h = 0,04 x 1,50 = 0,06 m). No entanto a altura mínima exigida é de 0,10 m. Portanto será adotada a altura de 0,10 m para a laje em questão.
 </p>
-
-<!-- 
-<ul>
-  <li><p align = "justify">7 cm para lajes de cobertura que não possuam balanço.</p></li>
-  <li><p align = "justify">8 cm para lajes de piso que não possuam balanço.</p></li>
-  <li><p align = "justify">10 cm para lajes que apresentam balanço, seja para cobertura ou piso.</p></li>
-  <li><p align = "justify">12 cm para lajes sujeitas ao tráfego de veículos com peso de até três toneladas.</p></li>
-  <li><p align = "justify">15 cm para lajes sujeitas ao tráfego de veículos com peso superior a três toneladas.</p></li>
-</ul> -->
 
 <h3>Pré-dimensionamento dos pilares</h3>  
 
 <p align = "justify">
-Para iniciar o pré-dimensionamento de pilares deve-se atentar primeiramente em seguir as dimensões mínimas definidas pela ABNT NBR 6118, que estabelece no item 13.2.3, onde a seção transversal de pilares não deve ter dimensões menores que 19 cm, a menos que sejam casos especiais, preservando um valor mínimo de 14 cm para a menor dimensão da seção. Outra importante medida é a área mínima da seção transversal de um pilar que deve ser superior a 360 cm².
+Para iniciar o pré-dimensionamento de pilares deve-se atentar primeiramente em seguir as dimensões mínimas definidas pela ABNT NBR 6118 [1], que estabelece no item 13.2.3, onde a seção transversal de pilares não deve ter dimensões menores que 19 cm, a menos que sejam casos especiais, preservando um valor mínimo de 14 cm para a menor dimensão da seção. Outra importante medida é a área mínima da seção transversal de um pilar que deve ser superior a 360 cm².
 <br><br>
-Além disso é necessário classificar os pilares deste projeto que neste caso são os pilares de canto P1, P2 e P3 (\( \alpha=2,50 \) para pré-dimensionamento).
+Além disso é necessário classificar os pilares deste projeto que neste caso são os pilares de canto P1, P2 e P3 (α = 2,50) para pré-dimensionamento).
 </p>
 
 <h4><i>Área de influência e verificação da área necessária</i></h4>  
 
 <p align = "justify">
-A Figura <a href="#fig4">4</a> apresenta a divisão do carregamento do painel de laje em função dos pilares (áreas de influência). Para isso usou-se a distribuição de carga em função do tipo de pilar.
+A Figura <a href="#fig3">3</a> apresenta a divisão do carregamento do painel de laje em função dos pilares (áreas de influência). Para isso usou-se a distribuição de carga em função do tipo de pilar.
 </p>
 
 <table border = "0" style = "width:100%">
@@ -128,12 +119,12 @@ A Figura <a href="#fig4">4</a> apresenta a divisão do carregamento do painel de
     <td><center><img src = "assets/images/area_influencia.png" width = "150%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig3"><b>Figura 4.</b> Distribuição do carregamento do painel nos pilares (áreas de influência).</p></center></td>
+    <td><center><p align = "justify" id = "fig3"><b>Figura 3.</b> Distribuição do carregamento do painel nos pilares (áreas de influência).</p></center></td>
   </tr>
 </table>
 
 <p aligin = "justify">
-O carregamento estimado para essa cobertura será de \( q=6\;kN/m² \). Com isso, é possível encontrar a força normal de cálculo para pré-dimensionamento. A Tabela <a href="#tab2">2</a> apresenta a força \( N_{sd}^{*} \).
+O carregamento estimado para essa cobertura será de 6 kN/m² (q). Com isso, é possível encontrar a força normal de cálculo para pré-dimensionamento. A Tabela <a href="#tab2">2</a> apresenta a força N<sub>sd</sub><sup>*</sup>.
   
 <p align = "justify" id = "tab2"><b>Tabela 2.</b> Estimativa do carregamento nos pilares.</p>
 
@@ -165,7 +156,7 @@ O carregamento estimado para essa cobertura será de \( q=6\;kN/m² \). Com isso
 </table>
 
 <p align = "justify">
-Para este projeto será considerado um \(f_{ck}\) de 25 MPa (25.000 kPa) para as peças de concreto. Isso leva a um valor de \(f_{cd} = 25000/1,40=17857,14 kPa\).
+Para este projeto será considerado um f<sub>ck</sub> de 25 MPa (25.000 kPa) para as peças de concreto. Isso leva a uma resistência de cálculo igual f<sub>cd</sub> = 25000 / 1,40 = 17857,14 kPa.
 <br><br>
 Além disso vamos considerar que a tensão no aço para pré-dimensionamento será para um encurtamento de 0,2% nas armaduras sendo este valor igual a 420 MPa. Para a quantidade de armadura será adotado o valor de taxa mecânica de armadura igual a 2%.
 <br><br>
@@ -190,7 +181,7 @@ Após a determinação da área de influência e a estimativa de carregamento no
       <td>P1</td>
       <td>\[A_{c}=\frac{22,80}{0,85 \cdot 17857,14 + 0,02 \cdot 420000}=0,000967\]</td>
       <td>0,14</td>
-      <td>\[h=0,000967/0,14=0,0069\]</td>
+      <td>\[h=\frac{0,000967}{0,14}=0,0069\]</td>
       <td>0,30</td>
       <td>\[0,042\;m²>0,036\;m²\]</td>
     </tr>
@@ -198,7 +189,7 @@ Após a determinação da área de influência e a estimativa de carregamento no
       <td>P2</td>
       <td>\[A_{c}=\frac{50,55}{0,85 \cdot 17857,14 + 0,02 \cdot 420000}=0,002144\]</td>
       <td>0,14</td>
-      <td>\[h=0,002144/0,14=0,0153\]</td>
+      <td>\[h=\frac{0,002144}{0,14}=0,0153\]</td>
       <td>0,30</td>
       <td>\[0,042\;m²>0,036\;m²\]</td>
     </tr>
@@ -206,7 +197,7 @@ Após a determinação da área de influência e a estimativa de carregamento no
       <td>P3</td>
       <td>\[A_{c}=\frac{27,90}{0,85 \cdot 17857,14 + 0,02 \cdot 420000}=0,001183\]</td>
       <td>0,14</td>
-      <td>\[h=0,001183/0,14=0,0085\]</td>
+      <td>\[h=\frac{0,001183}{0,14}=0,0085\]</td>
       <td>0,30</td>
       <td>\[0,042\;m²>0,036\;m²\]</td>
     </tr>
@@ -216,15 +207,15 @@ Após a determinação da área de influência e a estimativa de carregamento no
 <h1>Projeto executivo de fôrma</h1> 
 
 <p align = "justify">
-Definida a forma estrutural é necessário determinar os vãos efetivos de cada um dos elementos. No caso será aplicada a proposição das seções 14.6.2.4 e 15.6 da ABNT NBR 6118. 
+Definida a forma estrutural é necessário determinar os vãos efetivos de cada um dos elementos. No caso será aplicada a proposição das seções 14.6.2.4 e 15.6 da ABNT NBR 6118 [1]. 
 </p>
 
 <h3>Elemento isolado: laje</h3> 
 
 <p align = "justify">
-A definição do elemento isolado de laje será realizada conforme o equacionamento da seção 14.6.2.4 da ABNT NBR 6118. A proposição deste item é para sistema de vigas porém o mesmo pode ser aplicado para sistemas de laje.
+A definição do elemento isolado de laje será realizada conforme o equacionamento da seção 14.6.2.4 da ABNT NBR 6118 [1]. A proposição deste item é para sistema de vigas porém o mesmo pode ser aplicado para sistemas de laje.
 <br><br>
-Dado que todas as vigas tem largura de 14 cm ou 0,14 m a condição \(t/2\) será de 7 cm para todos os bordos. Para a condição \(0,30 \cdot h\) será empregada a altura da laje que é de 10 cm totalizando 3 cm. Logo o valor de vão efetivo é apresentado na Figura <a href="#fig5">5</a>.
+Dado que todas as vigas tem largura de 14 cm ou 0,14 m a condição t / 2 será de 7 cm para todos os bordos. Para a condição 0,30 x h será empregada a altura da laje que é de 10 cm totalizando 3 cm. Logo o valor de vão efetivo é apresentado na Figura <a href="#fig4">4</a>.
 </p>
 
 <table border = "0" style = "width:100%">
@@ -232,7 +223,7 @@ Dado que todas as vigas tem largura de 14 cm ou 0,14 m a condição \(t/2\) ser�
     <td><center><img src = "assets/images/vao_ef_laje.png" width = "150%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig3"><b>Figura 5.</b> Vão efetivo da laje.</p></center></td>
+    <td><center><p align = "justify" id = "fig4"><b>Figura 4.</b> Vão efetivo da laje.</p></center></td>
   </tr>
 </table>
 
