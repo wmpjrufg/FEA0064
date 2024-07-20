@@ -17,7 +17,7 @@ has_toc: false
 
 <p align = "justify">
 O lançamento estrutural seguirá as diretrizes para peças de concreto armado em geral. A seguir serão apresentados os passos para determinação da geometria inicial de cada um dos elementos.<br><br>
-As Figuras <a href="#fig1">1</a> e <a href="#fig1">2</a> apresentam a plantas de interferência estrutural dos pilares e vigas na arquitetura do edifício. Foi considerado um reboco de 0,5 cm em cada uma das faces para que fosse possível inserir as vigas sem nenhum tipo de requadro nos elementos.
+As Figuras <a href="#fig1">1</a> e <a href="#fig1">2</a> apresentam a plantas de interferência estrutural da proposta inicial de projeto estrutural. Foi considerado um reboco de 0,5 cm em cada uma das faces para que fosse possível inserir as vigas sem nenhum tipo de requadro nos elementos.
 </p>
 
 <table border = "0" style = "width:100%">
@@ -105,7 +105,7 @@ A laje em balanço apresentará a seguinte altura mínima de pré-dimensionament
 <p align = "justify">
 Para iniciar o pré-dimensionamento de pilares deve-se atentar primeiramente em seguir as dimensões mínimas definidas pela ABNT NBR 6118 [1], que estabelece no item 13.2.3, onde a seção transversal de pilares não deve ter dimensões menores que 19 cm, a menos que sejam casos especiais, preservando um valor mínimo de 14 cm para a menor dimensão da seção. Outra importante medida é a área mínima da seção transversal de um pilar que deve ser superior a 360 cm².
 <br><br>
-Além disso é necessário classificar os pilares deste projeto que neste caso são os pilares de canto P1, P2 e P3 (α = 2,50) para pré-dimensionamento).
+Além disso é necessário classificar os pilares deste projeto que neste caso são os pilares de canto P1, P2 e P3 (α = 2,50 para pré-dimensionamento).
 </p>
 
 <h4><i>Área de influência e verificação da área necessária</i></h4>  
@@ -158,7 +158,7 @@ O carregamento estimado para essa cobertura será de 6 kN/m² (q). Com isso, é 
 <p align = "justify">
 Para este projeto será considerado um f<sub>ck</sub> de 25 MPa (25.000 kPa) para as peças de concreto. Isso leva a uma resistência de cálculo igual f<sub>cd</sub> = 25000 / 1,40 = 17857,14 kPa.
 <br><br>
-Além disso vamos considerar que a tensão no aço para pré-dimensionamento será para um encurtamento de 0,2% nas armaduras sendo este valor igual a 420 MPa. Para a quantidade de armadura será adotado o valor de taxa mecânica de armadura igual a 2%.
+Além disso vamos considerar que a tensão no aço para pré-dimensionamento será para um encurtamento de 0,2% nas armaduras sendo este valor igual a 420 MPa. Para a quantidade de armadura será adotado o valor de taxa mecânica de armadura igual a 2% (valor máximo de 4% em região de emenda).
 <br><br>
 Após a determinação da área de influência e a estimativa de carregamento no pavimento deve-se obter a área estimada de um pilar de concreto conforme a Tabela <a href="#tab3">3</a>.
 </p>
@@ -218,6 +218,28 @@ A definição do elemento isolado de laje será realizada conforme o equacioname
 Dado que todas as vigas tem largura de 14 cm ou 0,14 m a condição t / 2 será de 7 cm para todos os bordos. Para a condição 0,30 x h será empregada a altura da laje que é de 10 cm totalizando 3 cm. Logo o valor de vão efetivo é apresentado na Figura <a href="#fig4">4</a>.
 </p>
 
+<h5><b>direção x</b></h5> 
+
+<table>
+    <tr>
+      <td>\[ min \left( \frac{0,14}{2}=0,07\;m,\;0,3 \cdot 0,10=0,03\;m \right) \therefore 0,03\;m\]</td>
+    </tr>
+    <tr>
+      <td>\[L_{ef,x} = L_{0,x} + a_1 = 1,36+0,03=1,39\;m\]</td>
+    </tr>
+</table>
+
+<h5><b>direção y</b></h5> 
+
+<table>
+    <tr>
+      <td>\[ min \left( \frac{0,14}{2}=0,07\;m,\;0,3 \cdot 0,10=0,03\;m \right) \therefore 0,03\;m\]</td>
+    </tr>
+    <tr>
+      <td>\[L_{ef,y} = L_{0,y} + a_1 +a_2 = 4,22+0,03+0,03=4,28\;m\]</td>
+    </tr>
+</table>
+
 <table border = "0" style = "width:100%">
   <tr>
     <td><center><img src = "assets/images/vao_ef_laje.png" width = "150%"></center></td>
@@ -230,10 +252,10 @@ Dado que todas as vigas tem largura de 14 cm ou 0,14 m a condição t / 2 será 
 <h3>Elemento isolado: vigas</h3> 
 
 <p align = "justify">
-Para aplicar a metodologia descrita acima devemos considerar os pilares como elementos que servem de apoio para as vigas. Logo a condição \(t/2\) dependerá da direção do pilar. Como essa direção poderá variar em função da viga o valor de vão efetivo deverá ser acrescido das parcelas \(a_1\) e \(a_2\). A Tabela <a href="#tab3">3</a> apresenta estes detalhes:
+Para aplicar a metodologia descrita acima devemos considerar os pilares como elementos que servem de apoio para as vigas. Logo a condição t/2 dependerá da direção do pilar. Como essa direção poderá variar em função da viga o valor de vão efetivo deverá ser acrescido das parcelas a<sub>1</sub> e a<sub>2</sub>. A Tabela <a href="#tab4">4</a> apresenta estes detalhes:
 </p>
 
-<p align = "justify" id = "tab3"><b>Tabela 3.</b> Vão efetivo das vigas da cobertura.</p>
+<p align = "justify" id = "tab4"><b>Tabela 4.</b> Vão efetivo das vigas da cobertura.</p>
 
 <table style = "width:100%">
   <thead>
@@ -249,23 +271,23 @@ Para aplicar a metodologia descrita acima devemos considerar os pilares como ele
     <tr>
       <td>VC1</td>
       <td>3,90</td>
-      <td>\[min \left(0,30/2,\;0,30 \cdot 0,45 \right) = 0,13\]</td>
-      <td>\[min \left(0,30/2,\;0,30 \cdot 0,45 \right) = 0,13\]</td>
-      <td>\[3,90+0,13\cdot2=4,16\]</td>
+      <td>\[min \left(0,30/2=0,15\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,13\]</td>
+      <td>\[min \left(0,30/2=0,15\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,13\]</td>
+      <td>\[3,90 + 0,13 \cdot 2 = 4,16 \]</td>
     </tr>
     <tr>
       <td>VC2</td>
       <td>1,06</td>
-      <td>\[min \left(0,30/2,\;0,30 \cdot 0,45 \right) = 0,13\]</td>
-      <td>\[min \left(0,14/2,\;0,30 \cdot 0,45 \right) = 0,07\]</td>
-      <td>\[1,06+0,13+0,07=1,26\]</td>
+      <td>\[min \left(0,30/2=0,15\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,13\]</td>
+      <td>\[min \left(0,14/2=0,07\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,07\]</td>
+      <td>\[1,06 + 0,13 + 0,07 = 1,26\]</td>
     </tr>
     <tr>
       <td>VC3</td>
       <td>1,36</td>
       <td>não se aplica pois não tem apoio</td>
-      <td>\[min \left(0,14/2,\;0,30 \cdot 0,45 \right) = 0,07\]</td>
-      <td>\[1,36+0,07=1,43¹\]</td>
+      <td>\[min \left(0,14/2=0,07\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,07\]</td>
+      <td>\[1,36+0,07=1,43\]</td>
     </tr>
   </tbody>
 </table>
@@ -277,7 +299,7 @@ Como usaremos o sistema de pórtico plano para determinação dos esforços fina
 <h3>Elemento isolado: pilares</h3> 
 
 <p align = "justify">
-Para os pilares será aplicada a condição da seção 15.6 da ABNT NBR 6118. Os resultados são apresentados na Tabela <a href="#tab4">4</a>. Vale salientar aqui que devido o pilar possuir duas "alturas" a determinação do vão efetivo deveria ser feito para as duas direções (h e b). Para este exemplo didático será determinada a altura efetiva relativa a viga VC1 e ela será a base para as outras direções. Tal condições não prejudica o cálculo estrutural neste exemplo em específico. Outra questão importante é de que apesar da altura ser determinada com essa condição de aproximação das dimensões, o comprimento de flambagem será diferente no dimensionamento dos pilares. Tal situação será abordada no detalhamento dos pilares.
+Para os pilares será aplicada a condição da seção 15.6 da ABNT NBR 6118 [1]. Os resultados são apresentados na Tabela <a href="#tab4">4</a>. Vale salientar aqui que devido o pilar possuir duas "alturas" a determinação do vão efetivo deveria ser feito para as duas direções (h e b). Para este exemplo didático será determinada a altura efetiva relativa a viga VC1 e ela será a base para as outras direções. Tal condições não prejudica o cálculo estrutural neste exemplo em específico. Outra questão importante é de que apesar da altura ser determinada com essa condição de aproximação das dimensões, o comprimento de flambagem será diferente no dimensionamento dos pilares. Tal situação será abordada no detalhamento dos pilares.
 <br><br>
 Considerando que o pé esquerdo do projeto é de 2,20 m e que na posição da viga de cobertura a altura é de 0,45 m o vão livre \( \left( l_0 \right) \) é de 1,75 m.
 </p>
