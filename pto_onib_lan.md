@@ -271,22 +271,22 @@ Para aplicar a metodologia descrita acima devemos considerar os pilares como ele
     <tr>
       <td>VC1</td>
       <td>3,90</td>
-      <td>\[min \left(0,30/2=0,15\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,13\]</td>
-      <td>\[min \left(0,30/2=0,15\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,13\]</td>
+      <td>\[min \left(\frac{0,30}{2}=0,15\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,13\]</td>
+      <td>\[min \left(\frac{0,30}{2}=0,15\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,13\]</td>
       <td>\[3,90 + 0,13 \cdot 2 = 4,16 \]</td>
     </tr>
     <tr>
       <td>VC2</td>
       <td>1,06</td>
-      <td>\[min \left(0,30/2=0,15\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,13\]</td>
-      <td>\[min \left(0,14/2=0,07\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,07\]</td>
+      <td>\[min \left(\frac{0,30}{2}=0,15\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,13\]</td>
+      <td>\[min \left(\frac{0,14}{2}=0,07\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,07\]</td>
       <td>\[1,06 + 0,13 + 0,07 = 1,26\]</td>
     </tr>
     <tr>
       <td>VC3</td>
       <td>1,36</td>
       <td>não se aplica pois não tem apoio</td>
-      <td>\[min \left(0,14/2=0,07\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,07\]</td>
+      <td>\[min \left(\frac{0,14}{2}=0,07\;m,\;0,30 \cdot 0,45=0,13\;m \right) = 0,07\]</td>
       <td>\[1,36+0,07=1,43\]</td>
     </tr>
   </tbody>
@@ -312,6 +312,7 @@ A Tabela <a href="#tab5">5</a> apresenta o resumo do cálculo:
 <table style = "width:100%">
   <thead>
     <tr>
+      <th>Pilar e vista</th>
       <th>\(l_{0} + h \; (m)\)</th>
       <th>\(l \; (m)\)</th>
       <th>\(l_{ef} \; (m)\)</th>
@@ -319,11 +320,13 @@ A Tabela <a href="#tab5">5</a> apresenta o resumo do cálculo:
   </thead>
   <tbody>
     <tr>
+      <td>P1-VC1-P2</td>
       <td>\[1,75 + 0,30 = 2,05\]</td>
       <td>\[1,75 + \frac{0,45}{2} \cdot 2 = 2,20\]</td>
       <td>\[2,05\]</td>
     </tr>
     <tr>
+      <td>P1-VC2-P3</td>
       <td>\[1,83 + 0,30 = 2,13\]</td>
       <td>\[1,83 + \frac{0,45}{2} \cdot 2 = 2,28\]</td>
       <td>\[2,13\]</td>

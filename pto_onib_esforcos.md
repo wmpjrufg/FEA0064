@@ -25,12 +25,34 @@ Os esforços serão determinados empregando método dos deslocamentos em funçã
   </tr>
 </table>
 
+<p align = "justify">
+Os pórticos no Ftool podem ser baixados a seguir:
+</p>
+
 <ul>
-<li>Carga permanente: Peso próprio da estrutura, fechamento em vidro, fechamento em alvenaria e impermeabilização da cobertura;</li>
-<li>Carga variável da cobertura.</li>
+  <li><a target="_blank" rel="noopener" href="https://www.ftool.com.br/Ftool/">Pórtico vista A</a>;</li>
+  <li><a target="_blank" rel="noopener" href="https://www.ftool.com.br/Ftool/">Pórtico vista B</a>;</li>
+  <li><a target="_blank" rel="noopener" href="https://www.ftool.com.br/Ftool/">Pórtico vista C</a>;</li>
+  <li><a target="_blank" rel="noopener" href="https://www.ftool.com.br/Ftool/">Pórtico vista D</a>.</li>
 </ul>
 
-<h1>Carga na laje</h1> 
+<p align = "justify">
+O módulo de elasticidade será considerado para o concreto classe 25 (f<sub>ck</sub> = 25 MPa) e com um agregado de granito com dimensão máxima de 19 mm.
+</p>
+
+<table border = "0" style = "width:100%">
+    <tr>
+        <td>\[ E_ci = 5600 \cdot \sqrt{25} = 28000 MPa = 28 \cdot 10^6 kPa \]</td>
+    </tr>
+    <tr>
+        <td>\[ \alpha_i = 0,80 + 0,20 \cdot + \frac{25}{80} = 0,86 \]</td>
+    </tr>
+    <tr>
+        <td>\[ E_cs = 0,86 \cdot 28 \cdot 10^6 = 24,08 \cdot 10^6 kPa \]</td>
+    </tr>
+</table>
+
+<h1>Pórtico vista A</h1> 
 
 <p align = "justify">
 A carga que atua na laje LC1 será divida entre carregamento permanente e variável. O peso próprio da laje é obtido através da multiplicação do peso específico do concreto e a altura da laje, a qual tem o valor de 10 cm. Logo o valor deste carregamento é \(g_{pp}=0,10 \cdot 25 = 2,50\)kN/m².
@@ -41,8 +63,7 @@ Logo a carga total é dada por:
 
 <table border = "0" style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[ g = g_{pp} + g_{ext} = 2,50+1,80=4,30\;kN/m²\]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
+        <td>\[ g = g_{pp} + g_{ext} = 2,50+1,80=4,30\;kN/m²\]</td>
     </tr>
 </table>
 
