@@ -13,8 +13,17 @@ has_toc: false
 <!--Don't delete this script-->
 
 <p align = "justify">
-O carregamento será determinado conforme prescrição da ABNT NBR 6120. O memorial descreve que a cobertura será impermeabilizada. Portanto as cargas atuantes nessa estrutura podem ser descritas da seguinte forma:
+Os esforços serão determinados empregando método dos deslocamentos em função dos pórticos apresentados na seção anterior. Para essa determinação foi empregado o <i>software</i> Ftool. A disposição de vistas dos pórticos de concreto é apresentada na Figura <a href="#fig1">1</a>.
 </p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td><center><img src = "assets/images/charneiras.png" width = "100%"></center></td>
+  </tr>
+  <tr>
+    <td><center><p align = "justify" id = "fig1"><b>Figura 1.</b> Indicação de vistas para determinar os pórticos.</p></center></td>
+  </tr>
+</table>
 
 <ul>
 <li>Carga permanente: Peso próprio da estrutura, fechamento em vidro, fechamento em alvenaria e impermeabilização da cobertura;</li>
@@ -52,17 +61,10 @@ O carregamento nas vigas superiores é dependente das reações da laje LC1 nas 
 <p align = "justify">
 Como dito anteriormente a laje LC1 suportará uma carga permanente de 4,30 kN/m² e uma carga variável de 1,50 kN/m². Para determinar as reações da laje nas vigas será necessário o uso do método de charneiras plásticas. Porém é necessário discutir o sistema de apoio das lajes nas vigas.
 <br><br>
-No caso deste projeto a laje LC1 fica engastada na viga VC1 visto que está é considerada uma laje unidirecional (\(\lambda>2,00\)). Portanto para evitar a formação de um mecanismo a mesma será considerada engastada em VC1. Logo a partição da carga é apresentada na Figura <a href="#fig1">1</a>.
+No caso deste projeto a laje LC1 fica engastada na viga VC1 visto que está é considerada uma laje unidirecional (\(\lambda>2,00\)). Portanto para evitar a formação de um mecanismo a mesma será considerada engastada em VC1. Logo a partição da carga é apresentada na Figura 
 </p>
 
-<table border = "0" style = "width:100%">
-  <tr>
-    <td><center><img src = "assets/images/charneiras.png" width = "100%"></center></td>
-  </tr>
-  <tr>
-    <td><center><p align = "justify" id = "fig1"><b>Figura 1.</b> Charneiras LC1.</p></center></td>
-  </tr>
-</table>
+
 
 <p align = "justify">
 No caso deste projeto o valor da A1 é de 4,83 m² e o valor de A2 é de 0,56 m². 
