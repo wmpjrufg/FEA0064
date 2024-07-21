@@ -33,7 +33,7 @@ Os pórticos no Ftool podem ser baixados a seguir:
   <li><a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0064/blob/gh-pages/portico_p1_vt1_p2_vc1.ftl">Pórtico vista P1-VT1-P2-VC1</a>;</li>
   <li><a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0064/blob/gh-pages/portico_p3_vt3_p1_vc2.ftl">Pórtico vista P3-VT3-P1-VC2</a>;</li>
   <li><a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0064/blob/gh-pages/portico_p3_vt2.ftl">Pórtico vista P3-VT2</a>;</li>
-  <li><a target="_blank" rel="noopener" href="https://www.ftool.com.br/Ftool/">Pórtico vista D</a>.</li>
+  <li><a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0064/blob/gh-pages/portico_vt4_p2_vc3.ftl">Pórtico vista VT4-P2-VC3</a>.</li>
 </ul>
 
 <p align = "justify">
@@ -55,7 +55,3 @@ O módulo de elasticidade será considerado para o concreto classe 25 (f<sub>ck<
 <p align = "justify">
 A seguir são listadas as tabelas de esforços em cada uma das vistas para que seja possível efetuar o dimensionamento da estrutura por completo.
 </p>
-
-
-<!-- <h3>Carregamento nas vigas do térreo</h3>
-que nestede 11,5 cm de espessura e reboco e 0,50 cm em cada face totalizando 1,70 kN/m² conforme tabela 2 da ABNT NBR 6120. Além disso uma das faces da arquitetura exige um fechamento em vidro com espessura de 10 mm (Peso específico aparente de 22 kN/m³). -->
