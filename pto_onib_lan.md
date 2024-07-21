@@ -293,18 +293,21 @@ Para aplicar a metodologia descrita acima devemos considerar os pilares como ele
 </table>
 
 <p align = "justify">
-Como usaremos o sistema de pórtico plano para determinação dos esforços finais e então dimensionamento dos elementos faremos duas adequações para evitar imperfeições geométricas no modelo estrutural. A primeira é de que utilizaremos os vãos efetivos do pavimento superior para refletir o modelo estrutural do térreo. ¹Além disso o vão efetivo das vigas VC2 e VC3 serão igualados por critério de facilidade de determinação das dimensões do pórtico final. No caso o vão empregado será o da viga VC3.
+Como usaremos o sistema de pórtico plano para determinação dos esforços finais e então dimensionamento dos elementos faremos duas adequações para evitar imperfeições geométricas no modelo estrutural. A primeira é de que utilizaremos os vãos efetivos do pavimento superior para refletir o modelo estrutural do térreo. Além disso o vão efetivo das vigas VC2 e VC3 serão igualados por critério de facilidade de determinação das dimensões do pórtico final. No caso o vão empregado será o da viga VC3.
 </p>
 
 <h3>Elemento isolado: pilares</h3> 
 
 <p align = "justify">
-Para os pilares será aplicada a condição da seção 15.6 da ABNT NBR 6118 [1]. Os resultados são apresentados na Tabela <a href="#tab4">4</a>. Vale salientar aqui que devido o pilar possuir duas "alturas" a determinação do vão efetivo deveria ser feito para as duas direções (h e b). Para este exemplo didático será determinada a altura efetiva relativa a viga VC1 e ela será a base para as outras direções. Tal condições não prejudica o cálculo estrutural neste exemplo em específico. Outra questão importante é de que apesar da altura ser determinada com essa condição de aproximação das dimensões, o comprimento de flambagem será diferente no dimensionamento dos pilares. Tal situação será abordada no detalhamento dos pilares.
+Para os pilares será aplicada a condição da seção 15.6 da ABNT NBR 6118 [1]. Vale salientar aqui que devido o pilar possuir duas "alturas" a determinação do vão efetivo deveria ser feito para as duas direções (h e b). Para este exemplo didático será determinada a altura efetiva relativa a viga VC1 (pórtico P1-P2-VC1-VT1) e ela será a base para as outras direções. Para determinar a altura do pilar P3 será empregado o pórtico P1-P3-VC2-VT3.
+Tal condições não prejudica o cálculo estrutural neste exemplo em específico. Outra questão importante é de que apesar da altura ser determinada com essa condição de aproximação das dimensões, o comprimento de flambagem será diferente no dimensionamento dos pilares. Tal situação será abordada no detalhamento dos pilares.
 <br><br>
-Considerando que o pé esquerdo do projeto é de 2,20 m e que na posição da viga de cobertura a altura é de 0,45 m o vão livre \( \left( l_0 \right) \) é de 1,75 m.
+Considerando que o pé esquerdo do projeto é de 2,20 m nos pilares P1 e P2. Já na posição do pilar P3 o pé esquerdo é de 2,28 m. Dada que a altura das vigas é de 0,45 m os vãos básicos dos pilares serão de 1,75 m (2,20 - 0,45 = 1,75 m) e 1,83 m (2,28 - 0,45 = 1,83 m).
+<br><br>
+A Tabela <a href="#tab5">5</a> apresenta o resumo do cálculo:
 </p>
 
-<p align = "justify" id = "tab4"><b>Tabela 4.</b> Vão efetivo pilares.</p>
+<p align = "justify" id = "tab5"><b>Tabela 5.</b> Vão efetivo pilares.</p>
 
 <table style = "width:100%">
   <thead>
@@ -320,11 +323,16 @@ Considerando que o pé esquerdo do projeto é de 2,20 m e que na posição da vi
       <td>\[1,75 + \frac{0,45}{2} \cdot 2 = 2,20\]</td>
       <td>\[2,05\]</td>
     </tr>
+    <tr>
+      <td>\[1,83 + 0,30 = 2,13\]</td>
+      <td>\[1,83 + \frac{0,45}{2} \cdot 2 = 2,28\]</td>
+      <td>\[2,13\]</td>
+    </tr>
   </tbody>
 </table>
 
 <p align = "justify">
-Logo podemos construir o diagrama de barras unifilares do projeto do ponto de ônibus e então fazer a determinação dos esforços e dimensionamento dos elementos estruturais. A Fgiura <a href="#fig6">6</a> apresenta o modelo determinado anteriormente.
+Logo podemos construir o diagrama de barras unifilares do projeto do ponto de ônibus e então fazer a determinação dos esforços e dimensionamento dos elementos estruturais. A Fgiura <a href="#fig5">5</a> apresenta o modelo determinado anteriormente.
 </p>
 
 <table border = "0" style = "width:100%">
@@ -332,6 +340,6 @@ Logo podemos construir o diagrama de barras unifilares do projeto do ponto de ô
     <td><center><img src = "assets/images/3d.png" width = "150%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig6"><b>Figura 6.</b> Diagramas de barras unifilares que formam o pórtico 3D do projeto estrutural.</p></center></td>
+    <td><center><p align = "justify" id = "fig5"><b>Figura 5.</b> Diagramas de barras unifilares que formam o pórtico 3D do projeto estrutural.</p></center></td>
   </tr>
 </table>
