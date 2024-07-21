@@ -1,5 +1,5 @@
 ---
-title: Vista P1 - VT1 - P2 - VC1
+title: Vista P1-VT1-P2-VC1
 layout: default
 grand_parent: Exemplo I
 parent: Esforços
