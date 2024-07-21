@@ -207,15 +207,31 @@ Após a determinação da área de influência e a estimativa de carregamento no
 <h1>Projeto executivo de fôrma</h1> 
 
 <p align = "justify">
-Definida a forma estrutural é necessário determinar os vãos efetivos de cada um dos elementos. No caso será aplicada a proposição das seções 14.6.2.4 e 15.6 da ABNT NBR 6118 [1]. 
+Definida a forma estrutural é necessário determinar os vãos efetivos de cada um dos elementos. No caso será aplicada a proposição das seções 14.6.2.4 e 15.6 da ABNT NBR 6118 [1].<br><br>
+As Figuras <a href="#fig4">4</a> e <a href="#fig5">5</a> apresentam as plantas de fôrma executiva dos elementos estruturais que compõem este projeto.
 </p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td><center><img src = "assets/images/forma_terreo.png" width = "150%"></center></td>
+  </tr>
+  <tr>
+    <td><center><p align = "justify" id = "fig4"><b>Figura 4.</b> Fôrma do térreo.</p></center></td>
+  </tr>
+  <tr>
+    <td><center><img src = "assets/images/forma_cobertura.png" width = "150%"></center></td>
+  </tr>
+  <tr>
+    <td><center><p align = "justify" id = "fig5"><b>Figura 5.</b> Fôrma da cobertura.</p></center></td>
+  </tr>
+</table>
 
 <h3>Elemento isolado: laje</h3> 
 
 <p align = "justify">
 A definição do elemento isolado de laje será realizada conforme o equacionamento da seção 14.6.2.4 da ABNT NBR 6118 [1]. A proposição deste item é para sistema de vigas porém o mesmo pode ser aplicado para sistemas de laje.
 <br><br>
-Dado que todas as vigas tem largura de 14 cm ou 0,14 m a condição t / 2 será de 7 cm para todos os bordos. Para a condição 0,30 x h será empregada a altura da laje que é de 10 cm totalizando 3 cm. Logo o valor de vão efetivo é apresentado na Figura <a href="#fig4">4</a>.
+Dado que todas as vigas tem largura de 14 cm ou 0,14 m a condição t / 2 será de 7 cm para todos os bordos. Para a condição 0,30 x h será empregada a altura da laje que é de 10 cm totalizando 3 cm. Logo o valor de vão efetivo é apresentado na Figura <a href="#fig6">6</a>.
 </p>
 
 <h5><b>direção x</b></h5> 
@@ -245,7 +261,7 @@ Dado que todas as vigas tem largura de 14 cm ou 0,14 m a condição t / 2 será 
     <td><center><img src = "assets/images/vao_ef_laje.png" width = "150%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig4"><b>Figura 4.</b> Vão efetivo da laje.</p></center></td>
+    <td><center><p align = "justify" id = "fig6"><b>Figura 6.</b> Vão efetivo da laje.</p></center></td>
   </tr>
 </table>
 
@@ -335,7 +351,7 @@ A Tabela <a href="#tab5">5</a> apresenta o resumo do cálculo:
 </table>
 
 <p align = "justify">
-Logo podemos construir o diagrama de barras unifilares do projeto do ponto de ônibus e então fazer a determinação dos esforços e dimensionamento dos elementos estruturais. A Fgiura <a href="#fig5">5</a> apresenta o modelo determinado anteriormente.
+Logo podemos construir o diagrama de barras unifilares do projeto do ponto de ônibus e então fazer a determinação dos esforços e dimensionamento dos elementos estruturais. A Fgiura <a href="#fig7">7</a> apresenta o modelo determinado anteriormente.
 </p>
 
 <table border = "0" style = "width:100%">
@@ -343,6 +359,6 @@ Logo podemos construir o diagrama de barras unifilares do projeto do ponto de ô
     <td><center><img src = "assets/images/3d.png" width = "150%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig5"><b>Figura 5.</b> Diagramas de barras unifilares que formam o pórtico 3D do projeto estrutural.</p></center></td>
+    <td><center><p align = "justify" id = "fig7"><b>Figura 7.</b> Diagramas de barras unifilares que formam o pórtico 3D do projeto estrutural.</p></center></td>
   </tr>
 </table>

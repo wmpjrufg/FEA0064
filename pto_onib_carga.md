@@ -166,3 +166,10 @@ Considerando que a parede tem 15 cm de espessura foi selecionado neste projeto a
     </tr>
   </tbody>
 </table>
+
+
+<h3>Carregamento nos pilares</h3>
+
+<p align = "justify">
+Além dos carregamentos advindos das vigas é necessário considerar o peso próprio dos pilares no momento da obtenção dos esforços. Para isso determina-se o g<sub>pp_pilares</sub> que é igual a 1,05 kN/m (0,14 x 0,30 x 25).
+</p>

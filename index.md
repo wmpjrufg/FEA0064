@@ -34,7 +34,7 @@ has_toc: True
 <h3>Referências</h3>
 
 <ol>
-  <li>ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6118: Projeto
-de estruturas de concreto - Procedimento. Rio de Janeiro, 2023.</li>
-  <li>ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6120: Ações para o cálculo de estruturas de edificações. Rio de Janeiro, 2019.</li>
+  <li><p align="justify">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6118: Projeto
+de estruturas de concreto - Procedimento. Rio de Janeiro, 2023.</p></li>
+  <li><p align="justify">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6120: Ações para o cálculo de estruturas de edificações. Rio de Janeiro, 2019.</p></li>
 </ol>
