@@ -3,8 +3,8 @@ title: Esforços
 layout: default
 parent: Exemplo I
 nav_order: 3
-has_children: false
-has_toc: false
+has_children: True
+has_toc: True
 ---
 
 <!--Don't delete this script-->
@@ -42,13 +42,13 @@ O módulo de elasticidade será considerado para o concreto classe 25 (f<sub>ck<
 
 <table border = "0" style = "width:100%">
     <tr>
-        <td>\[ E_ci = 5600 \cdot \sqrt{25} = 28000 MPa = 28 \cdot 10^6 kPa \]</td>
+        <td>\[ E_{ci} = 5600 \cdot \sqrt{25} = 28000 \; MPa = 28 \cdot 10^6 \; kPa \]</td>
     </tr>
     <tr>
         <td>\[ \alpha_i = 0,80 + 0,20 \cdot + \frac{25}{80} = 0,86 \]</td>
     </tr>
     <tr>
-        <td>\[ E_cs = 0,86 \cdot 28 \cdot 10^6 = 24,08 \cdot 10^6 kPa \]</td>
+        <td>\[ E_{cs} = 0,86 \cdot 28 \cdot 10^6 = 24,08 \cdot 10^6 \; kPa \]</td>
     </tr>
 </table>
 
