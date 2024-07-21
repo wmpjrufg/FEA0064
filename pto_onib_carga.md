@@ -60,7 +60,7 @@ No caso deste projeto a laje LC1 fica engastada na viga VC1 visto que está é c
     <td><center><img src = "assets/images/charneiras.png" width = "100%"></center></td>
   </tr>
   <tr>
-    <td><center><p align = "justify" id = "fig1"><b>Figura 1.</b> Charneiras LC1.</p></center></td>
+    <td><center><p align = "justify" id = "fig1"><b>Figura 1.</b> Charneiras plásticas na LC1.</p></center></td>
   </tr>
 </table>
 
@@ -154,8 +154,8 @@ Considerando que a parede tem 15 cm de espessura foi selecionado neste projeto a
     </tr>
     <tr>
       <td>VT3</td>
-      <td>g_{alv} = 1,79 \cdot 1,80 = 3,22</td>
-      <td>\[\ 0,14 \cdot 0,45 \cdot 25 = 1,57\]</td>
+      <td>\[ g_{alv} = 1,79 \cdot 1,80 = 3,22 \]</td>
+      <td>\[\ 0,14 \cdot 0,45 \cdot 25 = 1,57 \]</td>
       <td>\[\ 3,22 + 1,57 = 4,79\]</td>
     </tr>
     <tr>
