@@ -13,5 +13,14 @@ has_toc: True
 <!--Don't delete this script-->
 
 <p align = "justify">
-Nesta seção são apresentados os dimensionamento das vigas que compõem o modelo estrutural.
+Nesta seção são apresentados os dimensionamento das vigas que compõem o modelo estrutural. A seguir, estão os passos gerais envolvidos no projeto de flexão simples para uma viga de concreto armado: 
 </p>
+
+<ol>
+  <li>Determinação dos esforços da viga (cargas permanentes e variáveis)</li>
+  <li>Determinação do momento resistente de cálculo</li>
+  <li>Determinação da altura da linha neutra</li>
+  <li>Armadura final com verificação de armadura mínima</li>
+  <li>Detalhamento seção</li>
+  <li>Detalhamento longitudinal</li>
+</ol>

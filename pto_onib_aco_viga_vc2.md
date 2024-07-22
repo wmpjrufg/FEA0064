@@ -1,5 +1,5 @@
 ---
-title: Viga VT1
+title: Viga VC2
 layout: default
 grand_parent: Exemplo I
 parent: Projeto vigas
