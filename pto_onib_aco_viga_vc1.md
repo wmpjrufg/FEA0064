@@ -126,3 +126,41 @@ Após isso determina-se o momento resistente dessa seção para verificação da
 <p aligin = "justify">
 No exemplo  M<sub>Rd,lim</sub> > M<sub>Sd</sub>.
 </p>
+
+<p aligin = "justify">
+O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub> e o braço de alavanca z para cálculo da armadura .
+</p>
+
+<table>
+  <tr>
+    <td align = "center">\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[x_{III} = \frac{2,5aqui_aqui - \sqrt{( 2,5^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
+  </tr>
+</table>
+
+<p aligin = "justify">
+Dessa forma, com o valor do braço de alvanca z é possível determinar a área de aço da peça:
+</p>
+
+<table>
+  <tr>
+    <td align = "center">\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+  </tr>
+<table>
