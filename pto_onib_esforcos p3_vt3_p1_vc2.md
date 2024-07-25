@@ -31,28 +31,28 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
   </thead>
   <tbody>
     <tr>
-      <td>VC1 / g</td>
+      <td>VC2 / g</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
     </tr>
     <tr>
-      <td>VC1 / q</td>
+      <td>VC2 / q</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
     </tr>
     <tr>
-      <td>VT1 / g</td>
+      <td>VT3 / g</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
     </tr>
     <tr>
-      <td>VT1 / q</td>
+      <td>VT3 / q</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
@@ -80,21 +80,21 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
       <td>aqui</td>
     </tr>
     <tr>
-      <td>P2 / g</td>
+      <td>P3 / g</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
     </tr>
     <tr>
-      <td>P2 / q</td>
+      <td>P3 / q</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
     </tr>
     <tr>
-      <td>P2 / pp_pilar</td>
+      <td>P3 / pp_pilar</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
