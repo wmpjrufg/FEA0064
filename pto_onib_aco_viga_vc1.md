@@ -28,37 +28,37 @@ A seguir são apresentados os dados da viga VC1.
 <tbody align="center">
   <tr>
     <td align = "left">Largura da seção transversal (b<sub>w</sub>)</td>
-    <td>aqui</td>
+    <td>0,14</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Altura (h)</td>
-    <td>aqui</td>
+    <td>0,45</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Altura Útil (d)</td>
-    <td>aqui</td>
+    <td>0,396</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas permanentes (M<sub>max,gk</sub>)</td>
-    <td>aqui</td>
+    <td>9,1</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico mínimo devido cargas permanentes (M<sub>min,gk</sub>)</td>
-    <td>aqui</td>
+    <td>5,1</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas variáveis (M<sub>max,qk</sub>)</td>
-    <td>aqui</td>
+    <td>2,4</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico mínimo devido cargas variáveis (M<sub>min,qk</sub>)</td>
-    <td>aqui</td>
+    <td>1,4</td>
     <td>kNm</td>
   </tr>
   <tr>
@@ -98,17 +98,19 @@ A seguir são apresentados os dados da viga VC1.
 O primeiro passo é a determinação dos esforços de cálculo na viga (M<sub>Sd</sub>). No caso avalia-se o momento de cálculo para o valor máximo e valor mínimo de momento fletor. Lembrando que para o momento fletor mínimo negativo efetua-se o cálculo da armadura em módulo.
 </p>
 
+
 <table style = "width:100%">
   <tr>
     <td align = "center">\[M_{Sd} = M_{gk} \cdot \gamma_{g} + M_{qk} \cdot \gamma_{q}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Sd,max} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[M_{Sd,max} = 9,1 \cdot 1,4 + 2,4 \cdot 1,4 = 16,1 \; \text{kN.m}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Sd,min} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[M_{Sd,min} = 5,1 \cdot 1,4 + 1,4 \cdot 1,4 = 9,1 \; \text{kN.m}\]</td>
   </tr>
 </table>
+
 
 <p align = "justify">
 Após isso determina-se o momento resistente dessa seção para verificação da possibilidade de armadura dupla. No caso a armadura simples é dada por M<sub>Sd</sub> ≤ M<sub>Rd,lim</sub>.
@@ -119,7 +121,7 @@ Após isso determina-se o momento resistente dessa seção para verificação da
     <td align = "center">\[M_{Rd,lim} = b_{w} \cdot d^2 \cdot \lambda \cdot \beta _x \cdot \alpha _c \cdot f_{cd} \left( 1 - 0,50 \cdot \lambda \cdot \beta _x \right)\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Rd,lim} = b_{w} \cdot d^2 \cdot \lambda \cdot \beta _x \cdot \alpha _c \cdot f_{cd} \left( 1 - 0,50 \cdot \lambda \cdot \beta _x \right)\]</td>
+    <td align = "center">\[M_{Rd,lim} = 0,14 \cdot 0,396^2 \cdot 0,8 \cdot 0,45 \cdot 0,85 \cdot 25000 \left 1,4 \cdot( 1 - 0,50 \cdot 0,8 \cdot 0,45 \right) = 98,37 \]</td>
   </tr>
 </table>
 
@@ -160,18 +162,18 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
   </thead>
   <tbody>
     <tr>
-      <td>aqui aqui</td>
-      <td>\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
-      <td>\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
-      <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
-      <td>\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+      <td>16,1</td>
+      <td>\[\epsilon = \frac{16,1}{0,14 \cdot 0,85 \cdot \frac{25000}{0,85}}\]</td>
+      <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,0075 ) )}}{0,8}\]</td>
+      <td>\[z = 0,396 - (0,5 \cdot 0,8 \cdot 0,02)\]</td>
+      <td>\[A_s = {\frac{16,1}{0,39 \cdot \frac{500000}{1,15}}\]</td>
     </tr>
     <tr>
-      <td>aqui aqui</td>
-      <td>\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
-      <td>\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
-      <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
-      <td>\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+      <td>9,1</td>
+      <td>\[\epsilon = \frac{9,1}{0,14 \cdot 0,85 \cdot \frac{25000}{0,85}}\]</td>
+      <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,0075 ) )}}{0,8}\]</td>
+      <td>\[z = 0,396 - (0,5 \cdot 0,8 \cdot 0,02)\]</td>
+      <td>\[A_s = {\frac{9,1}{0,39 \cdot \frac{500000}{1,15}}\]</td>
     </tr>
   </tbody>
 </table>
