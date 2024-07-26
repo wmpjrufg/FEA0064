@@ -184,13 +184,13 @@ Após a verificação de flexão pura deve-se verificar a viga para cisalhamento
 
 <table>
   <tr>
-    <td align = "center">\[V_{Sd} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[V_{Sd} = 13,6 \cdot 1,4 + 3,6 \cdot 1,4 = 24,08 \; \text{kN.m}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ V_{Rd2} = 0,27 \cdot \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot (1+\cot(\alpha)) \]</td>
+    <td align = "center">\[ V_{Rd2} = 0,27 \cdot (1-(25000/250000) \cdot (25000/1,4) \cdot 0,14 \cdot 0,396 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ V_{Rd2} = 0,27 \cdot \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot (1+\cot(\alpha)) \]</td>
+    <td align = "center">\[ V_{Rd2} = 240,57 \]</td>
   </tr>
 </table>
 
