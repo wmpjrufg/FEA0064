@@ -95,10 +95,10 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
     </tr>
     <tr>
       <td>P2 / pp_pilar</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>2,2</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
     </tr>
   </tbody>
 </table>
