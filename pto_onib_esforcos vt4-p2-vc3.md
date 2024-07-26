@@ -32,52 +32,52 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
   <tbody>
     <tr>
       <td>VC2 / g</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>-0,264</td>
+      <td>4,719</td>
+      <td>-3,379</td>
+      <td>0</td>
     </tr>
     <tr>
       <td>VC2 / q</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>-0,048</td>
+      <td>0,858</td>
+      <td>-0,614</td>
+      <td>0</td>
     </tr>
     <tr>
       <td>VT4 / g</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>0</td>
+      <td>1,401</td>
+      <td>-0,334</td>
+      <td>0,167</td>
     </tr>
     <tr>
       <td>VT4 / q</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <td>P2 / g</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>-6,879</td>
+      <td>0</td>
+      <td>3,379</td>
+      <td>3,379</td>
     </tr>
     <tr>
       <td>P2 / q</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>-0,859</td>
+      <td>0</td>
+      <td>0,614</td>
+      <td>0,614</td>
     </tr>
     <tr>
       <td>P2 / pp_pilar</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>-2,152</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
   </tbody>
 </table>
