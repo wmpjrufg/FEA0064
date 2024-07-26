@@ -32,31 +32,31 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
   <tbody>
     <tr>
       <td>VC2 / g</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>0,182</td>
+      <td>2,386</td>
+      <td>0,102</td>
+      <td>0,762</td>
     </tr>
     <tr>
       <td>VC2 / q</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>0,033</td>
+      <td>0,434</td>
+      <td>0,018</td>
+      <td>0,139</td>
     </tr>
     <tr>
       <td>VT3 / g</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>0</td>
+      <td>3,425</td>
+      <td>0,816</td>
+      <td>0,408</td>
     </tr>
     <tr>
       <td>VT3 / q</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <td>P1 / g</td>
