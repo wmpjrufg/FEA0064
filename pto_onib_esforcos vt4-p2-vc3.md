@@ -62,8 +62,8 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
       <td>P2 / g</td>
       <td>-6,879</td>
       <td>0</td>
-      <td>3,379</td>
-      <td>3,379</td>
+      <td>-3,379</td>
+      <td>-3,379</td>
     </tr>
     <tr>
       <td>P2 / q</td>
