@@ -60,15 +60,15 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
     </tr>
     <tr>
       <td>P1 / g</td>
-      <td>2,34</td>
-      <td>0,052</td>
+      <td>-2,34</td>
+      <td>-0,052</td>
       <td>-0,064</td>
       <td>0,042</td>
     </tr>
     <tr>
       <td>P1 / q</td>
-      <td>0,425</td>
-      <td>0,009</td>
+      <td>-0,425</td>
+      <td>-0,009</td>
       <td>-0,012</td>
       <td>0,006</td>
     </tr>
@@ -81,14 +81,14 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
     </tr>
     <tr>
       <td>P3 / g</td>
-      <td>2,386</td>
+      <td>-2,386</td>
       <td>0,052</td>
       <td>-0,102</td>
       <td>0,009</td>
     </tr>
     <tr>
       <td>P3 / q</td>
-      <td>0,434</td>
+      <td>-0,434</td>
       <td>0,009</td>
       <td>-0,018</td>
       <td>0,002</td>
