@@ -31,49 +31,28 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
   </thead>
   <tbody>
     <tr>
-      <td>VC1 / g</td>
+      <td>VC2 / g</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
     </tr>
     <tr>
-      <td>VC1 / q</td>
+      <td>VC2 / q</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
     </tr>
     <tr>
-      <td>VT1 / g</td>
+      <td>VT4 / g</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
     </tr>
     <tr>
-      <td>VT1 / q</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-    </tr>
-    <tr>
-      <td>P1 / g</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-    </tr>
-    <tr>
-      <td>P1 / q</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-    </tr>
-    <tr>
-      <td>P1 / pp_pilar</td>
+      <td>VT4 / q</td>
       <td>aqui</td>
       <td>aqui</td>
       <td>aqui</td>
