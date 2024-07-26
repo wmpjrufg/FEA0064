@@ -14,7 +14,7 @@ has_toc: false
 <!--Don't delete this script-->
 
 <p align = "justify">
-A seguir são detalhados os esforços caractéristicos nas seções dos elementos que formam o pórtico <b>P1 - VT1 - P2 - VC1</b>.
+A seguir são detalhados os esforços caractéristicos nas seções dos elementos que formam o pórtico <b>P2 - VT4 - VC3</b>.
 </p>
 
 <p align = "justify" id = "tab1"><b>Tabela 1.</b> Esforços nas vigas e pilares.</p>
