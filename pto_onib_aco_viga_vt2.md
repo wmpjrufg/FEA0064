@@ -119,7 +119,10 @@ Após isso determina-se o momento resistente dessa seção para verificação da
     <td align = "center">\[M_{Rd,lim} = b_{w} \cdot d^2 \cdot \lambda \cdot \beta _x \cdot \alpha _c \cdot f_{cd} \left( 1 - 0,50 \cdot \lambda \cdot \beta _x \right)\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Rd,lim} = b_{w} \cdot d^2 \cdot \lambda \cdot \beta _x \cdot \alpha _c \cdot f_{cd} \left( 1 - 0,50 \cdot \lambda \cdot \beta _x \right)\]</td>
+    <td align = "center">\[M_{Rd,lim} = 0,14 \cdot 0,396^2 \cdot 0,8 \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \left( 1 - 0,50 \cdot 0,8 \cdot 0,45 \right)\]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[M_{Rd,lim} = 98,371\; \text{kN.m}\]</td>
   </tr>
 </table>
 
@@ -152,7 +155,7 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
   <thead>
     <tr>
       <th>M<sub>Sd</sub> (kNm)</th>
-      <th>ξ</th>
+      <th>ϵ (m²)</th>
       <th>x<sub>III</sub> (m)</th>
       <th>z (m)</th>
       <th>A<sub>s</sub> (m²)</th>
@@ -160,18 +163,18 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
   </thead>
   <tbody>
     <tr>
-      <td>aqui aqui</td>
-      <td>\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
-      <td>\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
-      <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
-      <td>\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+      <td>\[2,66\]</td>
+      <td>\[0,0012518\]</td>
+      <td>\[0,0039672\]</td>
+      <td>\[0,3944131\]</td>
+      <td>\[1,5511654\cdot 10^{-5}\]</td>
     </tr>
     <tr>
-      <td>aqui aqui</td>
-      <td>\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
-      <td>\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
-      <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
-      <td>\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+      <td>\[4,76\]</td>
+      <td>\[0,00224\]</td>
+      <td>\[0,0071219\]</td>
+      <td>\[0,3931512\]</td>
+      <td>\[2,7846791\cdot 10^{-5}\]</td>
     </tr>
   </tbody>
 </table>
@@ -182,14 +185,17 @@ Após a verificação de flexão pura deve-se verificar a viga para cisalhamento
 
 <table>
   <tr>
-    <td align = "center">\[V_{Sd} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[V_{Sd} = 4,1 \cdot 1,4 + 0 \cdot 1,4 = 5,74 \; \text{kN.m}\]</td>
   </tr>
   <tr>
     <td align = "center">\[ V_{Rd2} = 0,27 \cdot \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot (1+\cot(\alpha)) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ V_{Rd2} = 0,27 \cdot \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot (1+\cot(\alpha)) \]</td>
+    <td align = "center">\[ V_{Rd2} = 0,27 \cdot \left ( 1-\frac{25}{250} \right ) \cdot \left ( \frac{25}{1,4} \right ) \cdot 0,14 \cdot 0,396 \cdot (1+\cot(\alpha)) \]</td>
   </tr>
+  <tr>
+    <td align = "center">\[ V_{Rd2} = falta\ achar\ o\ valor\ de\ alfa\ pra\ terminar\ \]</td>
+  </tr>  
 </table>
 
 <p align = "justify">
@@ -201,6 +207,9 @@ No caso a viga apresenta resistência da biela de compressão. E o próximo pass
     <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{V_{sw}}{0,9 \cdot d \cdot f_{ywd}\cdot(\sin(\alpha) + \cos(\alpha))} \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{V_{sw}}{0,9 \cdot d \cdot f_{ywd}\cdot(\sin(\alpha) + \cos(\alpha))} \]</td>
+    <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{V_{sw}}{0,9 \cdot 0,396 \cdot \left ( \frac{500}{1,15} \right ) \cdot(\sin(\alpha) + \cos(\alpha))} \]</td>
   </tr>
 </table>
+
+</body>
+</html>
