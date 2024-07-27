@@ -207,7 +207,7 @@ No caso a viga apresenta resistência da biela de compressão. E o próximo pass
     <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{V_{sw}}{0,9 \cdot d \cdot f_{ywd}\cdot(\sin(\alpha) + \cos(\alpha))} \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{V_{sw}}{0,9 \cdot 0,396 \cdot \left ( \frac{500}{1,15} \right ) \cdot(\sin(\alpha) + \cos(\alpha))} \]</td>
+    <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{5,74+\left ( 0,6\cdot \left ( \frac{0,7\cdot 0,3\cdot 25^{\frac{2}{3}}}{1,4} \right )\cdot 0,14\cdot 0,396 \right )}{0,9 \cdot 0,396 \cdot \left ( \frac{500}{1,15} \right ) \cdot(\sin(\alpha) + \cos(\alpha))} \]</td>
   </tr>
 </table>
 
