@@ -32,14 +32,14 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
   <tbody>
     <tr>
       <td>VC2 / g</td>
-      <td>0,182</td>
+      <td>-0,182</td>
       <td>2,386</td>
       <td>-0,102</td>
       <td>0,762</td>
     </tr>
     <tr>
       <td>VC2 / q</td>
-      <td>0,033</td>
+      <td>-0,033</td>
       <td>0,434</td>
       <td>-0,018</td>
       <td>0,139</td>
@@ -61,20 +61,20 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
     <tr>
       <td>P1 / g</td>
       <td>-2,34</td>
-      <td>-0,052</td>
+      <td>0,052</td>
       <td>-0,064</td>
       <td>0,042</td>
     </tr>
     <tr>
       <td>P1 / q</td>
       <td>-0,425</td>
-      <td>-0,009</td>
+      <td>0,009</td>
       <td>-0,012</td>
       <td>0,006</td>
     </tr>
     <tr>
       <td>P1 / pp_pilar</td>
-      <td>2,153</td>
+      <td>-2,153</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -95,7 +95,7 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
     </tr>
     <tr>
       <td>P3 / pp_pilar</td>
-      <td>2,236</td>
+      <td>-2,236</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
