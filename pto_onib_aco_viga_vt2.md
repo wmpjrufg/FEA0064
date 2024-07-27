@@ -14,7 +14,7 @@ has_toc: false
 <!--Don't delete this script-->
 
 <p align = "justify">
-A seguir são apresentados os dados da viga VC1. 
+A seguir são apresentados os dados da viga VT2. 
 </p>
 
 <table style = "width:100%">
@@ -28,37 +28,37 @@ A seguir são apresentados os dados da viga VC1.
 <tbody align="center">
   <tr>
     <td align = "left">Largura da seção transversal (b<sub>w</sub>)</td>
-    <td>aqui</td>
+    <td>0,14</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Altura (h)</td>
-    <td>aqui</td>
+    <td>0,45</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Altura Útil (d)</td>
-    <td>aqui</td>
+    <td>0,396</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas permanentes (M<sub>max,gk</sub>)</td>
-    <td>aqui</td>
+    <td>1,9</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico mínimo devido cargas permanentes (M<sub>min,gk</sub>)</td>
-    <td>aqui</td>
+    <td>3,4</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas variáveis (M<sub>max,qk</sub>)</td>
-    <td>aqui</td>
+    <td>0</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico mínimo devido cargas variáveis (M<sub>min,qk</sub>)</td>
-    <td>aqui</td>
+    <td>0</td>
     <td>kNm</td>
   </tr>
   <tr>
@@ -103,10 +103,10 @@ O primeiro passo é a determinação dos esforços de cálculo na viga (M<sub>Sd
     <td align = "center">\[M_{Sd} = M_{gk} \cdot \gamma_{g} + M_{qk} \cdot \gamma_{q}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Sd,max} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[M_{Sd,max} = 1,9 \cdot 1,4 + 0 \cdot 1,4 = 2,66 \; \text{kN.m}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Sd,min} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[M_{Sd,min} = 3,4 \cdot 1,4 + 0 \cdot 1,4 = 4,76 \; \text{kN.m}\]</td>
   </tr>
 </table>
 
