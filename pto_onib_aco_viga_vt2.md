@@ -213,6 +213,3 @@ No caso a viga apresenta resistência da biela de compressão. E o próximo pass
   </tr>    
   </tr>
 </table>
-
-</body>
-</html>
