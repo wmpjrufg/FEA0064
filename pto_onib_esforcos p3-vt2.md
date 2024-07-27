@@ -14,7 +14,7 @@ has_toc: false
 <!--Don't delete this script-->
 
 <p align = "justify">
-A seguir são detalhados os esforços caractéristicos nas seções dos elementos que formam o pórtico <b>P1 - VT1 - P2 - VC1</b>.
+A seguir são detalhados os esforços caractéristicos nas seções dos elementos que formam o pórtico <b>P3 - VT2 - P2</b>.
 </p>
 
 <p align = "justify" id = "tab1"><b>Tabela 1.</b> Esforços nas vigas e pilares.</p>
@@ -31,74 +31,39 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
   </thead>
   <tbody>
     <tr>
-      <td>VC1 / g</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>VT2 / g</td>
+      <td>0</td>
+      <td>4,1</td>
+      <td>3,4</td>
+      <td>1,9</td>
     </tr>
     <tr>
-      <td>VC1 / q</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>VT2 / q</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
-      <td>VT1 / g</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>P3 / g</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
-      <td>VT1 / q</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+      <td>P3 / q</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
-    <tr>
-      <td>P1 / g</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-    </tr>
-    <tr>
-      <td>P1 / q</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-    </tr>
-    <tr>
-      <td>P1 / pp_pilar</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-    </tr>
-    <tr>
-      <td>P2 / g</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-    </tr>
-    <tr>
-      <td>P2 / q</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-    </tr>
-    <tr>
-      <td>P2 / pp_pilar</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
-      <td>aqui</td>
+        <tr>
+      <td>P3 / pp_pilar</td>
+      <td>-2,2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
   </tbody>
 </table>
