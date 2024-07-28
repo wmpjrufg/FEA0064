@@ -119,12 +119,9 @@ Após isso determina-se o momento resistente dessa seção para verificação da
     <td align = "center">\[M_{Rd,lim} = b_{w} \cdot d^2 \cdot \lambda \cdot \beta _x \cdot \alpha _c \cdot f_{cd} \left( 1 - 0,50 \cdot \lambda \cdot \beta _x \right)\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Rd,lim} = 0,14 \cdot 0,396^2 \cdot 0,8 \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \left( 1 - 0,50 \cdot 0,8 \cdot 0,45 \right)\]</td>
+    <td align = "center">\[M_{Rd,lim} = 0,14 \cdot 0,396^2 \cdot 0,8 \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \left( 1 - 0,50 \cdot 0,8 \cdot 0,45 \right) = 98,371\; \text{kN.m}\]</td>
   </tr>
-   <tr>
-    <td align = "center">\[M_{Rd,lim} = 98,371\; \text{kN.m}\]</td>
-  </tr>
-</table>
+ </table>
 
 <p align = "justify">
 No exemplo  M<sub>Rd,lim</sub> > M<sub>Sd</sub>.
@@ -164,17 +161,17 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
   <tbody>
     <tr>
       <td>\[0,571\]</td>
-      <td>\[0,000269\]</td>
-      <td>\[0,000849\]</td>
-      <td>\[0,3957\]</td>
-      <td>\[3,320\cdot 10^{-6}\]</td>
+      <td>\[\epsilon = \frac{0,571}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}}\] = 0,000268</td>
+      <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,000268 ) )}}{0,8}\] = 0,000849</td>
+      <td>\[z = 0,396 - (0,5 \cdot 0,8 \cdot 0,000849)\] = 0,3957 </td>
+      <td>\[A_s = {\frac{0,571}{0,3957 \cdot \frac{500000}{1,15}}} = 3,332\cdot 10^{-6}\]</td>
     </tr>
     <tr>
       <td>\[1,142\]</td>
-      <td>\[0,000538\]</td>
-      <td>\[0,0017\]</td>
-      <td>\[0,3953\]</td>
-      <td>\[6,647\cdot 10^{-6}\]</td>
+      <td>\[\epsilon = \frac{1,42}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}}\] = 0,000537</td>
+      <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,00053 ) )}}{0,8}\] = 0,0017</td>
+      <td>\[z = 0,396 - (0,5 \cdot 0,8 \cdot 0,0017)\] = 0,3953</td>
+      <td>\[A_s = {\frac{1,142}{0,3953 \cdot \frac{500000}{1,15}}} = 6,647\cdot 10^{-6}\]</td>
     </tr>
   </tbody>
 </table>
