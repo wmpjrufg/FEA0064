@@ -168,7 +168,7 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
     </tr>
     <tr>
       <td>\[1,142\]</td>
-      <td>\[\epsilon = \frac{1,42}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}}\] = 0,000537</td>
+      <td>\[\epsilon = \frac{1,142}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}}\] = 0,000537</td>
       <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,00053 ) )}}{0,8}\] = 0,0017</td>
       <td>\[z = 0,396 - (0,5 \cdot 0,8 \cdot 0,0017)\] = 0,3953</td>
       <td>\[A_s = {\frac{1,142}{0,3953 \cdot \frac{500000}{1,15}}} = 6,647\cdot 10^{-6}\]</td>
