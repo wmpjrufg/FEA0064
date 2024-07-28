@@ -121,6 +121,9 @@ Após isso determina-se o momento resistente dessa seção para verificação da
   <tr>
     <td align = "center">\[M_{Rd,lim} = 0,14 \cdot 0,396^2 \cdot 0,8 \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \left( 1 - 0,50 \cdot 0,8 \cdot 0,45 \right)\]</td>
   </tr>
+   <tr>
+    <td align = "center">\[M_{Rd,lim} = 98,371\; \text{kN.m}\]</td>
+  </tr>
 </table>
 
 <p align = "justify">
@@ -160,18 +163,18 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
   </thead>
   <tbody>
     <tr>
-      <td>aqui aqui</td>
-      <td>\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
-      <td>\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
-      <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
-      <td>\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+      <td>\[0,571\]</td>
+      <td>\[0,000269\]</td>
+      <td>\[0,000849\]</td>
+      <td>\[0,3957\]</td>
+      <td>\[3,320\cdot 10^{-6}\]</td>
     </tr>
     <tr>
-      <td>aqui aqui</td>
-      <td>\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
-      <td>\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
-      <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
-      <td>\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+      <td>1,142</td>
+      <td>\[0,000538\]</td>
+      <td>\[0,0017\]</td>
+      <td>\[0,3953\]</td>
+      <td>\[6,647\cdot 10^{-6}\]</td>
     </tr>
   </tbody>
 </table>
@@ -182,13 +185,16 @@ Após a verificação de flexão pura deve-se verificar a viga para cisalhamento
 
 <table>
   <tr>
-    <td align = "center">\[V_{Sd} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[V_{Sd} = 3,425 \cdot 1,4 + 0 \cdot 1,4 = 4,795 \; \text{kN.m}\]</td>
   </tr>
   <tr>
     <td align = "center">\[ V_{Rd2} = 0,27 \cdot \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot (1+\cot(\alpha)) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ V_{Rd2} = 0,27 \cdot \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot (1+\cot(\alpha)) \]</td>
+    <td align = "center">\[ V_{Rd2} = 0,27 \cdot \left ( 1-\frac{25}{250} \right ) \cdot \left ( \frac{25}{1,4} \right ) \cdot 0,14 \cdot 0,396 \cdot (1+\cot(90)) \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ V_{Rd2} = 240,6 \; \text{kN}\]</td>
   </tr>
 </table>
 
