@@ -170,7 +170,7 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
       <td>\[3,320\cdot 10^{-6}\]</td>
     </tr>
     <tr>
-      <td>1,142</td>
+      <td>\[1,142\]</td>
       <td>\[0,000538\]</td>
       <td>\[0,0017\]</td>
       <td>\[0,3953\]</td>
