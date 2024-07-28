@@ -119,7 +119,7 @@ Após isso determina-se o momento resistente dessa seção para verificação da
     <td align = "center">\[M_{Rd,lim} = b_{w} \cdot d^2 \cdot \lambda \cdot \beta _x \cdot \alpha _c \cdot f_{cd} \left( 1 - 0,50 \cdot \lambda \cdot \beta _x \right)\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Rd,lim} = 0,14 \cdot 0,396^2 \cdot 0,8 \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \left( 1 - 0,50 \cdot 0,8 \cdot 0,45 \right) = 0,17 \; \text{kN.m}\]</td>
+    <td align = "center">\[M_{Rd,lim} = 0,14 \cdot 0,396^2 \cdot 0,8 \cdot 0,45 \cdot 0,85 \cdot \frac{25000}{1,4} \left( 1 - 0,50 \cdot 0,8 \cdot 0,45 \right) = 98,371 \; \text{kN.m}\]</td>
   </tr>
 </table>
 
@@ -160,17 +160,17 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
   </thead>
   <tbody>
     <tr>
-      <td>aqui aqui</td>
-      <td>\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
-      <td>\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
-      <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
+      <td>1,26</td>
+      <td>\[\epsilon = \frac{1,26}{0,14 \cdot \0,85 \cdot \frac{25000}}{1,4}}\] = 0,00059</td>
+      <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot \0,00059 ) )}}{0,8}\] = 0,0019</td>
+      <td>\[z = 0,396 - (0,5 \cdot \0,8 \cdot 0,0019)\] = 0,395 </td>
       <td>\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
     </tr>
     <tr>
-      <td>aqui aqui</td>
-      <td>\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
-      <td>\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
-      <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
+      <td>0,17</td>
+      <td>\[\epsilon = \frac{0,17}{0,14 \cdot \0,85 \cdot \frac{25000}{1,4}}\] = 0,00008</td>
+      <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot \0,00008 ) )}}{0,8}\] = 0,00025</td>
+      <td>\[z = 0,396 - (0,5 \cdot \0,8 \cdot 0,00025)\] = 0,3959</td>
       <td>\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
     </tr>
   </tbody>
