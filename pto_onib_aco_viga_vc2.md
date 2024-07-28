@@ -164,7 +164,7 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
       <td>\[\epsilon = \frac{1,26}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}}\] = 0,00059</td>
       <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,00059 ) )}}{0,8}\] = 0,0019</td>
       <td>\[z = 0,396 - (0,5 \cdot 0,8 \cdot 0,0019)\] = 0,395 </td>
-      <td>\[A_s = {\frac{1,26}{0,395 \cdot \frac{25000}{1,4}}}\] = [1,79\cdot 10^{-5}\]</td>
+      <td>\[A_s = {\frac{1,26}{0,395 \cdot \frac{25000}{1,4}}}\] = [1,79\cdot 10^{-4}\]</td>
     </tr>
     <tr>
       <td>0,17</td>
@@ -182,7 +182,7 @@ Após a verificação de flexão pura deve-se verificar a viga para cisalhamento
 
 <table>
   <tr>
-    <td align = "center">\[V_{Sd} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[V_{Sd} = 2,386 \cdot 1,4 + 0,434 \cdot 1,4 = 3,948 \; \text{kN}\]</td>
   </tr>
   <tr>
     <td align = "center">\[ V_{Rd2} = 0,27 \cdot \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot (1+\cot(\alpha)) \]</td>
