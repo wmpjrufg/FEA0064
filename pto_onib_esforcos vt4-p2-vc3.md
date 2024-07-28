@@ -31,14 +31,14 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
   </thead>
   <tbody>
     <tr>
-      <td>VC2 / g</td>
+      <td>VC3 / g</td>
       <td>-0,264</td>
       <td>4,719</td>
       <td>-3,379</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>VC2 / q</td>
+      <td>VC3 / q</td>
       <td>-0,048</td>
       <td>0,858</td>
       <td>-0,614</td>
