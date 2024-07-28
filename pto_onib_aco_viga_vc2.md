@@ -164,14 +164,14 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
       <td>\[\epsilon = \frac{1,26}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}}\] = 0,00059</td>
       <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,00059 ) )}}{0,8}\] = 0,0019</td>
       <td>\[z = 0,396 - (0,5 \cdot 0,8 \cdot 0,0019)\] = 0,395 </td>
-      <td>\[A_s = {\frac{1,26}{0,395 \cdot \frac{25000}{1,4}}} = 1,79\cdot 10^{-4}\]</td>
+      <td>\[A_s = {\frac{1,26}{0,395 \cdot \frac{500000}{1,15}}} = 7,33\cdot 10^{-6}\]</td>
     </tr>
     <tr>
       <td>0,17</td>
       <td>\[\epsilon = \frac{0,17}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}}\] = 0,00008</td>
       <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,00008 ) )}}{0,8}\] = 0,00025</td>
       <td>\[z = 0,396 - (0,5 \cdot 0,8 \cdot 0,00025)\] = 0,3959</td>
-      <td>\[A_s = {\frac{0,17}{0,3959 \cdot \frac{25000}{1,4}}} = 2,4\cdot 10^{-5}\]</td>
+      <td>\[A_s = {\frac{0,17}{0,3959 \cdot \frac{500000}{1,15}}} = 9,88\cdot 10^{-7}\]</td>
     </tr>
   </tbody>
 </table>
@@ -201,6 +201,6 @@ No caso a viga apresenta resistência da biela de compressão. E o próximo pass
     <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{V_{sw}}{0,9 \cdot d \cdot f_{ywd}\cdot(\sin(\alpha) + \cos(\alpha))} \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{V_{sw}}{0,9 \cdot d \cdot f_{ywd}\cdot(\sin(\alpha) + \cos(\alpha))} \]</td>
+    <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{38,71}{0,9 \cdot 0,396 \cdot frac{500000}{1,15}\cdot(\sin(90) + \cos(90))} = 2,498 \; \text{cm^2}\]</td>
   </tr>
 </table>
