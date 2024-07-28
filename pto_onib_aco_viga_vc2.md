@@ -188,7 +188,7 @@ Após a verificação de flexão pura deve-se verificar a viga para cisalhamento
     <td align = "center">\[ V_{Rd2} = 0,27 \cdot \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot (1+\cot(\alpha)) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ V_{Rd2} = 0,27 \cdot \left ( 1-\frac{25000}{250000} \right ) \cdot \left ( \frac{25}{1,4} \right ) \cdot 0,14 \cdot 0,396 \cdot (1+\cot(90)) 240,6 \; \text{kN}\]</td>
+    <td align = "center">\[ V_{Rd2} = 0,27 \cdot \left ( 1-\frac{25000}{250000} \right ) \cdot \left ( \frac{25}{1,4} \right ) \cdot 0,14 \cdot 0,396 \cdot (1+\cot(90)) = 240,6 \; \text{kN}\]</td>
   </tr>
 </table>
 
