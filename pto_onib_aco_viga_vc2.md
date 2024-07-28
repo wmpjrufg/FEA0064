@@ -103,10 +103,10 @@ O primeiro passo é a determinação dos esforços de cálculo na viga (M<sub>Sd
     <td align = "center">\[M_{Sd} = M_{gk} \cdot \gamma_{g} + M_{qk} \cdot \gamma_{q}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Sd,max} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[M_{Sd,max} = 0,762 \cdot 1,4 + 0,139 \cdot 1,4 = 1,26 \; \text{kN.m}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Sd,min} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[M_{Sd,min} = 0,102 \cdot 1,4 + 0,018 \cdot 1,4 = 0,17 \; \text{kN.m}\]</td>
   </tr>
 </table>
 
@@ -119,7 +119,7 @@ Após isso determina-se o momento resistente dessa seção para verificação da
     <td align = "center">\[M_{Rd,lim} = b_{w} \cdot d^2 \cdot \lambda \cdot \beta _x \cdot \alpha _c \cdot f_{cd} \left( 1 - 0,50 \cdot \lambda \cdot \beta _x \right)\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Rd,lim} = b_{w} \cdot d^2 \cdot \lambda \cdot \beta _x \cdot \alpha _c \cdot f_{cd} \left( 1 - 0,50 \cdot \lambda \cdot \beta _x \right)\]</td>
+    <td align = "center">\[M_{Rd,lim} = 0,14 \cdot 0,396^2 \cdot \0,8 \cdot \0,45 \cdot \0,85 \cdot /frac{25000}{1,4} \left( 1 - 0,50 \cdot \0,8 \cdot \0,45 \right)\= 98,371 \; \text{kN.m}\]</td>
   </tr>
 </table>
 
