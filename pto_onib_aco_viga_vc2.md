@@ -14,7 +14,7 @@ has_toc: false
 <!--Don't delete this script-->
 
 <p align = "justify">
-A seguir são apresentados os dados da viga VC1. 
+A seguir são apresentados os dados da viga VC2. 
 </p>
 
 <table style = "width:100%">
@@ -28,37 +28,37 @@ A seguir são apresentados os dados da viga VC1.
 <tbody align="center">
   <tr>
     <td align = "left">Largura da seção transversal (b<sub>w</sub>)</td>
-    <td>aqui</td>
+    <td>0,14</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Altura (h)</td>
-    <td>aqui</td>
+    <td>0,45</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Altura Útil (d)</td>
-    <td>aqui</td>
+    <td>0,396</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas permanentes (M<sub>max,gk</sub>)</td>
-    <td>aqui</td>
+    <td>0,762</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico mínimo devido cargas permanentes (M<sub>min,gk</sub>)</td>
-    <td>aqui</td>
+    <td>0,102</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas variáveis (M<sub>max,qk</sub>)</td>
-    <td>aqui</td>
+    <td>0,139</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico mínimo devido cargas variáveis (M<sub>min,qk</sub>)</td>
-    <td>aqui</td>
+    <td>0,018</td>
     <td>kNm</td>
   </tr>
   <tr>
