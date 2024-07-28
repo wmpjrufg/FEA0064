@@ -28,37 +28,37 @@ A seguir são apresentados os dados da viga VC3.
 <tbody align="center">
   <tr>
     <td align = "left">Largura da seção transversal (b<sub>w</sub>)</td>
-    <td>aqui</td>
-    <td>m</td>
+    <td>14</td>
+    <td>cm</td>
   </tr>
   <tr>
     <td align = "left">Altura (h)</td>
-    <td>aqui</td>
-    <td>m</td>
+    <td>45</td>
+    <td>cm</td>
   </tr>
   <tr>
     <td align = "left">Altura Útil (d)</td>
-    <td>aqui</td>
-    <td>m</td>
+    <td>00000</td>
+    <td>cm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas permanentes (M<sub>max,gk</sub>)</td>
-    <td>aqui</td>
+    <td>0</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico mínimo devido cargas permanentes (M<sub>min,gk</sub>)</td>
-    <td>aqui</td>
+    <td>-3,379</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas variáveis (M<sub>max,qk</sub>)</td>
-    <td>aqui</td>
+    <td>0</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico mínimo devido cargas variáveis (M<sub>min,qk</sub>)</td>
-    <td>aqui</td>
+    <td>-0,614</td>
     <td>kNm</td>
   </tr>
   <tr>
