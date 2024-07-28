@@ -47,7 +47,7 @@ A seguir são detalhados os esforços caractéristicos nas seções dos elemento
     <tr>
       <td>VT4 / g</td>
       <td>0</td>
-      <td>1,401</td>
+      <td>1,40</td>
       <td>-0,334</td>
       <td>0,167</td>
     </tr>
