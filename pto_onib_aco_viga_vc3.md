@@ -38,7 +38,7 @@ A seguir são apresentados os dados da viga VC3.
   </tr>
   <tr>
     <td align = "left">Altura Útil (d)</td>
-    <td>0,396</td>
+    <td>39,6</td>
     <td>cm</td>
   </tr>
   <tr>
