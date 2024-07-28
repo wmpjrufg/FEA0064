@@ -164,14 +164,14 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
       <td>\[\epsilon = \frac{1,26}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}}\] = 0,00059</td>
       <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,00059 ) )}}{0,8}\] = 0,0019</td>
       <td>\[z = 0,396 - (0,5 \cdot 0,8 \cdot 0,0019)\] = 0,395 </td>
-      <td>\[A_s = {\frac{1,26}{0,395 \cdot \frac{25000}{1,4}}}\] = [1,79\cdot 10^{-4}\]</td>
+      <td>\[A_s = {\frac{1,26}{0,395 \cdot \frac{25000}{1,4}}} = 1,79\cdot 10^{-4}\]</td>
     </tr>
     <tr>
       <td>0,17</td>
       <td>\[\epsilon = \frac{0,17}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}}\] = 0,00008</td>
       <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,00008 ) )}}{0,8}\] = 0,00025</td>
       <td>\[z = 0,396 - (0,5 \cdot 0,8 \cdot 0,00025)\] = 0,3959</td>
-      <td>\[A_s = {\frac{0,17}{0,3959 \cdot \frac{25000}{1,4}}}\] = [2,4\cdot 10^{-5}\]</td>
+      <td>\[A_s = {\frac{0,17}{0,3959 \cdot \frac{25000}{1,4}}} = 2,4\cdot 10^{-5}\]</td>
     </tr>
   </tbody>
 </table>
@@ -188,7 +188,7 @@ Após a verificação de flexão pura deve-se verificar a viga para cisalhamento
     <td align = "center">\[ V_{Rd2} = 0,27 \cdot \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot (1+\cot(\alpha)) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ V_{Rd2} = 0,27 \cdot \left ( 1-\frac{25000}{250000} \right ) \cdot \left ( \frac{25}{1,4} \right ) \cdot 0,14 \cdot 0,396 \cdot (1+\cot(90)) \] = 3,948 \; \text{kN}\</td>
+    <td align = "center">\[ V_{Rd2} = 0,27 \cdot \left ( 1-\frac{25000}{250000} \right ) \cdot \left ( \frac{25}{1,4} \right ) \cdot 0,14 \cdot 0,396 \cdot (1+\cot(90)) 3,948 \; \text{kN}\]</td>
   </tr>
 </table>
 
