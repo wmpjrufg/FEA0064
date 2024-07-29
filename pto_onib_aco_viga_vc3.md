@@ -100,7 +100,7 @@ O primeiro passo é a determinação dos esforços de cálculo na viga (M<sub>Sd
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">Msd = Mgk . 1,4 + Mqk . 1,4</td>
+    <td align = "center">\[M_{Sd} = M_{gk} \cdot \gamma_{g} + M_{qk} \cdot \gamma_{q}\]</td>
   </tr>
   <tr>
     <td align = "center">Msd,max = 0  . 1,4 + 0 . 1,4 = 0 kN.m</td>
