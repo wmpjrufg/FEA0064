@@ -133,7 +133,7 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
 
 <table>
   <tr>
-    <td align = "center">\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
+    <td align = "center">\[x_{III} = \frac{0.369 - \sqrt{( 0.369^{2} - ( 2 \cdot \0.00263) )}}{\0,8}\]</td>
   </tr>
   <tr>
     <td align = "center">\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
