@@ -29,42 +29,42 @@ A seguir são apresentados os dados da viga VC1.
   <tr>
     <td align = "left">Largura da seção transversal (b<sub>w</sub>)</td>
     <td>0,14</td>
-    <td>m</td>
+    <td> m </td>
   </tr>
   <tr>
     <td align = "left">Altura (h)</td>
-    <td>0,45</td>
-    <td>m</td>
+    <td> 0,45 </td>
+    <td> m </td>
   </tr>
   <tr>
     <td align = "left">Altura Útil (d)</td>
-    <td>0,3996</td>
-    <td>m</td>
+    <td> 0,3996 </td>
+    <td> m </td>
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas permanentes (M<sub>max,gk</sub>)</td>
-    <td>aqui</td>
+    <td> 0,167 </td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico mínimo devido cargas permanentes (M<sub>min,gk</sub>)</td>
-    <td>aqui</td>
-    <td>kNm</td>
+    <td> -0,334 </td>
+    <td> kNm </td>
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas variáveis (M<sub>max,qk</sub>)</td>
-    <td>aqui</td>
+    <td> 0 </td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico mínimo devido cargas variáveis (M<sub>min,qk</sub>)</td>
-    <td>aqui</td>
+    <td> 0 </td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Resistência característica do concreto (f<sub>ck</sub>)</td>
-    <td>25</td>
-    <td>MPa</td>
+    <td> 25 </td>
+    <td> MPa </td>
   </tr>
   <tr>
     <td align = "left">Resistência característica do aço CA-50 (f<sub>yk</sub>)</td>
@@ -87,7 +87,7 @@ A seguir são apresentados os dados da viga VC1.
     <td>-</td>
   </tr>
   <tr>
-    <td align = "left">Coeficiente de minoração para resistência do aço (γ<sub>s</sub>)</td>
+    <td align = "left"> Coeficiente de minoração para resistência do aço (γ<sub>s</sub>)</td>
     <td>1,15</td>
     <td>-</td>
   </tr>
