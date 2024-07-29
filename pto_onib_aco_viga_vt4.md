@@ -34,7 +34,7 @@ A seguir são apresentados os dados da viga VC1.
   <tr>
     <td align = "left">Altura (h)</td>
     <td> 0,45 </td>
-    <td> m </td>
+    <td> M </td>
   </tr>
   <tr>
     <td align = "left">Altura Útil (d)</td>
