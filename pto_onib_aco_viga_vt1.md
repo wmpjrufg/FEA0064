@@ -163,15 +163,15 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
       <td>4,76</td>
       <td>\[\epsilon = \frac{4,76}{0,14 \cdot \0,85 \cdot \frac{(25000/1,4)}{\0,8}}\]=0,00224</td>
       <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot \0,00224 ) )}}{\0,8}\]=0,0056</td>
-      <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
-      <td>\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+      <td>\[z = 0,396 - (0,5 \cdot \0,8 \cdot 0,0056)\]=0,394</td>
+      <td>\[A_s = {\frac{4,76}{0,394 \cdot \frac{500000}{\1,15}}}\]=2,78*10^-5</td>
     </tr>
     <tr>
       <td>9,52</td>
       <td>\[\epsilon = \frac{9,52}{0,14 \cdot \0,85 \cdot \frac{(25000/1,4)}{\0,8}}\]=0,00448</td>
       <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot \0,00448 ) )}}{\0,8}\]=0,0112</td>
-      <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
-      <td>\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+      <td>\[z = 0,396 - (0,5 \cdot \0,8 \cdot 0,0112)\]=0,392</td>
+      <td>\[A_s = {\frac{9,52}{0,392 \cdot \frac{500000}{\1,15}}}\]=5,56*10^-5</td>
     </tr>
   </tbody>
 </table>
