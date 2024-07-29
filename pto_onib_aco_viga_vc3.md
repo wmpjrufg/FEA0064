@@ -133,16 +133,16 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
 
 <table>
   <tr>
-    <td align = "center">\[x_{III} = \frac{0.369 - \sqrt{( 0.369^{2} - ( 2 \cdot 0.00263) )}}{0,8}\]</td>
+    <td align = "center">\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon) )}}{\lambda}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[\beta_{x} = \frac{-5,5902}{0,14\cdot 0,85 \cdot \frac{25000}{1,4}}\]</td>
+    <td align = "center">\[\epsilon = \frac{M_{sd}}{dw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[z = 0,9996 - (0,5 \cdot 0,8 \cdot 0,991)\]</td>
+    <td align = "center">\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
   </tr>
   <tr>
-    <td align = "center">\[A_s = {\frac{-5,502}{0,03316 \cdot \frac{500000}\{1,15}}\]</td>
+    <td align = "center">\[A_s = {\frac{M_{sd}}{z \cdot \frac{f_{yk}}\{gamma}}\]</td>
   </tr>
 </table>
 
