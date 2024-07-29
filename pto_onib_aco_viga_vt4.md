@@ -29,7 +29,7 @@ A seguir são apresentados os dados da viga VC1.
   <tr>
     <td align = "left">Largura da seção transversal (b<sub>w</sub>)</td>
     <td>0,14</td>
-    <td> m </td>
+    <td> M </td>
   </tr>
   <tr>
     <td align = "left">Altura (h)</td>
@@ -39,7 +39,7 @@ A seguir são apresentados os dados da viga VC1.
   <tr>
     <td align = "left">Altura Útil (d)</td>
     <td> 0,3996 </td>
-    <td> m </td>
+    <td> M </td>
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas permanentes (M<sub>max,gk</sub>)</td>
