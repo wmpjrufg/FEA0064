@@ -119,8 +119,7 @@ Após isso determina-se o momento resistente dessa seção para verificação da
     <td align = "center">\[M_{Rd,lim} = b_{w} \cdot d^2 \cdot \lambda \cdot \beta _x \cdot \alpha _c \cdot f_{cd} \left( 1 - 0,50 \cdot \lambda \cdot \beta _x \right)\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Rd,lim} = 0,14 \cdot 0,396^2 \cdot 0,8 \cdot 0,85 \ 0,01644\cdot 0,85\cdot 17,857 ( 1 - 0,50 \cdot 0,8 \cdot \0,01644) = 5,55 kN.m]</td>
-  </tr>
+   <td align = "center">\[M_{Rd,lim} = 0,14 \cdot 0,399^2 \cdot 0,8 \cdot 0,01644 \cdot 0,85 \cdot \frac{25000}{1,4} \left( 1 - 0,50 \cdot 0,8 \cdot 0,01644 \right) = 4.433 \; \text{kN.m}\]</td>
 </table>
 
 <p align = "justify">
