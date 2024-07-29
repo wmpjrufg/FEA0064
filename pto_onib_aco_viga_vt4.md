@@ -160,14 +160,14 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
   </thead>
   <tbody>
     <tr>
-      <td>aqui aqui</td>
-      <td>\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
-      <td>\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
-      <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
-      <td>\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+      <td> 0,2338 </td>
+      <td>\[\epsilon = \frac{0,2338}{0,14 \cdot \0,85 \cdot \frac{25000}{\0,01644}}\]</td>
+      <td>\[x_{III} = \frac{0,3996- \sqrt{( ^{2} - ( 2 \cdot \0,00011 ) )}}{\0,8}\]</td>
+      <td>\[z = d - (0,5 \cdot \0,8 \cdot 0,9999)\]</td>
+      <td>\[A_s = {\frac{0,2338}}{z \cdot \frac{500000}{\1,15}}}\]</td>
     </tr>
     <tr>
-      <td>aqui aqui</td>
+      <td> -0,4676 </td>
       <td>\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
       <td>\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
       <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
