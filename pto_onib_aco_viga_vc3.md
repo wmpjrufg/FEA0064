@@ -142,7 +142,7 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
     <td align = "center">\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
   </tr>
   <tr>
-    <td align = "center">\[A_s = {\frac{M_{sd}}{z \cdot \frac{f_{yk}}\{\gamma_{c}}}\]</td>
+    <td align = "center">\[A_s = {\frac{M_{sd}}{z \cdot \frac{f_{yk}}\gamma_{c}}}\]</td>
   </tr>
 </table>
 
