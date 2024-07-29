@@ -103,10 +103,10 @@ O primeiro passo é a determinação dos esforços de cálculo na viga (M<sub>Sd
     <td align = "center">\[M_{Sd} = M_{gk} \cdot \gamma_{g} + M_{qk} \cdot \gamma_{q}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Sd,max} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[M_{Sd,max} = 0,167 \cdot 1,4 + 0 \cdot 1,4 = 0,2338 \; \text{kN.m}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Sd,min} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[M_{Sd,min} = -0,334 \cdot 1,4 + 0 \cdot 1,4 = -0,4676 \; \text{kN.m}\]</td>
   </tr>
 </table>
 
