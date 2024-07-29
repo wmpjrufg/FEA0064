@@ -142,7 +142,7 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
     <td align = "center">\[z = 0,9996 - (0,5 \cdot \0,8 \cdot 0,991)\]</td>
   </tr>
   <tr>
-    <td align = "center">\[A_s = {\frac{-5,502}{0,03316 \cdot \frac{50000}{\1,15}}}\]</td>
+    <td align = "center">\[A_s = {\frac{-5,502}{0,03316 \cdot \frac{50000}\{1,15}}}\]</td>
   </tr>
 </table>
 
@@ -160,11 +160,11 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
   </thead>
   <tbody>
     <tr>
-      <td>aqui aqui</td>
-      <td>\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
-      <td>\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
-      <td>\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
-      <td>\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+      <td>5,5902</td>
+      <td>\[\epsilon = \frac{5,5902}}{0,14 \cdot \ 0,85 \cdot \frac{25000}{\1,4}}\]</td>
+      <td>\[x_{III} = \frac{0,3996 - \sqrt{( 0,3996^{2} - ( 2 \cdot \0,002630 ) )}}{\ 0,8 }\]</td>
+      <td>\[z = d - (0,5 \cdot \0,8 \cdot 0,998)\]</td>
+      <td>\[A_s = {\frac{5,5902}{z \cdot \frac{50000}{\1,15}}}\]</td>
     </tr>
     <tr>
       <td>aqui aqui</td>
