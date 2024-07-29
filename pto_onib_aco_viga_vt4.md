@@ -28,17 +28,17 @@ A seguir são apresentados os dados da viga VC1.
 <tbody align="center">
   <tr>
     <td align = "left">Largura da seção transversal (b<sub>w</sub>)</td>
-    <td>aqui</td>
+    <td>0,14</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Altura (h)</td>
-    <td>aqui</td>
+    <td>0,45</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Altura Útil (d)</td>
-    <td>aqui</td>
+    <td>0,3996</td>
     <td>m</td>
   </tr>
   <tr>
