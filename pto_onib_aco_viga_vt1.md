@@ -43,22 +43,22 @@ A seguir são apresentados os dados da viga VT1.
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas permanentes (M<sub>max,gk</sub>)</td>
-    <td>aqui</td>
+    <td>3,4</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico mínimo devido cargas permanentes (M<sub>min,gk</sub>)</td>
-    <td>aqui</td>
+    <td>6,8</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico máximo devido cargas variáveis (M<sub>max,qk</sub>)</td>
-    <td>aqui</td>
+    <td>0</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento característico mínimo devido cargas variáveis (M<sub>min,qk</sub>)</td>
-    <td>aqui</td>
+    <td>0</td>
     <td>kNm</td>
   </tr>
   <tr>
