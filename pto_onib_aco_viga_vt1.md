@@ -14,7 +14,7 @@ has_toc: false
 <!--Don't delete this script-->
 
 <p align = "justify">
-A seguir são apresentados os dados da viga VC1. 
+A seguir são apresentados os dados da viga VT1. 
 </p>
 
 <table style = "width:100%">
