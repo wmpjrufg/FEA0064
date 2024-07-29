@@ -136,7 +136,7 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
     <td align = "center">\[x_{III} = \frac{0.369 - \sqrt{( 0.369^{2} - ( 2 \cdot \0.00263) )}}{\0,8}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
+    <td align = "center">\[\ = \frac{M_{sd}}{0,14\cdot \0,85 \cdot \frac{2500}{\1,4}}\]</td>
   </tr>
   <tr>
     <td align = "center">\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
