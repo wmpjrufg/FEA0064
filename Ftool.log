@@ -1,0 +1,33 @@
+# This is a log file for Ftool. It will register your actions
+# during your use of the program. When you close Ftool, this
+# log will be deleted and no data will be saved or sent
+# anywhere. If Ftool should crash, however, the next time you
+# open it you'll receive a popup requesting that you allow
+# Ftool to send this file to our system to help us figure out
+# what went wrong. You will obviously be allowed to opt out of
+# sending this information. You are welcome to open this file
+# while using Ftool and see what we collect.
+Edition: Basic
+Vertex created.
+Keyboard mode 0
+Grid 0
+Snap to grid 0
+Keyboard mode 0
+Deformed result type 0
+Keyboard mode 0
+Grid 0
+Snap to grid 0
+Keyboard mode 0
+Grid 0
+Snap to grid 0
+Model name: C:\Users\wande\OneDrive\Documentos\GitHub\FEA0064\portico_p1_vt1_p2_vc1.ftl
+Keyboard mode 0
+Select action
+Diagram results 1
+Result action
+Diagram results 2
+Result action
+Diagram results 3
+Result action
+Diagram results 1
+Result action

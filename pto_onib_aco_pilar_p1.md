@@ -42,33 +42,38 @@ A seguir são apresentados os dados do pilar P1.
     <td>m</td>
   </tr>
   <tr>
-    <td align = "left">Carga compressão externa (N<sub>gext</sub>)</td>
+    <td align = "left">Carga de compressão característica devido carga permanente externa (N<sub>gext</sub>)</td>
+    <td>aqui</td>
+    <td>kN</td>
+  </tr>
+  <tr>
+    <td align = "left">Carga de compressão característica devido peso próprio (N<sub>gpp</sub>)</td>
+    <td>aqui</td>
+    <td>kN</td>
+  </tr>
+  <tr>
+    <td align = "left">Carga de compressão característica devida sobrecarga (N<sub>q</sub>)</td>
+    <td>aqui</td>
+    <td>kN</td>
+  </tr>
+  <tr>
+    <td align = "left">Momento fletor devido carga permanente externa na direção h<sub>x</sub> (M<sub>gext,x</sub>)</td>
     <td>aqui</td>
     <td>kNm</td>
   </tr>
   <tr>
-    <td align = "left">Carga compressão p.p. (N<sub>gpp</sub>)</td>
+    <td align = "left">Momento fletor devida sobrecarga na direção h<sub>x</sub> (M<sub>q,x</sub>)</td>
     <td>aqui</td>
     <td>kNm</td>
   </tr>
   <tr>
-    <td align = "left">Momento característico máximo devido cargas permanentes (M<sub>max,gk</sub>)</td>
-    <td>9,1</td>
+    <td align = "left">Momento fletor devido carga permanente externa na direção h<sub>y</sub> (M<sub>gext,y</sub>)</td>
+    <td>aqui</td>
     <td>kNm</td>
   </tr>
   <tr>
-    <td align = "left">Momento característico mínimo devido cargas permanentes (M<sub>min,gk</sub>)</td>
-    <td>5,1</td>
-    <td>kNm</td>
-  </tr>
-  <tr>
-    <td align = "left">Momento característico máximo devido cargas variáveis (M<sub>max,qk</sub>)</td>
-    <td>2,4</td>
-    <td>kNm</td>
-  </tr>
-  <tr>
-    <td align = "left">Momento característico mínimo devido cargas variáveis (M<sub>min,qk</sub>)</td>
-    <td>1,4</td>
+    <td align = "left">Momento fletor devida sobrecarga na direção h<sub>y</sub> (M<sub>q,y</sub>)</td>
+    <td>aqui</td>
     <td>kNm</td>
   </tr>
   <tr>
@@ -110,108 +115,142 @@ O primeiro passo é a determinação dos esforços mínimos para cada direção 
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[M_{dmin} = N_{d} \cdot \gamma_{g} + M_{qk} \cdot \gamma_{q}\]</td>
+    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Sd,max} = 9,1 \cdot 1,4 + 2,4 \cdot 1,4 = 16,1 \; \text{kN.m}\]</td>
+    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Sd,min} = 5,1 \cdot 1,4 + 1,4 \cdot 1,4 = 9,1 \; \text{kN.m}\]</td>
+    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
   </tr>
 </table>
 
 
 <p align = "justify">
-Após isso determina-se o momento resistente dessa seção para verificação da possibilidade de armadura dupla. No caso a armadura simples é dada por M<sub>Sd</sub> ≤ M<sub>Rd,lim</sub>.
+Após a determinação do momento mínimo é necessário verificar o momento total de cálculo para o pilar. Para isso é necessário verificar três tipos de esforços. A carga de compressão total que atua no pilar N<sub>d</sub>. Deve-se salientar que para avaliar a carga de compressão é necessário avaliar as vigas que descarregam em cada um dos pilares e então efetuar a combinação corretamente. Por exemplo no pilar P1 atuam as reações de apoio das vigas <b>VC1</b> e <b>VC2</b>.
 </p>
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[M_{Rd,lim} = b_{w} \cdot d^2 \cdot \lambda \cdot \beta _x \cdot \alpha _c \cdot f_{cd} \left( 1 - 0,50 \cdot \lambda \cdot \beta _x \right)\]</td>
+    <td align = "center">\[ N_d = \left[ \left( N_{gext,vc1} + N_{q,vc1} \right) + \left( N_{gext,vc2} + N_{q,vc2} \right) + N_{gpp} \right] \cdot \gamma_f \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{Rd,lim} = 0,14 \cdot 0,396^2 \cdot 0,8 \cdot 0,45 \cdot 0,85 \cdot 25000 \left 1,4 \cdot( 1 - 0,50 \cdot 0,8 \cdot 0,45 \right) = 98,37 \]</td>
+    <td align = "center">\[ \text(momento em x aqui) \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ \text(momento em y aqui) \]</td>
   </tr>
 </table>
 
 <p align = "justify">
-No exemplo  M<sub>Rd,lim</sub> > M<sub>Sd</sub>.
+Dados os momentos de 1º ordem é necessário verificar a intensidade dos esforços de 2º que atuam no pilar de canto em questão. Porém para verificar os esforços de segunda ordem é necessário verificar as propriedades geométricas do pilar em cada direção.  
 </p>
 
+<table style = "width:100%">
+  <tr>
+    <td align = "center">\[ i_x = \sqrt{\frac{I_x}{A}} \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ \lambda_x = \frac{l_e}{i_x} \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ i_y = \sqrt{\frac{I_y}{A}} \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ \lambda_y = \frac{l_e}{i_y} \]</td>
+  </tr>
+</table>
+
 <p align = "justify">
-O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, braço de alavanca z e armadura de flexão A<sub>s</sub>. Esse processo será repetido para cada momento o máximo e o mínimo:
+A esbeltez limite é dada por:
 </p>
 
 <table>
   <tr>
-    <td align = "center">\[x_{III} = \frac{d - \sqrt{( d^{2} - ( 2 \cdot \epsilon ) )}}{\lambda}\]</td>
-  </tr>
-  <tr>
-    <td align = "center">\[\epsilon = \frac{M_{sd}}{bw \cdot \alpha_{c} \cdot \frac{f_{ck}}{\gamma_{c}}}\]</td>
-  </tr>
-  <tr>
-    <td align = "center">\[z = d - (0,5 \cdot \lambda \cdot x_{III})\]</td>
-  </tr>
-  <tr>
-    <td align = "center">\[A_s = {\frac{M_{Sd}}{z \cdot \frac{fyk}{\gamma s}}}\]</td>
+    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
   </tr>
 </table>
 
 <p align = "justify" id = "tab2"><b>Tabela 1.</b> Valores de área de aço da viga.</p>
 
-<table style = "width:100%">
-  <thead>
-    <tr>
-      <th>M<sub>Sd</sub> (kNm)</th>
-      <th>ξ</th>
-      <th>x<sub>III</sub> (m)</th>
-      <th>z (m)</th>
-      <th>A<sub>s</sub> (m²)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>16,1</td>
-      <td>\[\epsilon = \frac{16,1}{0,14 \cdot 0,85 \cdot \frac{25000}{0,85}}\]</td>
-      <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,0075 ) )}}{0,8}\]</td>
-      <td>\[z = 0,396 - (0,5 \cdot 0,8 \cdot 0,02)\]</td>
-      <td>\[A_s = {\frac{16,1}{0,39 \cdot \frac{500000}{1,15}}\]</td>
-    </tr>
-    <tr>
-      <td>9,1</td>
-      <td>\[\epsilon = \frac{9,1}{0,14 \cdot 0,85 \cdot \frac{25000}{0,85}}\]</td>
-      <td>\[x_{III} = \frac{0,396 - \sqrt{( 0,396^{2} - ( 2 \cdot 0,0075 ) )}}{0,8}\]</td>
-      <td>\[z = 0,396 - (0,5 \cdot 0,8 \cdot 0,02)\]</td>
-      <td>\[A_s = {\frac{9,1}{0,39 \cdot \frac{500000}{1,15}}\]</td>
-    </tr>
-  </tbody>
-</table>
-
 <p align = "justify">
-Após a verificação de flexão pura deve-se verificar a viga para cisalhamento:
+No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transversal. Logo o valor de λ<sub>1</sub> é dado por:
 </p>
 
 <table>
   <tr>
-    <td align = "center">\[V_{Sd} = 13,6 \cdot 1,4 + 3,6 \cdot 1,4 = 24,08 \; \text{kN.m}\]</td>
+    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ V_{Rd2} = 0,27 \cdot (1-(25000/250000) \cdot (25000/1,4) \cdot 0,14 \cdot 0,396 \]</td>
-  </tr>
-  <tr>
-    <td align = "center">\[ V_{Rd2} = 240,57 \]</td>
+    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
   </tr>
 </table>
 
 <p align = "justify">
-No caso a viga apresenta resistência da biela de compressão. E o próximo passo é a verificação da armadura necessária para o cisalhamento:
+Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da rigidez/curvatura equivalente. Os momentos de segunda ordem são dados a seguir:
 </p>
 
 <table>
   <tr>
-    <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{V_{sw}}{0,9 \cdot d \cdot f_{ywd}\cdot(\sin(\alpha) + \cos(\alpha))} \]</td>
+    <td align = "center">\[ M_{d,x} = aqui\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{V_{sw}}{0,9 \cdot d \cdot f_{ywd}\cdot(\sin(\alpha) + \cos(\alpha))} \]</td>
+    <td align = "center">\[ M_{d,x} = aqui\]</td>
   </tr>
 </table>
+
+<p align = "justify">
+Determinados os momento de segunda ordem é possível determinar os momento totais em cada uma das direções do pilar.
+</p>
+
+<table>
+  <tr>
+    <td align = "center">\[ M_{d,x} = aqui\]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ M_{d,x} = aqui\]</td>
+  </tr>
+</table>
+
+<p align = "justify">
+Determinado os esforços totais em cada uma das direções é possível determinar a área de aço total utilizando o conceito de ábacos. Para isso é necessário calcular a taxa de armadura total em cada direção:
+</p>
+
+<table>
+  <tr>
+    <td align = "center">\[ M_{d,x} = aqui\]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ M_{d,x} = aqui\]</td>
+  </tr>
+</table>
+
+<p align = "justify">
+Determinada a maior taxa de armadura é necessário verificar a área de aço total conforme cálculo abaixo:
+</p>
+
+<table>
+  <tr>
+    <td align = "center">\[ M_{d,x} = aqui\]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ M_{d,x} = aqui\]</td>
+  </tr>
+</table>
+
+<p align = "justify">
+Determinada armadura total é possível estabelecer a armadura mínima do pilar conforme equação dada abaixo:
+</p>
+
+<table>
+  <tr>
+    <td align = "center">\[ M_{d,x} = aqui\]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ M_{d,x} = aqui\]</td>
+  </tr>
+</table>
+
+<p align = "justify">
+Com o valor de área total de xx cm² é possível detalhar a seção com xx barras de xx mm.
+</p>

@@ -1,5 +1,5 @@
 ---
-title: Pilar P3
+title: Pilar P2 modo rigidez
 layout: default
 grand_parent: Exemplo I
 parent: Projeto pilares
