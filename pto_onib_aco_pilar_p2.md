@@ -28,12 +28,12 @@ A seguir são apresentados os dados do pilar P1.
 <tbody align="center">
   <tr>
     <td align = "left">Altura na direção x (h<sub>x</sub>)</td>
-    <td>aqui</td>
+    <td>0,30</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Altura na direção y (h<sub>y</sub>)</td>
-    <td>aqui</td>
+    <td>0,14</td>
     <td>m</td>
   </tr>
   <tr>
@@ -43,17 +43,17 @@ A seguir são apresentados os dados do pilar P1.
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devido carga permanente externa (N<sub>gext</sub>)</td>
-    <td>aqui</td>
+    <td>-6,879</td>
     <td>kN</td>
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devido peso próprio (N<sub>gpp</sub>)</td>
-    <td>aqui</td>
+    <td>-2,152</td>
     <td>kN</td>
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devida sobrecarga (N<sub>q</sub>)</td>
-    <td>aqui</td>
+    <td>-0,859</td>
     <td>kN</td>
   </tr>
   <tr>
@@ -68,12 +68,12 @@ A seguir são apresentados os dados do pilar P1.
   </tr>
   <tr>
     <td align = "left">Momento fletor devido carga permanente externa na direção h<sub>y</sub> (M<sub>gext,y</sub>)</td>
-    <td>aqui</td>
+    <td>-3,379</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devida sobrecarga na direção h<sub>y</sub> (M<sub>q,y</sub>)</td>
-    <td>aqui</td>
+    <td>-0,614</td>
     <td>kNm</td>
   </tr>
   <tr>
