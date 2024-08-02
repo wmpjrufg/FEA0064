@@ -187,7 +187,7 @@ No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transve
 </table>
 
 <p align = "justify">
-Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da rigidez/curvatura equivalente. Os momentos de segunda ordem são dados a seguir:
+Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da curvatura equivalente. Os momentos de segunda ordem são dados a seguir:
 </p>
 
 <table>
