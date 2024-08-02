@@ -252,5 +252,5 @@ Determinada armadura total é possível estabelecer a armadura mínima do pilar 
 </table>
 
 <p align = "justify">
-Com o valor de área total de xx cm² é possível detalhar a seção com xx barras de xx mm.
+Com o valor de área total de 3,45 cm² é possível detalhar a seção com 5 barras de 10 mm.
 </p>
