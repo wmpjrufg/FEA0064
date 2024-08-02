@@ -58,12 +58,12 @@ A seguir são apresentados os dados do pilar P2.
   </tr>
   <tr>
     <td align = "left">Momento fletor devido carga permanente externa na direção h<sub>x</sub> (M<sub>gext,x</sub>)</td>
-    <td>aqui</td>
+    <td>5,0</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devida sobrecarga na direção h<sub>x</sub> (M<sub>q,x</sub>)</td>
-    <td>aqui</td>
+    <td>1,3</td>
     <td>kNm</td>
   </tr>
   <tr>
