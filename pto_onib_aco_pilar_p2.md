@@ -29,17 +29,17 @@ A seguir são apresentados os dados do pilar P1.
   <tr>
     <td align = "left">Altura na direção x (h<sub>x</sub>)</td>
     <td>0,30</td>
-    <td>m</td>
+    <td>m </td>
   </tr>
   <tr>
     <td align = "left">Altura na direção y (h<sub>y</sub>)</td>
     <td>0,14</td>
-    <td>m</td>
+    <td>m </td>
   </tr>
   <tr>
     <td align = "left">Altura Útil Complementar (d')</td>
     <td>0,04</td>
-    <td>m</td>
+    <td>m </td>
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devido carga permanente externa (N<sub>gext</sub>)</td>
@@ -49,12 +49,12 @@ A seguir são apresentados os dados do pilar P1.
   <tr>
     <td align = "left">Carga de compressão característica devido peso próprio (N<sub>gpp</sub>)</td>
     <td>-2,152</td>
-    <td>kN</td>
+    <td>kN </td>
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devida sobrecarga (N<sub>q</sub>)</td>
     <td>-0,859</td>
-    <td>kN</td>
+    <td>kN </td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devido carga permanente externa na direção h<sub>x</sub> (M<sub>gext,x</sub>)</td>
