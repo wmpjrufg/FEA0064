@@ -118,10 +118,10 @@ O primeiro passo é a determinação dos esforços mínimos para cada direção 
     <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
+    <td align = "center">\[M_{dmin,x} = 10,8332 \cdot \left( 0,015 + 0,03 \cdot 0,30 \right) = 0,260 kN.m\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
+    <td align = "center">\[M_{dmin,y} = 10,8332 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) = 0,208 kN.m\]</td>
   </tr>
 </table>
 
