@@ -118,10 +118,10 @@ O primeiro passo é a determinação dos esforços mínimos para cada direção 
     <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
+    <td align = "center">\[M_{dxmin} = 30,502 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) = 0,586 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
+    <td align = "center">\[M_{dymin} = 30,502 \cdot \left( 0,015 + 0,03 \cdot 0,3 \right) = 0,732 \]</td>
   </tr>
 </table>
 
@@ -132,13 +132,13 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[ N_d = \left[ \left( N_{gext,vc1} + N_{q,vc1} \right) + \left( N_{gext,vc2} + N_{q,vc2} \right) + N_{gpp} \right] \cdot \gamma_f \]</td>
+    <td align = "center">\[ N_d = \left[ \left( 13,354 + 3,515 \right) + \left( 2,340 + 0,425 \right) + 2,15 \right] \cdot 1,4 = 30,502 kN \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \text(momento em x aqui) \]</td>
+    <td align = "center">\[M_{dxmin} = 30,502 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) = 0,586 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \text(momento em y aqui) \]</td>
+    <td align = "center">\[M_{dymin} = 30,502 \cdot \left( 0,015 + 0,03 \cdot 0,3 \right) = 0,732 kN.m \]</td>
   </tr>
 </table>
 
@@ -192,10 +192,10 @@ Após a determinação de quais peças terão esforços de segunda ordem é poss
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{d2ª,x} = 0,586 kN.m\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{d2ª,y} = 10,277 kN.m \]</td>
   </tr>
 </table>
 
@@ -205,10 +205,10 @@ Determinados os momento de segunda ordem é possível determinar os momento tota
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{dtot,x} = 1,043 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{dtot,y} = 10,490 kN.m \]</td>
   </tr>
 </table>
 
