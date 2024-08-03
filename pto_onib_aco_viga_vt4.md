@@ -164,14 +164,14 @@ O terceiro passo, é a determinação da altura linha neutra x<sub>III</sub>, br
       <td>\[\epsilon = \frac{0,2338}{0,14 \cdot0,85 \cdot\frac{25000}{1,4}} = 0.000110 \]</td>
       <td>\[x_{III} = \frac{0,3996- \sqrt{(0,399^{2} - (2\cdot0,00011))}}{0,8} = 0,00109473 \]</td>
       <td>\[z = 0,3999-(0,5 \cdot 0,8\cdot 0,00109473) = 0,398 \]</td>
-      <td>\[A_s = {\frac{0,2338}{0,398 \cdot \frac{500000}{1,15}}} = 1,35 * 10^-6 \]</td>
+      <td>\[A_s = {\frac{0,2338}{0,398 \cdot \frac{500000}{1,15}}} = 0,00000135]</td>
     </tr>
     <tr>
       <td> -0,4676 </td>
       <td>\[\epsilon = \frac{-0,4676}{0,14 \cdot 0,85 \cdot \frac{25000}{1,4}} = - 0,3242 \]</td>
-      <td>\[x_{III} = \frac{0,14-\sqrt{( 0,39996^{2}-(2\cdot - 0,3242))}}{0,8} = 0,94 \]</td>
+      <td>\[x_{III} = \frac{0,14-\sqrt{( 0,39996^{2}-(2\cdot - 0,3242))}}{0,8} = 0,94 ]</td>
       <td>\[z = 0,3999 - (0,5 \cdot 0,8 \cdot 0,94)\] = 0,0239/</td>
-      <td>\[A_s = {\frac{-0,4676}{0,0239\cdot\frac{500000}{1,15}}}\] = 4,499*10^-5 </td>
+      <td>\[A_s = {\frac{-0,4676}{0,0239\cdot\frac{500000}{1,15}}}\] = 0,0000449 </td>
     </tr>
   </tbody>
 </table>
