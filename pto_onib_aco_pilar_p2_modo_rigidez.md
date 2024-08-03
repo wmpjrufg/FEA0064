@@ -173,7 +173,7 @@ Os valoeres são apresentados a seguir:
     <td align = "center">\[ \lambda_x = \frac{2,05}{0,0404} \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ i_y = \sqrt{\frac{3,15 \cdot 10^{-4}{0,042}} = 0,0866 m \]</td>
+    <td align = "center">\[ i_y = \sqrt{\frac{3,15 \cdot 10^{-4}}{0,042}} = 0,0866 m\]</td>
   </tr>
   <tr>
     <td align = "center">\[ \lambda_y = \frac{2,05}{0,0866} = 23,67\]</td>
@@ -204,7 +204,7 @@ No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transve
 </table>
 
 <p align = "justify">
-Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da rigidez equivalente. Neste caso, como os valores \lambda_{ 1x} > \lambda_x e \lambda_{ 1y} > \lambda_y, os momentos de segunda ordem não são consideerados:
+Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da rigidez equivalente. Neste caso, como os valores \[\lambda_{ 1x} > \lambda_x\] e \[\lambda_{ 1y} > \lambda_y\], os momentos de segunda ordem não são consideerados:
 </p>
 
 <table>
