@@ -182,13 +182,13 @@ Após a verificação de flexão pura deve-se verificar a viga para cisalhamento
 
 <table>
   <tr>
-    <td align = "center">\[V_{Sd} = 4,295 \cdot 1,4 + 1,536 \cdot 1,4 = 8,163 \; \text{kN.m}\]</td>
+    <td align = "center">\[V_{Sd} = 3,42 \cdot 1,4 + 0 \cdot 1,4 = 4,788 \; \text{kN.m}\]</td>
   </tr>
   <tr>
     <td align = "center">\[ V_{Rd2} = 0,27 \cdot \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot (1+\cot(\alpha)) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ V_{Rd2} = 0,27 \cdot \alpha_{v2} \cdot f_{cd} \cdot b_{w} \cdot d \cdot (1+\cot(\alpha)) \]</td>
+    <td align = "center">\[ V_{Rd2} = 0,27 \cdot \esquerda (1-/frac{25000}{250000} \direita ) \cdot 17,85 \cdot 0,14 \cdot 0,396 \cdot (1+\cot(90)) = 240,6 \; \text{kN}\]</td>
   </tr>
 </table>
 
@@ -201,6 +201,6 @@ No caso a viga apresenta resistência da biela de compressão. E o próximo pass
     <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{V_{sw}}{0,9 \cdot d \cdot f_{ywd}\cdot(\sin(\alpha) + \cos(\alpha))} \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{V_{sw}}{0,9 \cdot d \cdot f_{ywd}\cdot(\sin(\alpha) + \cos(\alpha))} \]</td>
+    <td align = "center">\[ \frac{A_{sw,\alpha}}{s} = \frac{37,87}{0,9 \cdot 0,396 \cdot frac{500000}{1,15} \cdot(\sin(90) + \cos(90))} = 2,44 \text{cm²}\]</td>
   </tr>
 </table>
