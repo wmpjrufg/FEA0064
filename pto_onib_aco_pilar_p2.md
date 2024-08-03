@@ -135,10 +135,10 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
     <td align = "center">\[ N_d = \left[ \left( N_{gext,vc1} + N_{q,vc1} \right) + \left( N_{gext,vc3} + N_{q,vc3} \right) + N_{gpp} \right] \cdot \gamma_f \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \text M_dmin,x = 0,260 kN.m \]</td>
+    <td align = "center">\[ \text M_{dmin,x} = 0,260 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \textM_dmin, y = 0,208 kN.m \]</td>
+    <td align = "center">\[ \text M_{dmin,y} = 0,208 kN.m \]</td>
   </tr>
 </table>
 
@@ -187,15 +187,15 @@ No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transve
 </table>
 
 <p align = "justify">
-Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da rigidez/curvatura equivalente. Os momentos de segunda ordem são dados a seguir:
+Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da rigidez/curvatura equivalente. Neste caso, como os valores de lambda de comparação são maiores que os lambdas reais, tanto em x como em y, os momentos de segunda ordem não são consideerados:
 </p>
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{1d,x} = 0\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{1d,y} = 0\]</td>
   </tr>
 </table>
 
