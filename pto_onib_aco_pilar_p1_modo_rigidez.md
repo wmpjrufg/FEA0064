@@ -58,22 +58,22 @@ A seguir são apresentados os dados do pilar P1.
   </tr>
   <tr>
     <td align = "left">Momento fletor devido carga permanente externa na direção h<sub>x</sub> (M<sub>gext,x</sub>)</td>
-    <td>aqui</td>
+    <td>0,064</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devida sobrecarga na direção h<sub>x</sub> (M<sub>q,x</sub>)</td>
-    <td>aqui</td>
+    <td>0,012</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devido carga permanente externa na direção h<sub>y</sub> (M<sub>gext,y</sub>)</td>
-    <td>aqui</td>
+    <td>5,03</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devida sobrecarga na direção h<sub>y</sub> (M<sub>q,y</sub>)</td>
-    <td>aqui</td>
+    <td>1,324</td>
     <td>kNm</td>
   </tr>
   <tr>
