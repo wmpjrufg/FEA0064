@@ -1,5 +1,5 @@
 ---
-title: Pilar P2
+title: Pilar P2 com rizidez
 layout: default
 grand_parent: Exemplo I
 parent: Projeto pilares
