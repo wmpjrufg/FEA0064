@@ -200,15 +200,15 @@ Após a determinação de quais peças terão esforços de segunda ordem é poss
 </table>
 
 <p align = "justify">
-Determinados os momento de segunda ordem é possível determinar os momento totais em cada uma das direções do pilar.
+Determinados os momento de segunda ordem é possível determinar os momento totais em cada uma das direções do pilar, considerando que não há necessidade de contabilizar os efeitos de segunda ordem, os momentos totais são os de 1ª ordem.
 </p>
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{dtot,x} = 8,82 kN.m\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{dtot,y} = 5,59 kN.m\]</td>
   </tr>
 </table>
 
