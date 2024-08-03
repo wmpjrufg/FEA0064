@@ -238,10 +238,10 @@ Determinado os esforços totais em cada uma das direções é possível determin
     <td align = "center">\[ \mu = \frac{M_{dtot}}{h \cdot A_c \cdot f_cd}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \mu_x = \frac{8,82}{h \cdot 0,42 \cdot \frac{25000}{1,4}} = 0,0392\]</td>
+    <td align = "center">\[ \mu_x = \frac{8,82}{0,3 \cdot 0,42 \cdot \frac{25000}{1,4}} = 0,0392\]</td>
   </tr>
    <tr>
-    <td align = "center">\[ \mu_y = \frac{5,59}{h \cdot 0,42 \cdot \frac{25000}{1,4}} = 0,0532\]</td>
+    <td align = "center">\[ \mu_y = \frac{5,59}{0,14 \cdot 0,42 \cdot \frac{25000}{1,4}} = 0,0532\]</td>
   </tr>
 </table>
 
