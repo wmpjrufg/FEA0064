@@ -179,10 +179,10 @@ No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transve
 
 <table>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
+    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/hx)}{\alpha _b} = 35 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
+    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/hy)}{\alpha _b} = 39,04 \]</td>
   </tr>
 </table>
 
@@ -221,10 +221,10 @@ Determinado os esforços totais em cada uma das direções é possível determin
     <td align = "center">\[ \mu_i = \frac{M_{dtot,i}}{h_i \cdot A_c \cdot f_cd}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \mu_x = 0,0124\]</td>
+    <td align = "center">\[ \mu_x = 0,0099 \]</td>
   </tr>
    <tr>
-    <td align = "center">\[ \mu_y = 0,0583\]</td>
+    <td align = "center">\[ \mu_y = 0,0466 \]</td>
   </tr>
 </table>
 
