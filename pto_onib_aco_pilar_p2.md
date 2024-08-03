@@ -234,10 +234,10 @@ Determinada a maior taxa de armadura é necessário verificar a área de aço to
 
 <table>
   <tr>
-    <td align = "center">\[ A_s = frac{\omega \cdot A_c \cdot f_cd}{f_{\gamma d}}\]</td>
+    <td align = "center">\[ A_s = \frac{\omega \cdot A_c \cdot f_cd}{f_{\gamma d}}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ A_ = 1,725 cm²\]</td>
+    <td align = "center">\[ A_s = 1,725 cm²\]</td>
   </tr>
 </table>
 
@@ -247,7 +247,7 @@ Determinada armadura total é possível estabelecer a armadura mínima do pilar 
 
 <table>
   <tr>
-    <td align = "center">\[ A_{s,min} = 0,15 \cdot frac{N_d}{f_{\gamma d}} \geq 0,004 \cdot A_c\]</td>
+    <td align = "center">\[ A_{s,min} = 0,15 \cdot \frac{N_d}{f_{\gamma d}} \geq 0,004 \cdot A_c\]</td>
   </tr>
   <tr>
     <td align = "center">\[ A_{s,min} = 1,68cm²\]</td>
