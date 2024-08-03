@@ -283,7 +283,7 @@ Determinada armadura total é possível estabelecer a armadura mínima do pilar 
     <td align = "center">\[ A _{s,min}= 0,15\cdot \frac{N_{d}}{f_{\gamma d}} \geq 0,004\cdot A_{c}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ A _{s,min}= 0,15\cdot \frac{3,4314}{43,5} \; \text{cm²} \geq 0,004\cdot A_{c} \; \text{cm²} \]</td>
+    <td align = "center">\[ A _{s,min}= 0,15\cdot \frac{3,4314}{43,5} \; \text{cm²} \geq 0,004\cdot 420 \; \text{cm²} \]</td>
   </tr>
   <tr>
     <td align = "center">\[ A _{s,min}= 0,01183 \; \text{cm²} \geq 1,68 \; \text{cm²} \]</td>
