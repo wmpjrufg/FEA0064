@@ -218,23 +218,26 @@ Determinado os esforços totais em cada uma das direções é possível determin
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ \mu_i = \frac{M_{dtot,i}}{h_i \cdot A_c \cdot f_cd}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ \mu_x = 0,0124\]</td>
+  </tr>
+   <tr>
+    <td align = "center">\[ \mu_y = 0,0583\]</td>
   </tr>
 </table>
 
 <p align = "justify">
-Determinada a maior taxa de armadura é necessário verificar a área de aço total conforme cálculo abaixo:
+Determinada a maior taxa de armadura é necessário verificar a área de aço total conforme cálculo abaixo(ÁBACO 16-A):
 </p>
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ A_s = \frac{\omega \cdot A_c \cdot f_cd}{f_{\gamma d}}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ A_s = 3,45 cm²\]</td>
   </tr>
 </table>
 
@@ -244,10 +247,10 @@ Determinada armadura total é possível estabelecer a armadura mínima do pilar 
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ A_{s,min} = 0,15 \cdot \frac{N_d}{f_{\gamma d}} \geq 0,004 \cdot A_c\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ A_{s,min} = 1,68cm²\]</td>
   </tr>
 </table>
 
