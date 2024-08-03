@@ -1,5 +1,5 @@
 ---
-title: Pilar P2 modo rigidez
+title: Pilar P2
 layout: default
 grand_parent: Exemplo I
 parent: Projeto pilares
@@ -14,7 +14,7 @@ has_toc: false
 <!--Don't delete this script-->
 
 <p align = "justify">
-A seguir são apresentados os dados do pilar P1.
+A seguir são apresentados os dados do pilar P2.
 </p>
 
 <table style = "width:100%">
@@ -28,52 +28,52 @@ A seguir são apresentados os dados do pilar P1.
 <tbody align="center">
   <tr>
     <td align = "left">Altura na direção x (h<sub>x</sub>)</td>
-    <td>aqui</td>
-    <td>m</td>
+    <td>0,30</td>
+    <td> m </td>
   </tr>
   <tr>
     <td align = "left">Altura na direção y (h<sub>y</sub>)</td>
-    <td>aqui</td>
-    <td>m</td>
+    <td>0,14</td>
+    <td> m </td>
   </tr>
   <tr>
     <td align = "left">Altura Útil Complementar (d')</td>
     <td>0,04</td>
-    <td>m</td>
+    <td> m </td>
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devido carga permanente externa (N<sub>gext</sub>)</td>
-    <td>aqui</td>
+    <td>-6,879</td>
     <td>kN</td>
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devido peso próprio (N<sub>gpp</sub>)</td>
-    <td>aqui</td>
+    <td>-2,152</td>
     <td>kN</td>
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devida sobrecarga (N<sub>q</sub>)</td>
-    <td>aqui</td>
-    <td>kN</td>
+    <td>-0,859</td>
+    <td>kN </td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devido carga permanente externa na direção h<sub>x</sub> (M<sub>gext,x</sub>)</td>
-    <td>aqui</td>
+    <td>5,0</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devida sobrecarga na direção h<sub>x</sub> (M<sub>q,x</sub>)</td>
-    <td>aqui</td>
+    <td>1,3</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devido carga permanente externa na direção h<sub>y</sub> (M<sub>gext,y</sub>)</td>
-    <td>aqui</td>
+    <td>-3,379</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devida sobrecarga na direção h<sub>y</sub> (M<sub>q,y</sub>)</td>
-    <td>aqui</td>
+    <td>-0,614</td>
     <td>kNm</td>
   </tr>
   <tr>
@@ -118,32 +118,32 @@ O primeiro passo é a determinação dos esforços mínimos para cada direção 
     <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
+    <td align = "center">\[M_{dmin,x} = N_{d} \cdot \left( 0,015 + 0,03 \cdot 0,30 \right)\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
+    <td align = "center">\[M_{dmin,y} = N_{d} \cdot \left( 0,015 + 0,03 \cdot 0,14 \right)\]</td>
   </tr>
 </table>
 
 
 <p align = "justify">
-Após a determinação do momento mínimo é necessário verificar o momento total de cálculo para o pilar. Para isso é necessário verificar três tipos de esforços. A carga de compressão total que atua no pilar N<sub>d</sub>. Deve-se salientar que para avaliar a carga de compressão é necessário avaliar as vigas que descarregam em cada um dos pilares e então efetuar a combinação corretamente. Por exemplo no pilar P1 atuam as reações de apoio das vigas <b>VC1</b> e <b>VC2</b>.
+Após a determinação do momento mínimo é necessário verificar o momento total de cálculo para o pilar. Para isso é necessário verificar três tipos de esforços. A carga de compressão total que atua no pilar N<sub>d</sub>. Deve-se salientar que para avaliar a carga de compressão é necessário avaliar as vigas que descarregam em cada um dos pilares e então efetuar a combinação corretamente.No pilar P2 atuam as reações de apoio das vigas <b>VC1</b> e <b>VC3</b>, prortantanto tem-se.
 </p>
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[ N_d = \left[ \left( N_{gext,vc1} + N_{q,vc1} \right) + \left( N_{gext,vc2} + N_{q,vc2} \right) + N_{gpp} \right] \cdot \gamma_f \]</td>
+    <td align = "center">\[ N_d = \left[ \left( N_{gext,vc1} + N_{q,vc1} \right) + \left( N_{gext,vc3} + N_{q,vc3} \right) + N_{gpp} \right] \cdot \gamma_f \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \text(momento em x aqui) \]</td>
+    <td align = "center">\[ \text M_{dmin,x} = 0,260 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \text(momento em y aqui) \]</td>
+    <td align = "center">\[ \text M_{dmin,y} = 0,208 kN.m \]</td>
   </tr>
 </table>
 
 <p align = "justify">
-Dados os momentos de 1º ordem é necessário verificar a intensidade dos esforços de 2º que atuam no pilar de canto em questão. Porém para verificar os esforços de segunda ordem é necessário verificar as propriedades geométricas do pilar em cada direção.  
+Os momentos de 1ª ordem serão os maiores entre o momentos inicias combinados (M_d) e os momentos mínimos (M_{dmin}). Dados os momentos de 1º ordem é necessário verificar a intensidade dos esforços de 2º que atuam no pilar de canto em questão. Porém para verificar os esforços de segunda ordem é necessário verificar as propriedades geométricas do pilar em cada direção.  
 </p>
 
 <table style = "width:100%">
@@ -187,28 +187,28 @@ No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transve
 </table>
 
 <p align = "justify">
-Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da rigidez/curvatura equivalente. Os momentos de segunda ordem são dados a seguir:
+Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da rigidez/curvatura equivalente. Neste caso, como os valores de lambda de comparação são maiores que os lambdas reais, tanto em x como em y, os momentos de segunda ordem não são consideerados:
 </p>
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{2d,x} = 0\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{2d,y} = 0\]</td>
   </tr>
 </table>
 
 <p align = "justify">
-Determinados os momento de segunda ordem é possível determinar os momento totais em cada uma das direções do pilar.
+Determinados os momento de segunda ordem é possível determinar os momento totais em cada uma das direções do pilar, considerando que não há necessidade de contabilizar os efeitos de segunda ordem, os momentos totais são os de 1ª ordem.
 </p>
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{dtot,x} = 8,82 kN.m\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{dtot,y} = 5,59 kN.m\]</td>
   </tr>
 </table>
 
@@ -218,10 +218,13 @@ Determinado os esforços totais em cada uma das direções é possível determin
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ \mu_i = \frac{M_{dtot,i}}{h_i \cdot A_c \cdot f_cd}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ \mu_x = 0,0392\]</td>
+  </tr>
+   <tr>
+    <td align = "center">\[ \mu_y = 0,0532\]</td>
   </tr>
 </table>
 
@@ -231,10 +234,10 @@ Determinada a maior taxa de armadura é necessário verificar a área de aço to
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ A_s = \frac{\omega \cdot A_c \cdot f_cd}{f_{\gamma d}}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ A_s = 1,725 cm²\]</td>
   </tr>
 </table>
 
@@ -244,13 +247,15 @@ Determinada armadura total é possível estabelecer a armadura mínima do pilar 
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ A_{s,min} = 0,15 \cdot \frac{N_d}{f_{\gamma d}} \geq 0,004 \cdot A_c\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ A_{s,min} = 1,68cm²\]</td>
   </tr>
 </table>
 
 <p align = "justify">
-Com o valor de área total de xx cm² é possível detalhar a seção com xx barras de xx mm.
+Com o valor de área total de 1,725 cm² é possível detalhar a seção com 4 barras de 10 mm.
 </p>
+  
+
