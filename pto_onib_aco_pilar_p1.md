@@ -96,6 +96,11 @@ A seguir são apresentados os dados do pilar P1.
     <td>1,40</td>
     <td>-</td>
   </tr>
+   <tr>
+    <td align = "left">Coeficiente de ponderação para seção de 14cm (γ<sub>n</sub>)</td>
+    <td>1,25</td>
+    <td>-</td>
+  </tr>
   <tr>
     <td align = "left">Coeficiente de minoração para resistência do concreto (γ<sub>c</sub>)</td>
     <td>1,40</td>
@@ -114,14 +119,20 @@ O primeiro passo é a determinação dos esforços mínimos para cada direção 
 </p>
 
 <table style = "width:100%">
+ <tr>
+    <td align = "center">\[ N_d = \left[ \left( N_{gext,vc1} + N_{q,vc1} \right) + \left( N_{gext,vc2} + N_{q,vc2} \right) + N_{gpp} \right] \cdot \gamma_f \dot \gamma_n \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ N_d = \left[ \left( 13,354 + 3,515 \right) + \left( 2,340 + 0,425 \right) + 2,153 \right] \cdot 1,4 \cdot 1,25 = 38,127 kN \]</td>
+  </tr>
   <tr>
     <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
+ <tr>
+  <tr>
+    <td align = "center">\[M_{dxmin} = 38,127 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) = 0,732 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dxmin} = 30,502 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) = 0,586 kN.m \]</td>
-  </tr>
-  <tr>
-    <td align = "center">\[M_{dymin} = 30,502 \cdot \left( 0,015 + 0,03 \cdot 0,3 \right) = 0,732 kN.m \]</td>
+    <td align = "center">\[M_{dymin} = 38,127 \cdot \left( 0,015 + 0,03 \cdot 0,3 \right) = 0,915 kN.m \]</td>
   </tr>
 </table>
 
@@ -132,13 +143,10 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[ N_d = \left[ \left( 13,354 + 3,515 \right) + \left( 2,340 + 0,425 \right) + 2,15 \right] \cdot 1,4 = 30,502 kN \]</td>
+    <td align = "center">\[M_{d1ªx} = 0,009 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dxmin} = 30,502 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) = 0,586 kN.m \]</td>
-  </tr>
-  <tr>
-    <td align = "center">\[M_{dymin} = 30,502 \cdot \left( 0,015 + 0,03 \cdot 0,3 \right) = 0,732 kN.m \]</td>
+    <td align = "center">\[M_{d1ªy} = 4,652 kN.m \]</td>
   </tr>
 </table>
 
@@ -174,15 +182,15 @@ A esbeltez limite é dada por:
 <p align = "justify" id = "tab2"><b>Tabela 1.</b> Valores de área de aço da viga.</p>
 
 <p align = "justify">
-No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transversal. Logo o valor de λ<sub>1</sub> é dado por:
+No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transversal, o valor da esbeltez deve respeitar a NBR 6118:2023 15.8.2, usar um valor dentro do intervalor de 35 <= \lambda_ 1 <= 90. Logo o valor de λ<sub>1</sub> é dado por:
 </p>
 
 <table>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/hx)}{\alpha _b} = 35 \]</td>
+    <td align = "center">\[ \lambda_ 1x = \frac{25 + 12,5 \cdot (e_1/hx)}{\alpha _b} = 35 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/hy)}{\alpha _b} = 35 \]</td>
+    <td align = "center">\[ \lambda_ 1y = \frac{25 + 12,5 \cdot (e_1/hy)}{\alpha _b} = 35 \]</td>
   </tr>
 </table>
 
@@ -192,10 +200,10 @@ Após a determinação de quais peças terão esforços de segunda ordem é poss
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d2ª,x} = 0,586 kN.m\]</td>
+    <td align = "center">\[ M_{d2ª,x} = 0,732 kN.m\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d2ª,y} = 3,722 kN.m \]</td>
+    <td align = "center">\[ M_{d2ª,y} = 4,652 kN.m \]</td>
   </tr>
 </table>
 
@@ -205,10 +213,10 @@ Determinados os momento de segunda ordem é possível determinar os momento tota
 
 <table>
   <tr>
-    <td align = "center">\[ M_{dtot,x} = 1,043 kN.m \]</td>
+    <td align = "center">\[ M_{dtot,x} = 1,304 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{dtot,y} = 3,936 kN.m \]</td>
+    <td align = "center">\[ M_{dtot,y} = 4,919 kN.m \]</td>
   </tr>
 </table>
 
@@ -221,15 +229,15 @@ Determinado os esforços totais em cada uma das direções é possível determin
     <td align = "center">\[ \mu_i = \frac{M_{dtot,i}}{h_i \cdot A_c \cdot f_cd}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \mu_x = 0,0099 \]</td>
+    <td align = "center">\[ \mu_x = 0,0124 \]</td>
   </tr>
    <tr>
-    <td align = "center">\[ \mu_y = 0,0175 \]</td>
+    <td align = "center">\[ \mu_y = 0,0219 \]</td>
   </tr>
 </table>
 
 <p align = "justify">
-Determinada a maior taxa de armadura é necessário verificar a área de aço total conforme cálculo abaixo(ÁBACO 16-A, v=0,041, omega encontrado ω =0,2):
+Determinada a maior taxa de armadura é necessário verificar a área de aço total conforme cálculo abaixo(ÁBACO 16-A, v=0,051, omega encontrado ω =0,2):
 </p>
 
 <table>
@@ -250,7 +258,7 @@ Determinada armadura total é possível estabelecer a armadura mínima do pilar 
     <td align = "center">\[ A_{s,min} = 0,15 \cdot \frac{N_d}{f_{\gamma d}} \geq 0,004 \cdot A_c\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ A_{s,min} = 1,68cm²\]</td>
+    <td align = "center">\[ A_{s,min1} = 1,68cm²\]</td>
   </tr>
 </table>
 
