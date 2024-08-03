@@ -68,12 +68,12 @@ A seguir são apresentados os dados do pilar P2.
   </tr>
   <tr>
     <td align = "left">Momento fletor devido carga permanente externa na direção h<sub>y</sub> (M<sub>gext,y</sub>)</td>
-    <td>-2,5</td>
+    <td>0,102</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devida sobrecarga na direção h<sub>y</sub> (M<sub>q,y</sub>)</td>
-    <td>-0,7</td>
+    <td>0,018</td>
     <td>kNm</td>
   </tr>
   <tr>
@@ -118,10 +118,10 @@ O primeiro passo é a determinação dos esforços mínimos para cada direção 
     <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin,x} = 40,11 \cdot \left( 0,015 + 0,03 \cdot 0,30 \right) = 60,52 kN.m \]</td>
+    <td align = "center">\[M_{dmin,x} = 10,03 \cdot \left( 0,015 + 0,03 \cdot 0,30 \right) = 15,13 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin,y} = 40,11 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) = 60,33 kN.m \]</td>
+    <td align = "center">\[M_{dmin,y} = 10,03 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) = 15,09 kN.m \]</td>
   </tr>
 </table>
 
@@ -132,13 +132,13 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[ N_d = \left[ \left( N_{gext,vc1} + N_{q,vc1} \right) + \left( N_{gext,vc3} + N_{q,vc3} \right) + N_{gpp} \right] \cdot \gamma_f \]</td>
+    <td align = "center">\[ N_d = \left[ \left( 3,7 + 1,0 \right) + \left( 0,048 + 0,264 \right) + 2,152 \right] \cdot 1,4 = 10,03 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \text M_{dmin,x} = 0,260 kN.m \]</td>
+    <td align = "center">\[ \text M_{dmin,x} = 15,13 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \text M_{dmin,y} = 0,208 kN.m \]</td>
+    <td align = "center">\[ \text M_{dmin,y} = 15,09 kN.m \]</td>
   </tr>
 </table>
 
@@ -148,16 +148,16 @@ Os momentos de 1ª ordem serão os maiores entre o momentos inicias combinados (
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[ i_x = \sqrt{\frac{I_x}{A}} \]</td>
+    <td align = "center">\[ i_x = \sqrt{\frac{0,0000686}{0,042}} = 0,0404 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_x = \frac{l_e}{i_x} \]</td>
+    <td align = "center">\[ \lambda_x = \frac{4,16}{0,0404} = 102,93 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ i_y = \sqrt{\frac{I_y}{A}} \]</td>
+    <td align = "center">\[ i_y = \sqrt{\frac{0,000315}{0,042}} = 0,0866\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_y = \frac{l_e}{i_y} \]</td>
+    <td align = "center">\[ \lambda_y = \frac{4,16}{0,0866} = 48,03\]</td>
   </tr>
 </table>
 
@@ -179,10 +179,10 @@ No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transve
 
 <table>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
+    <td align = "center">\[ \lambda_ 1x = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
+    <td align = "center">\[ \lambda_ 1y = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
   </tr>
 </table>
 
