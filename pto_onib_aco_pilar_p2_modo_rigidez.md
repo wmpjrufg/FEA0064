@@ -246,7 +246,7 @@ Determinado os esforços totais em cada uma das direções é possível determin
 </table>
 
 <p align = "justify">
-Determinada a maior taxa de armadura é necessário verificar a área de aço total conforme cálculo abaixo:
+Determinada a maior taxa de armadura é necessário verificar a área de aço total conforme cálculo abaixo, o valor de \omega foi estabelecido atravez do ábaco 7A:
 </p>
 
 <table>
