@@ -167,7 +167,7 @@ A esbeltez limite é dada por:
 
 <table>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\1} \]</td>
+    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\alfa_b} \]</td>
   </tr>
 </table>
 
