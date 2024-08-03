@@ -179,10 +179,10 @@ No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transve
 
 <table>
   <tr>
-    <td align = "center">\[ \lambda_ 1x = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
+    <td align = "center">\[ \lambda_ 1x = \frac{25 + 12,5 \cdot (1,51/0,3)}{1,0} = 219,68 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_ 1y = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
+    <td align = "center">\[ \lambda_ 1y = \frac{25 + 12,5 \cdot (1,50/0,14)}{1,0} = 159,30 \]</td>
   </tr>
 </table>
 
@@ -192,10 +192,10 @@ Após a determinação de quais peças terão esforços de segunda ordem é poss
 
 <table>
   <tr>
-    <td align = "center">\[ M_{2d,x} = 0\]</td>
+    <td align = "center">\[ M_{2d,x} = 0,021 kN.m\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{2d,y} = 0\]</td>
+    <td align = "center">\[ M_{2d,y} = 0,045 kN.m\]</td>
   </tr>
 </table>
 
@@ -205,10 +205,10 @@ Determinados os momento de segunda ordem é possível determinar os momento tota
 
 <table>
   <tr>
-    <td align = "center">\[ M_{dtot,x} = 8,82 kN.m\]</td>
+    <td align = "center">\[ M_{dtot,x} = 15,17 kN.m\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{dtot,y} = 5,59 kN.m\]</td>
+    <td align = "center">\[ M_{dtot,y} = 15,15 kN.m\]</td>
   </tr>
 </table>
 
