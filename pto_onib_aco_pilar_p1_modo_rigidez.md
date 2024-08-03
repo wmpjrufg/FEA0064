@@ -132,7 +132,7 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[ N_d = \left[ \left( 13,4 + 1 \right) + \left( 0 + 0 \right) + 2,153 \right] \cdot \gamma_f \]</td>
+    <td align = "center">\[ N_d = \left[ \left( 13,4 + 1 \right) + \left( 0 + 0 \right) + 2,153 \right] \cdot \1,4 \]</td>
   </tr>
   <tr>
     <td align = "center">\[ \text(momento em x aqui) \]</td>
