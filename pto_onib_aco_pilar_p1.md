@@ -58,22 +58,22 @@ A seguir são apresentados os dados do pilar P1.
   </tr>
   <tr>
     <td align = "left">Momento fletor devido carga permanente externa na direção h<sub>x</sub> (M<sub>gext,x</sub>)</td>
-    <td>0,845</td>
+    <td>0,064</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devida sobrecarga na direção h<sub>x</sub> (M<sub>q,x</sub>)</td>
-    <td>0,154</td>
+    <td>0,012</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devido carga permanente externa na direção h<sub>y</sub> (M<sub>gext,y</sub>)</td>
-    <td>13,888</td>
+    <td>5,03</td>
     <td>kNm</td>
   </tr>
   <tr>
     <td align = "left">Momento fletor devida sobrecarga na direção h<sub>y</sub> (M<sub>q,y</sub>)</td>
-    <td>3,656</td>
+    <td>1,324</td>
     <td>kNm</td>
   </tr>
   <tr>
@@ -182,7 +182,7 @@ No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transve
     <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/hx)}{\alpha _b} = 35 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/hy)}{\alpha _b} = 39,04 \]</td>
+    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/hy)}{\alpha _b} = 35 \]</td>
   </tr>
 </table>
 
@@ -195,7 +195,7 @@ Após a determinação de quais peças terão esforços de segunda ordem é poss
     <td align = "center">\[ M_{d2ª,x} = 0,586 kN.m\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d2ª,y} = 10,277 kN.m \]</td>
+    <td align = "center">\[ M_{d2ª,y} = 3,722 kN.m \]</td>
   </tr>
 </table>
 
@@ -208,7 +208,7 @@ Determinados os momento de segunda ordem é possível determinar os momento tota
     <td align = "center">\[ M_{dtot,x} = 1,043 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{dtot,y} = 10,490 kN.m \]</td>
+    <td align = "center">\[ M_{dtot,y} = 3,936 kN.m \]</td>
   </tr>
 </table>
 
@@ -224,7 +224,7 @@ Determinado os esforços totais em cada uma das direções é possível determin
     <td align = "center">\[ \mu_x = 0,0099 \]</td>
   </tr>
    <tr>
-    <td align = "center">\[ \mu_y = 0,0466 \]</td>
+    <td align = "center">\[ \mu_y = 0,0175 \]</td>
   </tr>
 </table>
 
