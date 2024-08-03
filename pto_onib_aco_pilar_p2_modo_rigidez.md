@@ -191,15 +191,15 @@ No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transve
 
 <table>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
+    <td align = "center">\[ \lambda_{ 1x}= \frac{25 + 12,5 \cdot (0,814/0,3)}{\1} = 58,91  \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
+    <td align = "center">\[ \lambda_{ 1y} = \frac{25 + 12,5 \cdot (0,561/0,14)}{\1} = 71,07\]</td>
   </tr>
 </table>
 
 <p align = "justify">
-Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da rigidez/curvatura equivalente. Neste caso, como os valores de lambda de comparação são maiores que os lambdas reais, tanto em x como em y, os momentos de segunda ordem não são consideerados:
+Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da rigidez equivalente. Neste caso, como os valores de lambda de comparação são maiores que os lambdas reais, tanto em x como em y, os momentos de segunda ordem não são consideerados:
 </p>
 
 <table>
