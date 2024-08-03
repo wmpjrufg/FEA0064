@@ -218,7 +218,7 @@ Determinado os esforços totais em cada uma das direções é possível determin
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ M_{d,x} = \frac{M_{dtot,x}}{h_x \cdot A_c \cdot f_cd}\]</td>
   </tr>
   <tr>
     <td align = "center">\[ M_{d,x} = aqui\]</td>
