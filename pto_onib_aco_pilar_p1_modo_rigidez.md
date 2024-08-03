@@ -48,7 +48,7 @@ A seguir são apresentados os dados do pilar P1.
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devido peso próprio (N<sub>gpp</sub>)</td>
-    <td>2,2</td>
+    <td>2,153</td>
     <td>kN</td>
   </tr>
   <tr>
