@@ -167,7 +167,7 @@ A esbeltez limite é dada por:
 
 <table>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (0,018/0,3)}{\1} \]=</td>
+    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\1} \]</td>
   </tr>
 </table>
 
@@ -179,10 +179,10 @@ No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transve
 
 <table>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
+    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (0,018/0,3)}{\1} \]=25,75</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (e_1/h)}{\alpha _b} \]</td>
+    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (0,018/0,14)}{\1} \]=26,61</td>
   </tr>
 </table>
 
