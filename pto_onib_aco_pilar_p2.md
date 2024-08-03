@@ -118,27 +118,27 @@ O primeiro passo é a determinação dos esforços mínimos para cada direção 
     <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin,x} = 10,8332 \cdot \left( 0,015 + 0,03 \cdot 0,30 \right) = 0,260 kN.m\]</td>
+    <td align = "center">\[M_{dmin,x} = N_{d} \cdot \left( 0,015 + 0,03 \cdot 0,30 \right)\]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin,y} = 10,8332 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) = 0,208 kN.m\]</td>
+    <td align = "center">\[M_{dmin,y} = N_{d} \cdot \left( 0,015 + 0,03 \cdot 0,14 \right)\]</td>
   </tr>
 </table>
 
 
 <p align = "justify">
-Após a determinação do momento mínimo é necessário verificar o momento total de cálculo para o pilar. Para isso é necessário verificar três tipos de esforços. A carga de compressão total que atua no pilar N<sub>d</sub>. Deve-se salientar que para avaliar a carga de compressão é necessário avaliar as vigas que descarregam em cada um dos pilares e então efetuar a combinação corretamente. Por exemplo no pilar P1 atuam as reações de apoio das vigas <b>VC1</b> e <b>VC2</b>.
+Após a determinação do momento mínimo é necessário verificar o momento total de cálculo para o pilar. Para isso é necessário verificar três tipos de esforços. A carga de compressão total que atua no pilar N<sub>d</sub>. Deve-se salientar que para avaliar a carga de compressão é necessário avaliar as vigas que descarregam em cada um dos pilares e então efetuar a combinação corretamente.No pilar P2 atuam as reações de apoio das vigas <b>VC1</b> e <b>VC3</b>, prortantanto tem-se.
 </p>
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[ N_d = \left[ \left( N_{gext,vc1} + N_{q,vc1} \right) + \left( N_{gext,vc2} + N_{q,vc2} \right) + N_{gpp} \right] \cdot \gamma_f \]</td>
+    <td align = "center">\[ N_d = \left[ \left( N_{gext,vc1} + N_{q,vc1} \right) + \left( N_{gext,vc3} + N_{q,vc3} \right) + N_{gpp} \right] \cdot \gamma_f \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \text(momento em x aqui) \]</td>
+    <td align = "center">\[ \text(0,260 kN.m) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \text(momento em y aqui) \]</td>
+    <td align = "center">\[ \text(0,208 kN.m) \]</td>
   </tr>
 </table>
 
