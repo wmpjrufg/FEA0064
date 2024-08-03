@@ -192,10 +192,10 @@ Após a determinação de quais peças terão esforços de segunda ordem é poss
 
 <table>
   <tr>
-    <td align = "center">\[ M_{1d,x} = 0\]</td>
+    <td align = "center">\[ M_{2d,x} = 0\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{1d,y} = 0\]</td>
+    <td align = "center">\[ M_{2d,y} = 0\]</td>
   </tr>
 </table>
 
