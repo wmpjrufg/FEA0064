@@ -135,10 +135,10 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
     <td align = "center">\[ N_d = \left[ \left( N_{gext,vc1} + N_{q,vc1} \right) + \left( N_{gext,vc3} + N_{q,vc3} \right) + N_{gpp} \right] \cdot \gamma_f \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \text(0,260 kN.m) \]</td>
+    <td align = "center">\[ \text M_dmin,x = 0,260 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \text(0,208 kN.m) \]</td>
+    <td align = "center">\[ \textM_dmin, y = 0,208 kN.m \]</td>
   </tr>
 </table>
 
