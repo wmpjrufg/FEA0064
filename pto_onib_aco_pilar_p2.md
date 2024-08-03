@@ -143,7 +143,7 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
 </table>
 
 <p align = "justify">
-Dados os momentos de 1º ordem é necessário verificar a intensidade dos esforços de 2º que atuam no pilar de canto em questão. Porém para verificar os esforços de segunda ordem é necessário verificar as propriedades geométricas do pilar em cada direção.  
+Os momentos de 1ª ordem serão os maiores entre o momentos inicias combinados (M_d) e os momentos mínimos (M_{dmin}). Dados os momentos de 1º ordem é necessário verificar a intensidade dos esforços de 2º que atuam no pilar de canto em questão. Porém para verificar os esforços de segunda ordem é necessário verificar as propriedades geométricas do pilar em cada direção.  
 </p>
 
 <table style = "width:100%">
