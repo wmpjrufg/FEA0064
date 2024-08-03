@@ -229,7 +229,7 @@ Determinado os esforços totais em cada uma das direções é possível determin
 </table>
 
 <p align = "justify">
-Determinada a maior taxa de armadura é necessário verificar a área de aço total conforme cálculo abaixo(ÁBACO 16-A):
+Determinada a maior taxa de armadura é necessário verificar a área de aço total conforme cálculo abaixo(ÁBACO 16-A, v=0,041, omega encontrado ω =0,2):
 </p>
 
 <table>
