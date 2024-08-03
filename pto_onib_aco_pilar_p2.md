@@ -218,10 +218,13 @@ Determinado os esforços totais em cada uma das direções é possível determin
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = \frac{M_{dtot,x}}{h_x \cdot A_c \cdot f_cd}\]</td>
+    <td align = "center">\[ \mi_i = \frac{M_{dtot,i}}{h_i \cdot A_c \cdot f_cd}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ \mi_x = 0,0392\]</td>
+  </tr>
+   <tr>
+    <td align = "center">\[ \mi_y = 0,0532\]</td>
   </tr>
 </table>
 
@@ -231,10 +234,10 @@ Determinada a maior taxa de armadura é necessário verificar a área de aço to
 
 <table>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ A_s = frac{\omega \cdot A_c \cdot f_cd}{f_{\gamma d}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d,x} = aqui\]</td>
+    <td align = "center">\[ A_ = 1,725 cm²\]</td>
   </tr>
 </table>
 
