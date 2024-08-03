@@ -14,7 +14,7 @@ has_toc: false
 <!--Don't delete this script-->
 
 <p align = "justify">
-A seguir são apresentados os dados do pilar P1.
+A seguir são apresentados os dados do pilar P3.
 </p>
 
 <table style = "width:100%">
@@ -28,7 +28,7 @@ A seguir são apresentados os dados do pilar P1.
 <tbody align="center">
   <tr>
     <td align = "left">Altura na direção x (h<sub>x</sub>)</td>
-    <td>aqui</td>
+    <td>já tem grupo esse pilar</td>
     <td>m</td>
   </tr>
   <tr>
