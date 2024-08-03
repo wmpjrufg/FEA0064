@@ -192,10 +192,10 @@ Após a determinação de quais peças terão esforços de segunda ordem é poss
 
 <table>
   <tr>
-    <td align = "center">\[ M_{2d,x} = 0,021 kN.m\]</td>
+    <td align = "center">\[ M_{2d,x} = 0,57 kN.m\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{2d,y} = 0,045 kN.m\]</td>
+    <td align = "center">\[ M_{2d,y} = 1,23 kN.m\]</td>
   </tr>
 </table>
 
@@ -205,10 +205,10 @@ Determinados os momento de segunda ordem é possível determinar os momento tota
 
 <table>
   <tr>
-    <td align = "center">\[ M_{dtot,x} = 15,17 kN.m\]</td>
+    <td align = "center">\[ M_{dtot,x} = 15,73 kN.m\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{dtot,y} = 15,15 kN.m\]</td>
+    <td align = "center">\[ M_{dtot,y} = 16,34 kN.m\]</td>
   </tr>
 </table>
 
@@ -221,10 +221,10 @@ Determinado os esforços totais em cada uma das direções é possível determin
     <td align = "center">\[ \mu_i = \frac{M_{dtot,i}}{h_i \cdot A_c \cdot f_cd}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \mu_x = 0,0392\]</td>
+    <td align = "center">\[ \mu_x = 0,069\]</td>
   </tr>
    <tr>
-    <td align = "center">\[ \mu_y = 0,0532\]</td>
+    <td align = "center">\[ \mu_y = 0,15\]</td>
   </tr>
 </table>
 
@@ -237,7 +237,7 @@ Determinada a maior taxa de armadura é necessário verificar a área de aço to
     <td align = "center">\[ A_s = \frac{\omega \cdot A_c \cdot f_cd}{f_{\gamma d}}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ A_s = 1,725 cm²\]</td>
+    <td align = "center">\[ A_s = 3,45 cm²\]</td>
   </tr>
 </table>
 
@@ -250,10 +250,10 @@ Determinada armadura total é possível estabelecer a armadura mínima do pilar 
     <td align = "center">\[ A_{s,min} = 0,15 \cdot \frac{N_d}{f_{\gamma d}} \geq 0,004 \cdot A_c\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ A_{s,min} = 1,68cm²\]</td>
+    <td align = "center">\[ A_{s,min} = 0,0346 cm²\]</td>
   </tr>
 </table>
 
 <p align = "justify">
-Com o valor de área total de 1,725 cm² é possível detalhar a seção com 4 barras de 10 mm.
+Com o valor de área total de 3,45 cm² é possível detalhar a seção com 5 barras de 10 mm.
 </p>
