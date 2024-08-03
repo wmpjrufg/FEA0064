@@ -263,5 +263,5 @@ Determinada armadura total é possível estabelecer a armadura mínima do pilar 
 </table>
 
 <p align = "justify">
-Com o valor de área total de 3,45 cm² é possível detalhar a seção com 5 barras de 10 mm.
+Com o valor de área total calculado de 3,45 cm² é possível detalhar a seção com 5 barras de 10 mm, essas 5 barras somam uma área de 3,93 cm².
 </p>
