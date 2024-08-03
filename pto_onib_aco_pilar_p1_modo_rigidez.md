@@ -28,12 +28,12 @@ A seguir são apresentados os dados do pilar P1.
 <tbody align="center">
   <tr>
     <td align = "left">Altura na direção x (h<sub>x</sub>)</td>
-    <td>aqui</td>
+    <td>0,14</td>
     <td>m</td>
   </tr>
   <tr>
     <td align = "left">Altura na direção y (h<sub>y</sub>)</td>
-    <td>aqui</td>
+    <td>0,3</td>
     <td>m</td>
   </tr>
   <tr>
