@@ -43,17 +43,17 @@ A seguir são apresentados os dados do pilar P1.
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devido carga permanente externa (N<sub>gext</sub>)</td>
-    <td>aqui</td>
+    <td>-13,4</td>
     <td>kN</td>
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devido peso próprio (N<sub>gpp</sub>)</td>
-    <td>aqui</td>
+    <td>2,2</td>
     <td>kN</td>
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devida sobrecarga (N<sub>q</sub>)</td>
-    <td>aqui</td>
+    <td>-3,5</td>
     <td>kN</td>
   </tr>
   <tr>
