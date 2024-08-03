@@ -150,14 +150,26 @@ Os momentos de 1ª ordem serão os maiores entre o momentos inicias combinados (
   <tr>
     <td align = "center">\[ i_x = \sqrt{\frac{I_x}{A}} \]</td>
   </tr>
+    <tr>
+    <td align = "center">\[ i_x = \sqrt{\frac{6,86 \cdot 10^{-5}}{0,042}} = 0,0404 m\]</td>
+  </tr>
   <tr>
     <td align = "center">\[ \lambda_x = \frac{l_e}{i_x} \]</td>
   </tr>
   <tr>
+    <td align = "center">\[ \lambda_x = \frac{2,05}{0,0404} \]</td>
+  </tr>
+  <tr>
     <td align = "center">\[ i_y = \sqrt{\frac{I_y}{A}} \]</td>
+  </tr>
+    <tr>
+    <td align = "center">\[ i_y = \sqrt{\frac{3,15 \cdot 10^{-4}{0,042}} = 0,0866 m \]</td>
   </tr>
   <tr>
     <td align = "center">\[ \lambda_y = \frac{l_e}{i_y} \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ \lambda_y = \frac{2,05}{0,0866} = 23,67\]</td>
   </tr>
 </table>
 
