@@ -150,23 +150,30 @@ Os momentos de 1ª ordem serão os maiores entre o momentos inicias combinados (
   <tr>
     <td align = "center">\[ i_x = \sqrt{\frac{I_x}{A}} \]</td>
   </tr>
-    <tr>
-    <td align = "center">\[ i_x = \sqrt{\frac{6,86 \cdot 10^{-5}}{0,042}} = 0,0404 m\]</td>
-  </tr>
   <tr>
     <td align = "center">\[ \lambda_x = \frac{l_e}{i_x} \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ i_y = \sqrt{\frac{I_y}{A}} \]</td>
+  </tr>
+ <tr>
+    <td align = "center">\[ \lambda_y = \frac{l_e}{i_y} \]</td>
+  </tr>
+</table>
+
+<p align = "justify">
+Os valoeres são apresentados a seguir:
+</p>
+
+<table style = "width:100%">
+  <tr>
+    <td align = "center">\[ i_x = \sqrt{\frac{6,86 \cdot 10^{-5}}{0,042}} = 0,0404 m\]</td>
   </tr>
   <tr>
     <td align = "center">\[ \lambda_x = \frac{2,05}{0,0404} \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ i_y = \sqrt{\frac{I_y}{A}} \]</td>
-  </tr>
-    <tr>
     <td align = "center">\[ i_y = \sqrt{\frac{3,15 \cdot 10^{-4}{0,042}} = 0,0866 m \]</td>
-  </tr>
-  <tr>
-    <td align = "center">\[ \lambda_y = \frac{l_e}{i_y} \]</td>
   </tr>
   <tr>
     <td align = "center">\[ \lambda_y = \frac{2,05}{0,0866} = 23,67\]</td>
@@ -183,23 +190,21 @@ A esbeltez limite é dada por:
   </tr>
 </table>
 
-<p align = "justify" id = "tab2"><b>Tabela 1.</b> Valores de área de aço da viga.</p>
-
 <p align = "justify">
 No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transversal. Logo o valor de λ<sub>1</sub> é dado por:
 </p>
 
 <table>
   <tr>
-    <td align = "center">\[ \lambda_{ 1x}= \frac{25 + 12,5 \cdot (0,814/0,3)}{\1} = 58,91  \]</td>
+    <td align = "center">\[ \lambda_{ 1x}= \frac{25 + 12,5 \cdot (0,814/0,3)}{1} = 58,91\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_{ 1y} = \frac{25 + 12,5 \cdot (0,561/0,14)}{\1} = 71,07\]</td>
+    <td align = "center">\[ \lambda_{ 1y} = \frac{25 + 12,5 \cdot (0,561/0,14)}{1} = 71,07\]</td>
   </tr>
 </table>
 
 <p align = "justify">
-Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da rigidez equivalente. Neste caso, como os valores de lambda de comparação são maiores que os lambdas reais, tanto em x como em y, os momentos de segunda ordem não são consideerados:
+Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da rigidez equivalente. Neste caso, como os valores \lambda_{ 1x} > \lambda_x e \lambda_{ 1y} > \lambda_y, os momentos de segunda ordem não são consideerados:
 </p>
 
 <table>
