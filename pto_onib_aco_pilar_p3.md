@@ -185,8 +185,6 @@ Os valores obtidos foram os seguintes:
   </tr>
 </table>  
   
-</p>
-
 <p align = "justify">
 A esbeltez limite é dada por:
 </p>
@@ -259,7 +257,7 @@ Determinado os esforços totais em cada uma das direções é possível determin
     <td align = "center">\[ \mu _{x} = \frac{-8,235}{30\cdot 420\cdot (\frac{2,5}{1,4})}= 0,000366 \]</td>
   </tr>  
   <tr>
-    <td align = "center">\[ \mu _{y} = \frac{M_{d,y,total}}{h_{y} \cdot A_{c} \cdot f_{cd}} = \mu _{x} = \frac{17,6069}{14\cdot 420\cdot (\frac{2,5}{1,4})} = 0,00167\]</td>
+    <td align = "center">\[ \mu _{y} = \frac{17,6069}{14\cdot 420\cdot (\frac{2,5}{1,4})} = 0,00167\]</td>
   </tr>
 </table>
 
@@ -272,7 +270,7 @@ Determinada a maior taxa de armadura é necessário verificar a área de aço to
     <td align = "center">\[ A_{s}=\frac{\omega \cdot A_{c}\cdot f_{cd}}{f_{\gamma d}} \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ A_{s}=  \; \text{cm²} \]</td>
+    <td align = "center">\[ A_{s}= 3,9655 \; \text{cm²} \]</td>
   </tr>
 </table>
 
@@ -293,8 +291,8 @@ Determinada armadura total é possível estabelecer a armadura mínima do pilar 
 </table>
 
 <p align = "justify">
-Com o valor de área total de xx cm² é possível detalhar a seção com xx barras de xx mm.
+Com o valor de área total de 3,9655 cm² é possível detalhar a seção com 4 barras de 12,5 mm.
   
 <p align = "justify">
-Observação: o valor de Nsd é muito pequeno e deu problema nos limites dos cálculo de 1/r e de As mín.
+Observação: o valor de Nd para o P3 é muito pequeno e deu problema nos limites dos cálculo de 1/r e de As mín.
 </p>
