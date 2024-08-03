@@ -115,13 +115,13 @@ O primeiro passo é a determinação dos esforços mínimos para cada direção 
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[M_{dmin} = 23,17 \cdot \left( 0,015 + 0,03 \cdot 0,3 \right) \]=0,556</td>
+    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]=0,556</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
+    <td align = "center">\[M_{dmin} = 30,5 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) \]=0,586</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
+    <td align = "center">\[M_{dmin} = 30,5 \cdot \left( 0,015 + 0,03 \cdot 0,3 \right) \]=0,732</td>
   </tr>
 </table>
 
@@ -132,7 +132,7 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[ N_d = \left[ \left( 13,4 + 1 \right) + \left( 0 + 0 \right) + 2,153 \right] \cdot \1,4 \]=23,17</td>
+    <td align = "center">\[ N_d = \left[ \left( 13,4 + 3,5 \right) + \left( 2,3 + 0,43 \right) + 2,153 \right] \cdot \1,4 \]=30,5</td>
   </tr>
   <tr>
     <td align = "center">\[ \text(momento em x aqui) \]</td>
