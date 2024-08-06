@@ -294,10 +294,10 @@ Determinados os momento de segunda ordem é possível determinar os momento tota
     <td align = "center">\[ \frac{1}{r_y} = \frac{0,005}{h_y \cdot (v + 0,5)} = 0,030 \leq \frac{0,005}{h_y} = 0,017 \]</td>
   </tr>
      <tr>
-    <td align = "center">\[ e_2x = \frac{1}{r_x) \cdot \frac{l_e²}{10} = 0,015 \]</td>
+    <td align = "center">\[ e_2x = \frac{1}{r_x} \cdot \frac{l_e²}{10} = 0,015 \]</td>
   </tr>
     <tr>
-    <td align = "center">\[ e_2y = \frac{1}{r_y) \cdot \frac{l_e²}{10} = 0,007 \]</td>
+    <td align = "center">\[ e_2y = \frac{1}{r_y} \cdot \frac{l_e²}{10} = 0,007 \]</td>
   </tr>
   <tr>
     <td align = "center">\[ M_{dtot,x} = \alpha _b \cdot M_{d2ª,x} + N_d \cdot e_2x = 1,304 kN.m \]</td>
