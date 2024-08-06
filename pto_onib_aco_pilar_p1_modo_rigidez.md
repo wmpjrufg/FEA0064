@@ -132,7 +132,7 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[ N_d = \left[ \left( 13,4 + 3,5 \right) + \left( 2,3 + 0,43 \right) + 2,153 \right] \cdot \1,4 \]=30,5</td>
+    <td align = "center">\[ N_d = \left[ \left( 13,4 + 3,5 \right) + \left( 2,34 + 0,425 \right) + 2,153 \right] \cdot \1,4 \]=30,545</td>
   </tr>
   <tr>
     <td align = "center">\[ \text(momento em x aqui) \]</td>
