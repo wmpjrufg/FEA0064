@@ -183,25 +183,25 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
     <td align = "left"> Momentos de calculo </td>
   </tr>
   <tr>
-    <td align = "center">\[M_k = (M_gext + M_q) \dot 1,4 \dot 1,25 \]</td>
+    <td align = "center">\[M_k = (M_gext + M_q) 1,4 \dot 1,25 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{x} = (0,064 + 0,012) \dot 1,4 \dot 1,25 = 0,133 kN.m \]</td>
+    <td align = "center">\[M_{x} = (0,064 + 0,012) 1,4 \dot 1,25 = 0,133 kN.m \]</td>
   </tr>
    <tr>
-    <td align = "center">\[M_{y} = (5,03 + 1,324) \dot 1,4 \dot 1,25 = 11,120 kN.m \]</td>
+    <td align = "center">\[M_{y} = (5,03 + 1,324) 1,4 \dot 1,25 = 11,120 kN.m \]</td>
   </tr>
   <tr>
     <td align = "left">Momentos superiores e inferiores </td>
   </tr>
    <tr>
-    <td align = "center">\[M_{k,sup} = [M_{k,inf} = \frac{ M_k \dot R_p}{2 \dot R_p + R_v} \]</td>
+    <td align = "center">\[M_{k,sup} = M_{k,inf} = \frac{ M_k \dot R_p}{2 \dot R_p + R_v} \]</td>
   </tr>
    <tr>
-    <td align = "center">\[M_{kx,sup} = [M_{kx,inf} = \frac{ M_{x} \dot R_p,x}{2 \dot R_p,x + R_v,x} = 5,49x10^-3 kN.m \]</td>
+    <td align = "center">\[M_{kx,sup} = M_{kx,inf} = \frac{ M_{x} \dot R_p,x}{2 \dot R_p,x + R_v,x} = 5,49x10^-3 kN.m \]</td>
   </tr>
    <tr>
-    <td align = "center">\[M_{ky,sup} = [M_{ky,inf} = \frac{ M_{y} \dot R_p,y}{2 \dot R_p,y + R_v,y} = 3,04 kN.m \]</td>
+    <td align = "center">\[M_{ky,sup} = M_{ky,inf} = \frac{ M_{y} \dot R_p,y}{2 \dot R_p,y + R_v,y} = 3,04 kN.m \]</td>
   </tr>
   <tr>
     <td align = "left">Momentos de primeira ordem </td>
