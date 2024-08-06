@@ -150,7 +150,6 @@ O primeiro passo é a determinação dos esforços mínimos para cada direção 
   </tr>
 </table>
 
-
 <p align = "justify">
 Após a determinação do momento mínimo é necessário verificar o momento total de cálculo para o pilar. Para isso é necessário verificar três tipos de esforços. A carga de compressão total que atua no pilar N<sub>d</sub>. Deve-se salientar que para avaliar a carga de compressão é necessário avaliar as vigas que descarregam em cada um dos pilares e então efetuar a combinação corretamente. Por exemplo no pilar P1 atuam as reações de apoio das vigas <b>VC1</b> e <b>VC2</b>.
 </p>
