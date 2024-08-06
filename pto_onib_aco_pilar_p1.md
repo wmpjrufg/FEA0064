@@ -288,10 +288,10 @@ Determinados os momento de segunda ordem é possível determinar os momento tota
     <td align = "center">\[ v = \frac{N_d}{A_c \cdot F_cd} = 0,051 \]</td>
   </tr>
    <tr>
-    <td align = "center">\[ \frac{1}{r_x) = \frac{0,005)(h_x \cdot (v + 0,5)} = 0,065 \leq \frac{0,005}{h_x} = 0,036 \]</td>
+    <td align = "center">\[ \frac{1}{r_x} = \frac{0,005}{h_x \cdot (v + 0,5)} = 0,065 \leq \frac{0,005}{h_x} = 0,036 \]</td>
   </tr>
    <tr>
-    <td align = "center">\[ \frac{1}{r_y) = \frac{0,005)(h_y \cdot (v + 0,5)} = 0,030 \leq \frac{0,005}{h_y} = 0,017 \]</td>
+    <td align = "center">\[ \frac{1}{r_y} = \frac{0,005}{h_y \cdot (v + 0,5)} = 0,030 \leq \frac{0,005}{h_y} = 0,017 \]</td>
   </tr>
      <tr>
     <td align = "center">\[ e_2x = \frac{1}{r_x) \cdot \frac{l_e²}{10} = 0,015 \]</td>
