@@ -115,13 +115,13 @@ O primeiro passo é a determinação dos esforços mínimos para cada direção 
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]=0,556</td>
+    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin} = 30,5 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) \]=0,586</td>
+    <td align = "center">\[M_{dmin} = 30,545 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) \]=0,586</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin} = 30,5 \cdot \left( 0,015 + 0,03 \cdot 0,3 \right) \]=0,732</td>
+    <td align = "center">\[M_{dmin} = 30,545 \cdot \left( 0,015 + 0,03 \cdot 0,3 \right) \]=0,733</td>
   </tr>
 </table>
 
