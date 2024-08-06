@@ -37,6 +37,11 @@ A seguir são apresentados os dados do pilar P1.
     <td>m</td>
   </tr>
   <tr>
+    <td align = "left">Altura do pilar 1 (l<sub>e</sub>)</td>
+    <td>2,05</td>
+    <td>m</td>
+  </tr>
+  <tr>
     <td align = "left">Altura Útil Complementar (d')</td>
     <td>0,04</td>
     <td>m</td>
@@ -53,7 +58,7 @@ A seguir são apresentados os dados do pilar P1.
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devida sobrecarga (N<sub>q</sub>)</td>
-    <td>3,94</td>
+    <td>3,940</td>
     <td>kN</td>
   </tr>
   <tr>
@@ -143,10 +148,34 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[M_{d1ªx} = 0,009 kN.m \]</td>
+    <td align = "center">\[R_p,x = \frac {\frac{h_y \dot h_x ³}{12}}{l_e} = 3,35x10^-5 m³ \]</td>
+  </tr>
+   <tr>
+    <td align = "center">\[R_p,y = \frac {\frac{h_x \dot h_y ³}{12}}{l_e,p} = 1,54x10^-4 m³ \]</td>
+  </tr>
+   <tr>
+    <td align = "center">\[R_v,x = \frac {\frac{b_v \dot h_v ³}{12}}{l_vc2} = 7,43x10^^-4 m³ \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{d1ªy} = 4,652 kN.m \]</td>
+    <td align = "center">\[R_v,y = \frac {\frac{b_v \dot h_v ³}{12}}{l_vc1} = 2,56x10^^-4 m³ \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[M_{x} = (0,064 + 0,012) \dot 1,4 \dot 1,25 = 0,133 kN.m \]</td>
+  </tr>
+   <tr>
+    <td align = "center">\[M_{y} = (5,03 + 1,324) \dot 1,4 \dot 1,25 = 11,120 kN.m \]</td>
+  </tr>
+   <tr>
+    <td align = "center">\[M_{kx,sup} = [M_{kx,inf} = \frac{ M_{x} \dot R_p,x}{2 \dot R_p,x +  R_v,x} = 5,49x10^-3 kN.m \]</td>
+  </tr>
+   <tr>
+    <td align = "center">\[M_{ky,sup} = [M_{ky,inf} = \frac{ M_{y} \dot R_p,y}{2 \dot R_p,y +  R_v,y} = 3,04 kN.m \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[M_{d1ªx} = M_{kx,sup} + \frac{M_{kx,sup}}{2} = 0,008 kN.m \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[M_{d1ªy} = M_{ky,sup} + \frac{M_{ky,sup}}{2} = 4,553 kN.m \]</td>
   </tr>
 </table>
 
@@ -156,16 +185,16 @@ Dados os momentos de 1º ordem é necessário verificar a intensidade dos esfor�
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[ i_x = \sqrt{\frac{I_x}{A}} \]</td>
+    <td align = "center">\[ i_x = \sqrt{\frac{\frac{0,3 \dot 0,14³}{12}}{0,14 \ dot 0,3}} = 0,0404 m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_x = \frac{l_e}{i_x} \]</td>
+    <td align = "center">\[ \lambda_x = \frac{3,46 \dot l_e}{h_x} = 50,66 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ i_y = \sqrt{\frac{I_y}{A}} \]</td>
+    <td align = "center">\[ i_y = \sqrt{\frac{\frac{0,14 \dot 0,3³}{12}}{0,14 \ dot 0,3}} = 0,0866 m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_y = \frac{l_e}{i_y} \]</td>
+    <td align = "center">\[ \lambda_y = \frac{3,46 \dot l_e}{h_y} = 23,64 \]</td>
   </tr>
 </table>
 
@@ -182,20 +211,26 @@ A esbeltez limite é dada por:
 <p align = "justify" id = "tab2"><b>Tabela 1.</b> Valores de área de aço da viga.</p>
 
 <p align = "justify">
-No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transversal, o valor da esbeltez deve respeitar a NBR 6118:2023 15.8.2, usar um valor dentro do intervalor de 35 <= \lambda_ 1 <= 90. Logo o valor de λ<sub>1</sub> é dado por:
+No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transversal, o valor da esbeltez deve respeitar a NBR 6118:2023 15.8.2, devemos usar um valor dentro do intervalor de 35 <= \lambda_ 1 <= 90. Logo o valor de λ<sub>1</sub> é dado por:
 </p>
 
 <table>
-  <tr>
-    <td align = "center">\[ \lambda_ 1x = \frac{25 + 12,5 \cdot (e_1/hx)}{\alpha _b} = 35 \]</td>
+   <tr>
+    <td align = "center">\[ e_1x = \frac{M_{d1ªx}}{N_d} = 2,16x10^-4 m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_ 1y = \frac{25 + 12,5 \cdot (e_1/hy)}{\alpha _b} = 35 \]</td>
+    <td align = "center">\[ e_1y = \frac{M_{d1ªy}}{N_d} = 0,1194 m \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ \lambda_ 1x = \frac{25 + 12,5 \cdot (e_1x/hx)}{\alpha _b} = 25,02 \geq 35 \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ \lambda_ 1y = \frac{25 + 12,5 \cdot (e_1y/hy)}{\alpha _b} = 29,98 \geq 35 \]</td>
   </tr>
 </table>
 
 <p align = "justify">
-Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da curvatura equivalente. Os momentos de segunda ordem são dados a seguir:
+Após a determinação de quais peças terão esforços de segunda ordem é possível verificar o momento total de segunda ordem em cada direção. Para este exemplo será empregado o método da curvatura equivalente. Os momentos de segunda ordem são os maiores momentos entre os minimos e o de primeira ordem já calculados:
 </p>
 
 <table>
@@ -203,7 +238,7 @@ Após a determinação de quais peças terão esforços de segunda ordem é poss
     <td align = "center">\[ M_{d2ª,x} = 0,732 kN.m\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{d2ª,y} = 4,652 kN.m \]</td>
+    <td align = "center">\[ M_{d2ª,y} = 4,553 kN.m \]</td>
   </tr>
 </table>
 
@@ -212,11 +247,26 @@ Determinados os momento de segunda ordem é possível determinar os momento tota
 </p>
 
 <table>
-  <tr>
-    <td align = "center">\[ M_{dtot,x} = 1,304 kN.m \]</td>
+   <tr>
+    <td align = "center">\[ v = \frac{N_d)(A \dot F_cd} = 0,051 \]</td>
+  </tr>
+   <tr>
+    <td align = "center">\[ \frac{1}{r_x) = \frac{0,005)(h_x \dot (v + 0,5)} = 0,065 \leq \frac{0,005}{h_x} = 0,036 \]</td>
+  </tr>
+   <tr>
+    <td align = "center">\[ \frac{1}{r_y) = \frac{0,005)(h_y \dot (v + 0,5)} = 0,030 \leq \frac{0,005}{h_y} = 0,017 \]</td>
+  </tr>
+     <tr>
+    <td align = "center">\[ e_2x = \frac{1}{r_x) \dot \frac{l_e²}{10} = 0,015 \]</td>
+  </tr>
+    <tr>
+    <td align = "center">\[ e_2y = \frac{1}{r_y) \dot \frac{l_e²}{10} = 0,007 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{dtot,y} = 4,919 kN.m \]</td>
+    <td align = "center">\[ M_{dtot,x} = \alpha _b \dot M_{d2ª,x} + N_d \dot e_2x = 1,304 kN.m \]</td>
+  </tr>
+  <tr>
+    <td align = "center">\[ M_{dtot,x} = \alpha _b \dot M_{d2ª,y} + N_d \dot e_2y = 4,820 kN.m \]</td>
   </tr>
 </table>
 
@@ -229,10 +279,10 @@ Determinado os esforços totais em cada uma das direções é possível determin
     <td align = "center">\[ \mu_i = \frac{M_{dtot,i}}{h_i \cdot A_c \cdot f_cd}\]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \mu_x = 0,0124 \]</td>
+    <td align = "center">\[ \mu_x = \frac{M_{dtot,x}}{h_x \cdot A_c \cdot f_cd} = 0,0124 \]</td>
   </tr>
    <tr>
-    <td align = "center">\[ \mu_y = 0,0219 \]</td>
+    <td align = "center">\[ \mu_y = \frac{M_{dtot,y}}{h_y \cdot A_c \cdot f_cd} = 0,0214 \]</td>
   </tr>
 </table>
 
