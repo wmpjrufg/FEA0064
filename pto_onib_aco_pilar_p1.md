@@ -148,10 +148,16 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
 
 <table style = "width:100%">
   <tr>
+    <td align = "left">Rigidez do pilar </td>
+  </tr>
+  <tr>
     <td align = "center">\[R_p,x = \frac {\frac{h_y \dot h_x ³}{12}}{l_e} = 3,35x10^-5 m³ \]</td>
   </tr>
    <tr>
     <td align = "center">\[R_p,y = \frac {\frac{h_x \dot h_y ³}{12}}{l_e,p} = 1,54x10^-4 m³ \]</td>
+  </tr>
+  <tr>
+    <td align = "left">Rigidez da viga </td>
   </tr>
    <tr>
     <td align = "center">\[R_v,x = \frac {\frac{b_v \dot h_v ³}{12}}{l_vc2} = 7,43x10^^-4 m³ \]</td>
@@ -160,16 +166,25 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
     <td align = "center">\[R_v,y = \frac {\frac{b_v \dot h_v ³}{12}}{l_vc1} = 2,56x10^^-4 m³ \]</td>
   </tr>
   <tr>
+    <td align = "left"> Momentos de calculo </td>
+  </tr>
+  <tr>
     <td align = "center">\[M_{x} = (0,064 + 0,012) \dot 1,4 \dot 1,25 = 0,133 kN.m \]</td>
   </tr>
    <tr>
     <td align = "center">\[M_{y} = (5,03 + 1,324) \dot 1,4 \dot 1,25 = 11,120 kN.m \]</td>
+  </tr>
+  <tr>
+    <td align = "left">Momentos superiosres e inferiores </td>
   </tr>
    <tr>
     <td align = "center">\[M_{kx,sup} = [M_{kx,inf} = \frac{ M_{x} \dot R_p,x}{2 \dot R_p,x +  R_v,x} = 5,49x10^-3 kN.m \]</td>
   </tr>
    <tr>
     <td align = "center">\[M_{ky,sup} = [M_{ky,inf} = \frac{ M_{y} \dot R_p,y}{2 \dot R_p,y +  R_v,y} = 3,04 kN.m \]</td>
+  </tr>
+  <tr>
+    <td align = "left">Momentos de primeira ordem </td>
   </tr>
   <tr>
     <td align = "center">\[M_{d1ªx} = M_{kx,sup} + \frac{M_{kx,sup}}{2} = 0,008 kN.m \]</td>
