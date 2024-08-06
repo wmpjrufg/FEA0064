@@ -222,7 +222,7 @@ Dados os momentos de 1º ordem é necessário verificar a intensidade dos esfor�
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[ i_x = \sqrt{\frac{\frac{0,3 \cdot 0,14³}{12}}{0,14 \ dot 0,3}} = 0,0404 m \]</td>
+    <td align = "center">\[ i_x = \sqrt{\frac{\frac{0,3 \cdot 0,14³}{12}}{0,14 \cdot 0,3}} = 0,0404 m \]</td>
   </tr>
   <tr>
     <td align = "center">\[ \lambda_x = \frac{3,46 \cdot l_e}{h_x} = 50,66 \]</td>
