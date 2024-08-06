@@ -53,7 +53,7 @@ A seguir são apresentados os dados do pilar P1.
   </tr>
   <tr>
     <td align = "left">Carga de compressão característica devida sobrecarga (N<sub>q</sub>)</td>
-    <td>3,940</td>
+    <td>3,94</td>
     <td>kN</td>
   </tr>
   <tr>
