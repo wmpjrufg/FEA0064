@@ -134,7 +134,7 @@ O primeiro passo é a determinação dos esforços mínimos para cada direção 
 
 <table style = "width:100%">
  <tr>
-    <td align = "center">\[ N_d = \left[ \left( N_{gext,vc1} + N_{q,vc1} \right) + \left( N_{gext,vc2} + N_{q,vc2} \right) + N_{gpp} \right] \cdot \gamma_f \dot \gamma_n \]</td>
+    <td align = "center">\[ N_d = \left[ \left( N_{gext,vc1} + N_{q,vc1} \right) + \left( N_{gext,vc2} + N_{q,vc2} \right) + N_{gpp} \right] \cdot \gamma_f \cdot \gamma_n \]</td>
   </tr>
   <tr>
     <td align = "center">\[ N_d = \left[ \left( 13,354 + 3,515 \right) + \left( 2,340 + 0,425 \right) + 2,153 \right] \cdot 1,4 \cdot 1,25 = 38,127 kN \]</td>
@@ -159,49 +159,49 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
     <td align = "left">Rigidez do pilar </td>
   </tr>
   <tr>
-    <td align = "center">\[R_p = \frac {\frac{b \dot h ³}{12}}{l_e} \]</td>
+    <td align = "center">\[R_p = \frac {\frac{b \cdot h ³}{12}}{l_e} \]</td>
   </tr>
   <tr>
-    <td align = "center">\[R_p,x = \frac {\frac{h_y \dot h_x ³}{12}}{l_e} = 3,35x10^-5 m³ \]</td>
+    <td align = "center">\[R_p,x = \frac {\frac{h_y \cdot h_x ³}{12}}{l_e} = 3,35x10^-5 m³ \]</td>
   </tr>
    <tr>
-    <td align = "center">\[R_p,y = \frac {\frac{h_x \dot h_y ³}{12}}{l_e} = 1,54x10^-4 m³ \]</td>
+    <td align = "center">\[R_p,y = \frac {\frac{h_x \cdot h_y ³}{12}}{l_e} = 1,54x10^-4 m³ \]</td>
   </tr>
   <tr>
     <td align = "left">Rigidez da viga </td>
   </tr>
   <tr>
-    <td align = "center">\[R_v = \frac {\frac{b_v \dot h_v ³}{12}}{l_vc} \]</td>
+    <td align = "center">\[R_v = \frac {\frac{b_v \cdot h_v ³}{12}}{l_vc} \]</td>
   </tr>
    <tr>
-    <td align = "center">\[R_v,x = \frac {\frac{b_v \dot h_v ³}{12}}{l_vc2} = 7,43x10^^-4 m³ \]</td>
+    <td align = "center">\[R_v,x = \frac {\frac{b_v \cdot h_v ³}{12}}{l_vc2} = 7,43x10^^-4 m³ \]</td>
   </tr>
   <tr>
-    <td align = "center">\[R_v,y = \frac {\frac{b_v \dot h_v ³}{12}}{l_vc1} = 2,56x10^^-4 m³ \]</td>
+    <td align = "center">\[R_v,y = \frac {\frac{b_v \cdot h_v ³}{12}}{l_vc1} = 2,56x10^^-4 m³ \]</td>
   </tr>
   <tr>
     <td align = "left"> Momentos de calculo </td>
   </tr>
   <tr>
-    <td align = "center">\[M_k = (M_gext + M_q) 1,4 \dot 1,25 \]</td>
+    <td align = "center">\[M_k = (M_gext + M_q) \cdot 1,4 \cdot 1,25 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{x} = (0,064 + 0,012) 1,4 \dot 1,25 = 0,133 kN.m \]</td>
+    <td align = "center">\[M_{x} = (0,064 + 0,012) \cdot 1,4 \cdot 1,25 = 0,133 kN.m \]</td>
   </tr>
    <tr>
-    <td align = "center">\[M_{y} = (5,03 + 1,324) 1,4 \dot 1,25 = 11,120 kN.m \]</td>
+    <td align = "center">\[M_{y} = (5,03 + 1,324) \cdot 1,4 \cdot 1,25 = 11,120 kN.m \]</td>
   </tr>
   <tr>
     <td align = "left">Momentos superiores e inferiores </td>
   </tr>
    <tr>
-    <td align = "center">\[M_{k,sup} = M_{k,inf} = \frac{ M_k \dot R_p}{2 \dot R_p + R_v} \]</td>
+    <td align = "center">\[M_{k,sup} = M_{k,inf} = \frac{ M_k \cdot R_p}{2 \cdot R_p + R_v} \]</td>
   </tr>
    <tr>
-    <td align = "center">\[M_{kx,sup} = M_{kx,inf} = \frac{ M_{x} \dot R_p,x}{2 \dot R_p,x + R_v,x} = 5,49x10^-3 kN.m \]</td>
+    <td align = "center">\[M_{kx,sup} = M_{kx,inf} = \frac{ M_{x} \cdot R_p,x}{2 \cdot R_p,x + R_v,x} = 5,49x10^-3 kN.m \]</td>
   </tr>
    <tr>
-    <td align = "center">\[M_{ky,sup} = M_{ky,inf} = \frac{ M_{y} \dot R_p,y}{2 \dot R_p,y + R_v,y} = 3,04 kN.m \]</td>
+    <td align = "center">\[M_{ky,sup} = M_{ky,inf} = \frac{ M_{y} \cdot R_p,y}{2 \cdot R_p,y + R_v,y} = 3,04 kN.m \]</td>
   </tr>
   <tr>
     <td align = "left">Momentos de primeira ordem </td>
@@ -222,16 +222,16 @@ Dados os momentos de 1º ordem é necessário verificar a intensidade dos esfor�
 
 <table style = "width:100%">
   <tr>
-    <td align = "center">\[ i_x = \sqrt{\frac{\frac{0,3 \dot 0,14³}{12}}{0,14 \ dot 0,3}} = 0,0404 m \]</td>
+    <td align = "center">\[ i_x = \sqrt{\frac{\frac{0,3 \cdot 0,14³}{12}}{0,14 \ dot 0,3}} = 0,0404 m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_x = \frac{3,46 \dot l_e}{h_x} = 50,66 \]</td>
+    <td align = "center">\[ \lambda_x = \frac{3,46 \cdot l_e}{h_x} = 50,66 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ i_y = \sqrt{\frac{\frac{0,14 \dot 0,3³}{12}}{0,14 \ dot 0,3}} = 0,0866 m \]</td>
+    <td align = "center">\[ i_y = \sqrt{\frac{\frac{0,14 \cdot 0,3³}{12}}{0,14 \cdot 0,3}} = 0,0866 m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_y = \frac{3,46 \dot l_e}{h_y} = 23,64 \]</td>
+    <td align = "center">\[ \lambda_y = \frac{3,46 \cdot l_e}{h_y} = 23,64 \]</td>
   </tr>
 </table>
 
@@ -285,25 +285,25 @@ Determinados os momento de segunda ordem é possível determinar os momento tota
 
 <table>
    <tr>
-    <td align = "center">\[ v = \frac{N_d)(A \dot F_cd} = 0,051 \]</td>
+    <td align = "center">\[ v = \frac{N_d)(A_c \cdot F_cd} = 0,051 \]</td>
   </tr>
    <tr>
-    <td align = "center">\[ \frac{1}{r_x) = \frac{0,005)(h_x \dot (v + 0,5)} = 0,065 \leq \frac{0,005}{h_x} = 0,036 \]</td>
+    <td align = "center">\[ \frac{1}{r_x) = \frac{0,005)(h_x \cdot (v + 0,5)} = 0,065 \leq \frac{0,005}{h_x} = 0,036 \]</td>
   </tr>
    <tr>
-    <td align = "center">\[ \frac{1}{r_y) = \frac{0,005)(h_y \dot (v + 0,5)} = 0,030 \leq \frac{0,005}{h_y} = 0,017 \]</td>
+    <td align = "center">\[ \frac{1}{r_y) = \frac{0,005)(h_y \cdot (v + 0,5)} = 0,030 \leq \frac{0,005}{h_y} = 0,017 \]</td>
   </tr>
      <tr>
-    <td align = "center">\[ e_2x = \frac{1}{r_x) \dot \frac{l_e²}{10} = 0,015 \]</td>
+    <td align = "center">\[ e_2x = \frac{1}{r_x) \cdot \frac{l_e²}{10} = 0,015 \]</td>
   </tr>
     <tr>
-    <td align = "center">\[ e_2y = \frac{1}{r_y) \dot \frac{l_e²}{10} = 0,007 \]</td>
+    <td align = "center">\[ e_2y = \frac{1}{r_y) \cdot \frac{l_e²}{10} = 0,007 \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{dtot,x} = \alpha _b \dot M_{d2ª,x} + N_d \dot e_2x = 1,304 kN.m \]</td>
+    <td align = "center">\[ M_{dtot,x} = \alpha _b \cdot M_{d2ª,x} + N_d \cdot e_2x = 1,304 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "center">\[ M_{dtot,x} = \alpha _b \dot M_{d2ª,y} + N_d \dot e_2y = 4,820 kN.m \]</td>
+    <td align = "center">\[ M_{dtot,x} = \alpha _b \cdot M_{d2ª,y} + N_d \cdot e_2y = 4,820 kN.m \]</td>
   </tr>
 </table>
 
