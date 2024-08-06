@@ -35,6 +35,15 @@ A seguir são apresentados os dados do pilar P1.
     <td align = "left">Altura na direção y (h<sub>y</sub>)</td>
     <td>0,3</td>
     <td>m</td>
+  </tr>  <tr>
+    <td align = "left">Vão efetivo viga 2 (x) (l<sub>vc2</sub>)</td>
+    <td>2,05</td>
+    <td>m</td>
+  </tr> 
+  <tr>
+    <td align = "left">Vão efetivo viga 1 (y) (l<sub>vc1</sub>)</td>
+    <td></td>
+    <td>m</td>
   </tr>
   <tr>
     <td align = "left">Altura do pilar 1 (l<sub>e</sub>)</td>
@@ -131,7 +140,7 @@ O primeiro passo é a determinação dos esforços mínimos para cada direção 
     <td align = "center">\[ N_d = \left[ \left( 13,354 + 3,515 \right) + \left( 2,340 + 0,425 \right) + 2,153 \right] \cdot 1,4 \cdot 1,25 = 38,127 kN \]</td>
   </tr>
   <tr>
-    <td align = "center">\[M_{dmin} = N_{d} \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
+    <td align = "center">\[M_{dmin} = N_d \cdot \left( 0,015 + 0,03 \cdot h \right) \]</td>
  <tr>
   <tr>
     <td align = "center">\[M_{dxmin} = 38,127 \cdot \left( 0,015 + 0,03 \cdot 0,14 \right) = 0,732 kN.m \]</td>
@@ -154,7 +163,7 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
     <td align = "center">\[R_p,x = \frac {\frac{h_y \dot h_x ³}{12}}{l_e} = 3,35x10^-5 m³ \]</td>
   </tr>
    <tr>
-    <td align = "center">\[R_p,y = \frac {\frac{h_x \dot h_y ³}{12}}{l_e,p} = 1,54x10^-4 m³ \]</td>
+    <td align = "center">\[R_p,y = \frac {\frac{h_x \dot h_y ³}{12}}{l_e} = 1,54x10^-4 m³ \]</td>
   </tr>
   <tr>
     <td align = "left">Rigidez da viga </td>
