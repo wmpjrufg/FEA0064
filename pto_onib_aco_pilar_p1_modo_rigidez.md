@@ -179,10 +179,10 @@ No caso o valor de α<sub>b</sub> = 1,00 para peça biapoiadas sem carga transve
 
 <table>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (0,018/0,3)}{\1} \]=25,75</td>
+    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (0,165/0,3)}{\1} \]=31,875</td>
   </tr>
   <tr>
-    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (0,018/0,14)}{\1} \]=26,61</td>
+    <td align = "center">\[ \lambda_ 1 = \frac{25 + 12,5 \cdot (0,165/0,14)}{\1} \]=39,73</td>
   </tr>
 </table>
 
