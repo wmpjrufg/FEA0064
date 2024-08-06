@@ -160,6 +160,9 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
     <td align = "left">Rigidez do pilar </td>
   </tr>
   <tr>
+    <td align = "center">\[R_p = \frac {\frac{b \dot h ³}{12}}{l_e} \]</td>
+  </tr>
+  <tr>
     <td align = "center">\[R_p,x = \frac {\frac{h_y \dot h_x ³}{12}}{l_e} = 3,35x10^-5 m³ \]</td>
   </tr>
    <tr>
@@ -167,6 +170,9 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
   </tr>
   <tr>
     <td align = "left">Rigidez da viga </td>
+  </tr>
+  <tr>
+    <td align = "center">\[R_v = \frac {\frac{b_v \dot h_v ³}{12}}{l_vc} \]</td>
   </tr>
    <tr>
     <td align = "center">\[R_v,x = \frac {\frac{b_v \dot h_v ³}{12}}{l_vc2} = 7,43x10^^-4 m³ \]</td>
@@ -178,22 +184,30 @@ Após a determinação do momento mínimo é necessário verificar o momento tot
     <td align = "left"> Momentos de calculo </td>
   </tr>
   <tr>
+    <td align = "center">\[M_k = (M_gext + M_q) \dot 1,4 \dot 1,25 \]</td>
+  </tr>
+  <tr>
     <td align = "center">\[M_{x} = (0,064 + 0,012) \dot 1,4 \dot 1,25 = 0,133 kN.m \]</td>
   </tr>
    <tr>
     <td align = "center">\[M_{y} = (5,03 + 1,324) \dot 1,4 \dot 1,25 = 11,120 kN.m \]</td>
   </tr>
   <tr>
-    <td align = "left">Momentos superiosres e inferiores </td>
+    <td align = "left">Momentos superiores e inferiores </td>
   </tr>
    <tr>
-    <td align = "center">\[M_{kx,sup} = [M_{kx,inf} = \frac{ M_{x} \dot R_p,x}{2 \dot R_p,x +  R_v,x} = 5,49x10^-3 kN.m \]</td>
+    <td align = "center">\[M_{k,sup} = [M_{k,inf} = \frac{ M_k \dot R_p}{2 \dot R_p + R_v} \]</td>
   </tr>
    <tr>
-    <td align = "center">\[M_{ky,sup} = [M_{ky,inf} = \frac{ M_{y} \dot R_p,y}{2 \dot R_p,y +  R_v,y} = 3,04 kN.m \]</td>
+    <td align = "center">\[M_{kx,sup} = [M_{kx,inf} = \frac{ M_{x} \dot R_p,x}{2 \dot R_p,x + R_v,x} = 5,49x10^-3 kN.m \]</td>
+  </tr>
+   <tr>
+    <td align = "center">\[M_{ky,sup} = [M_{ky,inf} = \frac{ M_{y} \dot R_p,y}{2 \dot R_p,y + R_v,y} = 3,04 kN.m \]</td>
   </tr>
   <tr>
     <td align = "left">Momentos de primeira ordem </td>
+  </tr>  <tr>
+    <td align = "center">\[M_{d1ªx} = M_{k,sup} + \frac{M_{k,sup}}{2} \]</td>
   </tr>
   <tr>
     <td align = "center">\[M_{d1ªx} = M_{kx,sup} + \frac{M_{kx,sup}}{2} = 0,008 kN.m \]</td>
