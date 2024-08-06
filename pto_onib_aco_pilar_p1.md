@@ -37,12 +37,12 @@ A seguir são apresentados os dados do pilar P1.
     <td>m</td>
   </tr>  <tr>
     <td align = "left">Vão efetivo viga 2 (x) (l<sub>vc2</sub>)</td>
-    <td>2,05</td>
+    <td>1,43</td>
     <td>m</td>
   </tr> 
   <tr>
     <td align = "left">Vão efetivo viga 1 (y) (l<sub>vc1</sub>)</td>
-    <td></td>
+    <td>4,16</td>
     <td>m</td>
   </tr>
   <tr>
